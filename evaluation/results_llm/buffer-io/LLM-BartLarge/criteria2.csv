@@ -1,0 +1,2 @@
+FN,FP,TN,TP,TP_LATE,threshold
+0.0,1915.0,6.0,143.0,0.0,0.5

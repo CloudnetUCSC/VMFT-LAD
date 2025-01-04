@@ -1,0 +1,156 @@
+{
+  "ARTime": {
+    "reward_low_FN_rate": {
+      "score": 369.30809747316863,
+      "threshold": 0.308129
+    },
+    "reward_low_FP_rate": {
+      "score": 257.41703524473473,
+      "threshold": 0.409038
+    },
+    "standard": {
+      "score": 369.30809747316863,
+      "threshold": 0.308129
+    }
+  },
+  "DeepLog": {
+    "reward_low_FN_rate": {
+      "score": 260.49920951960934,
+      "threshold": 1.0
+    },
+    "reward_low_FP_rate": {
+      "score": -18.350790480408556,
+      "threshold": 1.0
+    },
+    "standard": {
+      "score": 260.49920951960934,
+      "threshold": 1.0
+    }
+  },
+  "LLM-BartLarge": {
+    "reward_low_FN_rate": {
+      "score": -1080.0,
+      "threshold": 1.0
+    },
+    "reward_low_FP_rate": {
+      "score": -540.0,
+      "threshold": 1.0
+    },
+    "standard": {
+      "score": -540.0,
+      "threshold": 1.0
+    }
+  },
+  "LLM-Cyrax7B": {
+    "reward_low_FN_rate": {
+      "score": -1080.0,
+      "threshold": 1.0
+    },
+    "reward_low_FP_rate": {
+      "score": -540.0,
+      "threshold": 1.0
+    },
+    "standard": {
+      "score": -540.0,
+      "threshold": 1.0
+    }
+  },
+  "LLM-EmertonMonarch7B": {
+    "reward_low_FN_rate": {
+      "score": -1080.0,
+      "threshold": 1.0
+    },
+    "reward_low_FP_rate": {
+      "score": -540.0,
+      "threshold": 1.0
+    },
+    "standard": {
+      "score": -540.0,
+      "threshold": 1.0
+    }
+  },
+  "LLM-Falcon7B": {
+    "reward_low_FN_rate": {
+      "score": -1080.0,
+      "threshold": 1.0
+    },
+    "reward_low_FP_rate": {
+      "score": -540.0,
+      "threshold": 1.0
+    },
+    "standard": {
+      "score": -540.0,
+      "threshold": 1.0
+    }
+  },
+  "LLM-GPT3": {
+    "reward_low_FN_rate": {
+      "score": 535.7489164134136,
+      "threshold": 1.0
+    },
+    "reward_low_FP_rate": {
+      "score": 532.3389164134136,
+      "threshold": 1.0
+    },
+    "standard": {
+      "score": 535.7489164134136,
+      "threshold": 1.0
+    }
+  },
+  "expose": {
+    "reward_low_FN_rate": {
+      "score": 287.7810941777692,
+      "threshold": 0.9719460437359939
+    },
+    "reward_low_FP_rate": {
+      "score": 127.14773842654725,
+      "threshold": 0.9720854386352024
+    },
+    "standard": {
+      "score": 301.8277384265527,
+      "threshold": 0.9720854386352024
+    }
+  },
+  "knncad": {
+    "reward_low_FN_rate": {
+      "score": 94.74080848140622,
+      "threshold": 1.0
+    },
+    "reward_low_FP_rate": {
+      "score": -260.6691915186216,
+      "threshold": 1.0
+    },
+    "standard": {
+      "score": 94.74080848140622,
+      "threshold": 1.0
+    }
+  },
+  "numenta": {
+    "reward_low_FN_rate": {
+      "score": 321.0604747803006,
+      "threshold": 0.504963404813
+    },
+    "reward_low_FP_rate": {
+      "score": 284.4304747803007,
+      "threshold": 0.504963404813
+    },
+    "standard": {
+      "score": 321.0604747803006,
+      "threshold": 0.504963404813
+    }
+  },
+  "vmft-lad": {
+    "reward_low_FN_rate": {
+      "score": 527.9270661484529,
+      "threshold": 1.0
+    },
+    "reward_low_FP_rate": {
+      "score": 525.397066148453,
+      "threshold": 1.0
+    },
+    "standard": {
+      "score": 527.9270661484529,
+      "threshold": 1.0
+    }
+  }
+}

@@ -1,0 +1,933 @@
+{
+  "2024-01-15_01_hdd": {
+    "comment": "HDD",
+    "label_region": 1064,
+    "label_region_timestamp": "2024-01-15 11:38:30.000001",
+    "failure_point": 1821,
+    "failure_point_timestamp": "2024-01-15 12:06:40.000001"
+  },
+  "2024-01-15_02_hdd": {
+    "comment": "HDD",
+    "label_region": 1564,
+    "label_region_timestamp": "2024-01-15 13:10:46.000001",
+    "failure_point": 2446,
+    "failure_point_timestamp": "2024-01-15 13:30:58.000001"
+  },
+  "2024-01-15_03_hdd": {
+    "comment": "HDD",
+    "label_region": 1292,
+    "label_region_timestamp": "2024-01-15 14:29:02.000001",
+    "failure_point": 2534,
+    "failure_point_timestamp": "2024-01-15 15:03:37.000001"
+  },
+  "2024-01-15_04_hdd": {
+    "comment": "HDD",
+    "label_region": 1531,
+    "label_region_timestamp": "2024-01-15 16:11:15.000001",
+    "failure_point": 2584,
+    "failure_point_timestamp": "2024-01-15 16:32:21.000001"
+  },
+  "2024-01-15_05_hdd": {
+    "comment": "HDD",
+    "label_region": 506,
+    "label_region_timestamp": "2024-01-15 17:30:06.000001",
+    "failure_point": 1135,
+    "failure_point_timestamp": "2024-01-15 17:58:27.000001"
+  },
+  "2024-01-15_06_hdd": {
+    "comment": "HDD",
+    "label_region": 562,
+    "label_region_timestamp": "2024-01-15 19:02:07.000001",
+    "failure_point": 865,
+    "failure_point_timestamp": "2024-01-15 19:09:22.000001"
+  },
+  "2024-01-15_07_hdd": {
+    "comment": "HDD",
+    "label_region": 657,
+    "label_region_timestamp": "2024-01-15 20:08:53.000001",
+    "failure_point": 1084,
+    "failure_point_timestamp": "2024-01-15 20:21:01.000001"
+  },
+  "2024-01-15_08_hdd": {
+    "comment": "HDD",
+    "label_region": 515,
+    "label_region_timestamp": "2024-01-15 21:32:48.000001",
+    "failure_point": 1247,
+    "failure_point_timestamp": "2024-01-15 21:55:43.000001"
+  },
+  "2024-01-15_09_hdd": {
+    "comment": "HDD",
+    "label_region": 656,
+    "label_region_timestamp": "2024-01-15 22:55:39.000001",
+    "failure_point": 1014,
+    "failure_point_timestamp": "2024-01-15 23:05:34.000001"
+  },
+  "2024-01-16_01_hdd": {
+    "comment": "HDD",
+    "label_region": 472,
+    "label_region_timestamp": "2024-01-16 00:20:36.000001",
+    "failure_point": 1061,
+    "failure_point_timestamp": "2024-01-16 00:36:26.000001"
+  },
+  "2024-01-16_02_hdd": {
+    "comment": "HDD",
+    "label_region": 656,
+    "label_region_timestamp": "2024-01-16 01:37:54.000001",
+    "failure_point": 1114,
+    "failure_point_timestamp": "2024-01-16 02:01:24.000001"
+  },
+  "2024-01-16_03_hdd": {
+    "comment": "HDD",
+    "label_region": 614,
+    "label_region_timestamp": "2024-01-16 03:13:17.000001",
+    "failure_point": 1117,
+    "failure_point_timestamp": "2024-01-16 03:33:21.000001"
+  },
+  "2024-01-16_04_hdd": {
+    "comment": "HDD",
+    "label_region": 444,
+    "label_region_timestamp": "2024-01-16 04:29:51.000001",
+    "failure_point": 1159,
+    "failure_point_timestamp": "2024-01-16 04:47:21.000001"
+  },
+  "2024-01-16_05_hdd": {
+    "comment": "HDD",
+    "label_region": 609,
+    "label_region_timestamp": "2024-01-16 05:45:34.000001",
+    "failure_point": 983,
+    "failure_point_timestamp": "2024-01-16 05:53:03.000001"
+  },
+  "2024-01-16_06_hdd": {
+    "comment": "HDD",
+    "label_region": 772,
+    "label_region_timestamp": "2024-01-16 06:58:49.000001",
+    "failure_point": 1659,
+    "failure_point_timestamp": "2024-01-16 07:39:28.000001"
+  },
+  "2024-01-16_07_hdd": {
+    "comment": "HDD",
+    "label_region": 673,
+    "label_region_timestamp": "2024-01-16 08:48:44.000001",
+    "failure_point": 1168,
+    "failure_point_timestamp": "2024-01-16 09:03:01.000001"
+  },
+  "2024-01-18_01_hdd": {
+    "comment": "HDD",
+    "label_region": 243,
+    "label_region_timestamp": "2024-01-18 17:20:43.000001",
+    "failure_point": 471,
+    "failure_point_timestamp": "2024-01-18 17:34:53.000001"
+  },
+  "2024-01-18_02_hdd": {
+    "comment": "HDD",
+    "label_region": 556,
+    "label_region_timestamp": "2024-01-18 18:37:32.000001",
+    "failure_point": 829,
+    "failure_point_timestamp": "2024-01-18 18:45:55.000001"
+  },
+  "2024-01-18_03_hdd": {
+    "comment": "HDD",
+    "label_region": 664,
+    "label_region_timestamp": "2024-01-18 19:45:56.000001",
+    "failure_point": 1140,
+    "failure_point_timestamp": "2024-01-18 19:57:30.000001"
+  },
+  "2024-01-18_04_hdd": {
+    "comment": "HDD",
+    "label_region": 614,
+    "label_region_timestamp": "2024-01-18 21:11:13.000001",
+    "failure_point": 1236,
+    "failure_point_timestamp": "2024-01-18 21:28:20.000001"
+  },
+  "2024-01-18_05_hdd": {
+    "comment": "HDD",
+    "label_region": 612,
+    "label_region_timestamp": "2024-01-18 22:37:00.000001",
+    "failure_point": 1331,
+    "failure_point_timestamp": "2024-01-18 23:08:01.000001"
+  },
+  "2024-01-19_01_hdd": {
+    "comment": "HDD",
+    "label_region": 617,
+    "label_region_timestamp": "2024-01-19 00:14:17.000001",
+    "failure_point": 1014,
+    "failure_point_timestamp": "2024-01-19 00:34:16.000001"
+  },
+  "2024-01-19_02_hdd": {
+    "comment": "HDD",
+    "label_region": 608,
+    "label_region_timestamp": "2024-01-19 01:33:48.000001",
+    "failure_point": 1026,
+    "failure_point_timestamp": "2024-01-19 01:41:44.000001"
+  },
+  "2024-01-19_03_hdd": {
+    "comment": "HDD",
+    "label_region": 614,
+    "label_region_timestamp": "2024-01-19 02:48:51.000001",
+    "failure_point": 1287,
+    "failure_point_timestamp": "2024-01-19 03:12:08.000001"
+  },
+  "2024-01-19_04_hdd": {
+    "comment": "HDD",
+    "label_region": 456,
+    "label_region_timestamp": "2024-01-19 04:17:44.000001",
+    "failure_point": 1458,
+    "failure_point_timestamp": "2024-01-19 04:58:19.000001"
+  },
+  "2024-01-19_05_hdd": {
+    "comment": "HDD",
+    "label_region": 557,
+    "label_region_timestamp": "2024-01-19 06:01:10.000001",
+    "failure_point": 1439,
+    "failure_point_timestamp": "2024-01-19 06:32:24.000001"
+  },
+  "2024-01-19_06_hdd": {
+    "comment": "HDD",
+    "label_region": 446,
+    "label_region_timestamp": "2024-01-19 07:28:49.000001",
+    "failure_point": 966,
+    "failure_point_timestamp": "2024-01-19 07:45:12.000001"
+  },
+  "2024-01-19_07_hdd": {
+    "comment": "HDD",
+    "label_region": 397,
+    "label_region_timestamp": "2024-01-19 08:46:04.000001",
+    "failure_point": 804,
+    "failure_point_timestamp": "2024-01-19 08:55:15.000001"
+  },
+  "2024-01-19_08_hdd": {
+    "comment": "HDD",
+    "label_region": 290,
+    "label_region_timestamp": "2024-01-19 09:53:48.000001",
+    "failure_point": 1018,
+    "failure_point_timestamp": "2024-01-19 10:29:59.000001"
+  },
+  "2024-01-19_09_hdd": {
+    "comment": "HDD",
+    "label_region": 454,
+    "label_region_timestamp": "2024-01-19 11:39:27.000001",
+    "failure_point": 1141,
+    "failure_point_timestamp": "2024-01-19 12:18:15.000001"
+  },
+  "2024-01-19_10_hdd": {
+    "comment": "HDD",
+    "label_region": 604,
+    "label_region_timestamp": "2024-01-19 16:56:33.000001",
+    "failure_point": 1592,
+    "failure_point_timestamp": "2024-01-19 17:28:22.000001"
+  },
+  "2024-01-19_11_hdd": {
+    "comment": "HDD",
+    "label_region": 563,
+    "label_region_timestamp": "2024-01-19 18:39:51.000001",
+    "failure_point": 1455,
+    "failure_point_timestamp": "2024-01-19 19:13:23.000001"
+  },
+  "2024-01-19_12_hdd": {
+    "comment": "HDD",
+    "label_region": 516,
+    "label_region_timestamp": "2024-01-19 20:25:50.000001",
+    "failure_point": 841,
+    "failure_point_timestamp": "2024-01-19 20:34:53.000001"
+  },
+  "2024-01-19_13_hdd": {
+    "comment": "HDD",
+    "label_region": 717,
+    "label_region_timestamp": "2024-01-19 21:45:44.000001",
+    "failure_point": 1656,
+    "failure_point_timestamp": "2024-01-19 22:23:30.000001"
+  },
+  "2024-01-19_14_hdd": {
+    "comment": "HDD",
+    "label_region": 556,
+    "label_region_timestamp": "2024-01-19 23:20:17.000001",
+    "failure_point": 1124,
+    "failure_point_timestamp": "2024-01-19 23:35:43.000001"
+  },
+  "2024-01-20_01_hdd": {
+    "comment": "HDD",
+    "label_region": 625,
+    "label_region_timestamp": "2024-01-20 00:43:38.000001",
+    "failure_point": 969,
+    "failure_point_timestamp": "2024-01-20 00:51:21.000001"
+  },
+  "2024-01-20_02_hdd": {
+    "comment": "HDD",
+    "label_region": 505,
+    "label_region_timestamp": "2024-01-20 01:53:16.000001",
+    "failure_point": 1014,
+    "failure_point_timestamp": "2024-01-20 02:05:25.000001"
+  },
+  "2024-01-20_03_hdd": {
+    "comment": "HDD",
+    "label_region": 616,
+    "label_region_timestamp": "2024-01-20 03:14:32.000001",
+    "failure_point": 1015,
+    "failure_point_timestamp": "2024-01-20 03:25:00.000001"
+  },
+  "2024-01-20_04_hdd": {
+    "comment": "HDD",
+    "label_region": 507,
+    "label_region_timestamp": "2024-01-20 04:21:50.000001",
+    "failure_point": 1140,
+    "failure_point_timestamp": "2024-01-20 04:40:32.000001"
+  },
+  "2024-01-20_05_hdd": {
+    "comment": "HDD",
+    "label_region": 502,
+    "label_region_timestamp": "2024-01-20 05:41:05.000001",
+    "failure_point": 747,
+    "failure_point_timestamp": "2024-01-20 05:49:33.000001"
+  },
+  "2024-01-20_06_hdd": {
+    "comment": "HDD",
+    "label_region": 450,
+    "label_region_timestamp": "2024-01-20 06:44:42.000001",
+    "failure_point": 742,
+    "failure_point_timestamp": "2024-01-20 06:57:48.000001"
+  },
+  "2024-01-20_07_hdd": {
+    "comment": "HDD",
+    "label_region": 604,
+    "label_region_timestamp": "2024-01-20 07:58:11.000001",
+    "failure_point": 1660,
+    "failure_point_timestamp": "2024-01-20 08:29:34.000001"
+  },
+  "2024-01-20_08_hdd": {
+    "comment": "HDD",
+    "label_region": 824,
+    "label_region_timestamp": "2024-01-20 09:40:58.000001",
+    "failure_point": 1069,
+    "failure_point_timestamp": "2024-01-20 09:47:41.000001"
+  },
+  "2024-01-20_09_hdd": {
+    "comment": "HDD",
+    "label_region": 508,
+    "label_region_timestamp": "2024-01-20 11:03:33.000001",
+    "failure_point": 984,
+    "failure_point_timestamp": "2024-01-20 11:20:17.000001"
+  },
+  "2024-01-20_10_hdd": {
+    "comment": "HDD",
+    "label_region": 669,
+    "label_region_timestamp": "2024-01-20 12:29:59.000001",
+    "failure_point": 1385,
+    "failure_point_timestamp": "2024-01-20 12:56:24.000001"
+  },
+  "2024-01-20_11_hdd": {
+    "comment": "HDD",
+    "label_region": 550,
+    "label_region_timestamp": "2024-01-20 13:54:12.000001",
+    "failure_point": 696,
+    "failure_point_timestamp": "2024-01-20 13:58:12.000001"
+  },
+  "2024-01-20_12_hdd": {
+    "comment": "HDD",
+    "label_region": 558,
+    "label_region_timestamp": "2024-01-20 15:01:30.000001",
+    "failure_point": 987,
+    "failure_point_timestamp": "2024-01-20 15:09:27.000001"
+  },
+  "2024-01-20_13_hdd": {
+    "comment": "HDD",
+    "label_region": 565,
+    "label_region_timestamp": "2024-01-20 16:09:47.000001",
+    "failure_point": 1110,
+    "failure_point_timestamp": "2024-01-20 16:23:07.000001"
+  },
+  "2024-01-20_14_hdd": {
+    "comment": "HDD",
+    "label_region": 610,
+    "label_region_timestamp": "2024-01-20 17:24:02.000001",
+    "failure_point": 803,
+    "failure_point_timestamp": "2024-01-20 17:32:46.000001"
+  },
+  "2024-01-20_15_hdd": {
+    "comment": "HDD",
+    "label_region": 560,
+    "label_region_timestamp": "2024-01-20 18:34:24.000001",
+    "failure_point": 1223,
+    "failure_point_timestamp": "2024-01-20 18:51:39.000001"
+  },
+  "2024-01-20_16_hdd": {
+    "comment": "HDD",
+    "label_region": 458,
+    "label_region_timestamp": "2024-01-20 20:00:49.000001",
+    "failure_point": 667,
+    "failure_point_timestamp": "2024-01-20 20:07:51.000001"
+  },
+  "2024-01-20_17_hdd": {
+    "comment": "HDD",
+    "label_region": 445,
+    "label_region_timestamp": "2024-01-20 21:05:35.000001",
+    "failure_point": 894,
+    "failure_point_timestamp": "2024-01-20 21:21:41.000001"
+  },
+  "2024-01-20_18_hdd": {
+    "comment": "HDD",
+    "label_region": 451,
+    "label_region_timestamp": "2024-01-20 22:23:50.000001",
+    "failure_point": 945,
+    "failure_point_timestamp": "2024-01-20 22:42:31.000001"
+  },
+  "2024-01-21_01_hdd": {
+    "comment": "HDD",
+    "label_region": 723,
+    "label_region_timestamp": "2024-01-20 23:50:11.000001",
+    "failure_point": 1534,
+    "failure_point_timestamp": "2024-01-21 00:17:27.000001"
+  },
+  "2024-01-21_02_hdd": {
+    "comment": "HDD",
+    "label_region": 665,
+    "label_region_timestamp": "2024-01-21 01:21:01.000001",
+    "failure_point": 1439,
+    "failure_point_timestamp": "2024-01-21 01:52:36.000001"
+  },
+  "2024-01-21_03_hdd": {
+    "comment": "HDD",
+    "label_region": 658,
+    "label_region_timestamp": "2024-01-21 02:52:41.000001",
+    "failure_point": 1044,
+    "failure_point_timestamp": "2024-01-21 03:05:19.000001"
+  },
+  "2024-01-21_04_hdd": {
+    "comment": "HDD",
+    "label_region": 560,
+    "label_region_timestamp": "2024-01-21 04:13:35.000001",
+    "failure_point": 882,
+    "failure_point_timestamp": "2024-01-21 04:26:02.000001"
+  },
+  "2024-01-21_05_hdd": {
+    "comment": "HDD",
+    "label_region": 614,
+    "label_region_timestamp": "2024-01-21 05:38:02.000001",
+    "failure_point": 1396,
+    "failure_point_timestamp": "2024-01-21 06:10:44.000001"
+  },
+  "2024-01-21_06_hdd": {
+    "comment": "HDD",
+    "label_region": 566,
+    "label_region_timestamp": "2024-01-21 07:11:49.000001",
+    "failure_point": 1252,
+    "failure_point_timestamp": "2024-01-21 07:41:47.000001"
+  },
+  "2024-01-21_07_hdd": {
+    "comment": "HDD",
+    "label_region": 659,
+    "label_region_timestamp": "2024-01-21 08:48:32.000001",
+    "failure_point": 1138,
+    "failure_point_timestamp": "2024-01-21 09:06:30.000001"
+  },
+  "2024-01-21_08_hdd": {
+    "comment": "HDD",
+    "label_region": 562,
+    "label_region_timestamp": "2024-01-21 10:08:17.000001",
+    "failure_point": 1060,
+    "failure_point_timestamp": "2024-01-21 10:24:25.000001"
+  },
+  "2024-01-21_09_hdd": {
+    "comment": "HDD",
+    "label_region": 610,
+    "label_region_timestamp": "2024-01-21 11:29:15.000001",
+    "failure_point": 921,
+    "failure_point_timestamp": "2024-01-21 11:37:52.000001"
+  },
+  "2024-01-21_10_hdd": {
+    "comment": "HDD",
+    "label_region": 555,
+    "label_region_timestamp": "2024-01-21 12:42:45.000001",
+    "failure_point": 847,
+    "failure_point_timestamp": "2024-01-21 12:56:32.000001"
+  },
+  "2024-01-21_11_hdd": {
+    "comment": "HDD",
+    "label_region": 655,
+    "label_region_timestamp": "2024-01-21 13:59:49.000001",
+    "failure_point": 1079,
+    "failure_point_timestamp": "2024-01-21 14:13:47.000001"
+  },
+  "2024-01-21_12_hdd": {
+    "comment": "HDD",
+    "label_region": 449,
+    "label_region_timestamp": "2024-01-21 15:16:47.000001",
+    "failure_point": 738,
+    "failure_point_timestamp": "2024-01-21 15:23:35.000001"
+  },
+  "2024-01-21_13_hdd": {
+    "comment": "HDD",
+    "label_region": 449,
+    "label_region_timestamp": "2024-01-21 16:22:43.000001",
+    "failure_point": 1022,
+    "failure_point_timestamp": "2024-01-21 16:48:23.000001"
+  },
+  "2024-01-21_14_hdd": {
+    "comment": "HDD",
+    "label_region": 511,
+    "label_region_timestamp": "2024-01-21 17:59:44.000001",
+    "failure_point": 1199,
+    "failure_point_timestamp": "2024-01-21 18:19:27.000001"
+  },
+  "2024-01-21_15_hdd": {
+    "comment": "HDD",
+    "label_region": 603,
+    "label_region_timestamp": "2024-01-21 19:24:36.000001",
+    "failure_point": 1660,
+    "failure_point_timestamp": "2024-01-21 20:02:20.000001"
+  },
+  "2024-01-21_16_hdd": {
+    "comment": "HDD",
+    "label_region": 505,
+    "label_region_timestamp": "2024-01-21 21:05:31.000001",
+    "failure_point": 940,
+    "failure_point_timestamp": "2024-01-21 21:24:32.000001"
+  },
+  "2024-01-21_17_hdd": {
+    "comment": "HDD",
+    "label_region": 765,
+    "label_region_timestamp": "2024-01-21 22:20:30.000001",
+    "failure_point": 1413,
+    "failure_point_timestamp": "2024-01-21 22:54:53.000001"
+  },
+  "2024-01-22_01_hdd": {
+    "comment": "HDD",
+    "label_region": 458,
+    "label_region_timestamp": "2024-01-21 23:55:41.000001",
+    "failure_point": 1206,
+    "failure_point_timestamp": "2024-01-22 00:24:41.000001"
+  },
+  "2024-01-22_02_hdd": {
+    "comment": "HDD",
+    "label_region": 674,
+    "label_region_timestamp": "2024-01-22 01:42:18.000001",
+    "failure_point": 1580,
+    "failure_point_timestamp": "2024-01-22 02:18:23.000001"
+  },
+  "2024-01-22_03_hdd": {
+    "comment": "HDD",
+    "label_region": 723,
+    "label_region_timestamp": "2024-01-22 03:36:07.000001",
+    "failure_point": 1153,
+    "failure_point_timestamp": "2024-01-22 03:56:55.000001"
+  },
+  "2024-01-22_04_hdd": {
+    "comment": "HDD",
+    "label_region": 399,
+    "label_region_timestamp": "2024-01-22 04:55:05.000001",
+    "failure_point": 1247,
+    "failure_point_timestamp": "2024-01-22 05:29:28.000001"
+  },
+  "2024-01-22_05_hdd": {
+    "comment": "HDD",
+    "label_region": 737,
+    "label_region_timestamp": "2024-01-22 06:33:08.000001",
+    "failure_point": 1333,
+    "failure_point_timestamp": "2024-01-22 06:49:26.000001"
+  },
+  "2024-01-22_06_hdd": {
+    "comment": "HDD",
+    "label_region": 397,
+    "label_region_timestamp": "2024-01-22 07:45:49.000001",
+    "failure_point": 727,
+    "failure_point_timestamp": "2024-01-22 07:53:07.000001"
+  },
+  "2024-01-22_07_hdd": {
+    "comment": "HDD",
+    "label_region": 499,
+    "label_region_timestamp": "2024-01-22 08:50:03.000001",
+    "failure_point": 931,
+    "failure_point_timestamp": "2024-01-22 09:03:30.000001"
+  },
+  "2024-01-22_08_hdd": {
+    "comment": "HDD",
+    "label_region": 352,
+    "label_region_timestamp": "2024-01-22 10:09:02.000001",
+    "failure_point": 896,
+    "failure_point_timestamp": "2024-01-22 10:31:54.000001"
+  },
+  "2024-01-22_09_hdd": {
+    "comment": "HDD",
+    "label_region": 705,
+    "label_region_timestamp": "2024-01-22 11:27:58.000001",
+    "failure_point": 1402,
+    "failure_point_timestamp": "2024-01-22 11:52:55.000001"
+  },
+  "2024-01-22_10_hdd": {
+    "comment": "HDD",
+    "label_region": 660,
+    "label_region_timestamp": "2024-01-22 12:59:44.000001",
+    "failure_point": 1563,
+    "failure_point_timestamp": "2024-01-22 13:32:46.000001"
+  },
+  "2024-01-22_11_hdd": {
+    "comment": "HDD",
+    "label_region": 554,
+    "label_region_timestamp": "2024-01-22 14:35:11.000001",
+    "failure_point": 1121,
+    "failure_point_timestamp": "2024-01-22 14:55:37.000001"
+  },
+  "2024-01-22_12_hdd": {
+    "comment": "HDD",
+    "label_region": 903,
+    "label_region_timestamp": "2024-01-22 16:05:59.000001",
+    "failure_point": 1370,
+    "failure_point_timestamp": "2024-01-22 16:18:23.000001"
+  },
+  "2024-01-22_13_hdd": {
+    "comment": "HDD",
+    "label_region": 615,
+    "label_region_timestamp": "2024-01-22 17:31:32.000001",
+    "failure_point": 976,
+    "failure_point_timestamp": "2024-01-22 17:46:56.000001"
+  },
+  "2024-01-22_14_hdd": {
+    "comment": "HDD",
+    "label_region": 398,
+    "label_region_timestamp": "2024-01-22 18:43:10.000001",
+    "failure_point": 781,
+    "failure_point_timestamp": "2024-01-22 18:56:47.000001"
+  },
+  "2024-01-22_15_hdd": {
+    "comment": "HDD",
+    "label_region": 688,
+    "label_region_timestamp": "2024-01-22 20:03:24.000001",
+    "failure_point": 1222,
+    "failure_point_timestamp": "2024-01-22 20:29:05.000001"
+  },
+  "2024-01-22_16_hdd": {
+    "comment": "HDD",
+    "label_region": 555,
+    "label_region_timestamp": "2024-01-22 21:30:19.000001",
+    "failure_point": 800,
+    "failure_point_timestamp": "2024-01-22 21:39:16.000001"
+  },
+  "2024-01-22_17_hdd": {
+    "comment": "HDD",
+    "label_region": 557,
+    "label_region_timestamp": "2024-01-22 22:41:32.000001",
+    "failure_point": 800,
+    "failure_point_timestamp": "2024-01-22 22:58:02.000001"
+  },
+  "2024-01-23_01_hdd": {
+    "comment": "HDD",
+    "label_region": 468,
+    "label_region_timestamp": "2024-01-23 00:02:10.000001",
+    "failure_point": 1107,
+    "failure_point_timestamp": "2024-01-23 00:25:42.000001"
+  },
+  "2024-01-23_02_hdd": {
+    "comment": "HDD",
+    "label_region": 563,
+    "label_region_timestamp": "2024-01-23 01:33:03.000001",
+    "failure_point": 1273,
+    "failure_point_timestamp": "2024-01-23 02:00:21.000001"
+  },
+  "2024-01-23_03_hdd": {
+    "comment": "HDD",
+    "label_region": 820,
+    "label_region_timestamp": "2024-01-23 03:08:11.000001",
+    "failure_point": 1512,
+    "failure_point_timestamp": "2024-01-23 03:29:37.000001"
+  },
+  "2024-01-23_04_hdd": {
+    "comment": "HDD",
+    "label_region": 438,
+    "label_region_timestamp": "2024-01-23 04:26:24.000001",
+    "failure_point": 1082,
+    "failure_point_timestamp": "2024-01-23 04:43:29.000001"
+  },
+  "2024-01-23_05_hdd": {
+    "comment": "HDD",
+    "label_region": 616,
+    "label_region_timestamp": "2024-01-23 05:51:36.000001",
+    "failure_point": 1430,
+    "failure_point_timestamp": "2024-01-23 06:27:41.000001"
+  },
+  "2024-01-23_06_hdd": {
+    "comment": "HDD",
+    "label_region": 395,
+    "label_region_timestamp": "2024-01-23 07:29:08.000001",
+    "failure_point": 687,
+    "failure_point_timestamp": "2024-01-23 07:45:52.000001"
+  },
+  "2024-01-23_07_hdd": {
+    "comment": "HDD",
+    "label_region": 346,
+    "label_region_timestamp": "2024-01-23 08:47:43.000001",
+    "failure_point": 756,
+    "failure_point_timestamp": "2024-01-23 09:01:45.000001"
+  },
+  "2024-01-23_08_hdd": {
+    "comment": "HDD",
+    "label_region": 661,
+    "label_region_timestamp": "2024-01-23 10:02:08.000001",
+    "failure_point": 1195,
+    "failure_point_timestamp": "2024-01-23 10:19:48.000001"
+  },
+  "2024-01-23_09_hdd": {
+    "comment": "HDD",
+    "label_region": 608,
+    "label_region_timestamp": "2024-01-23 11:19:12.000001",
+    "failure_point": 1128,
+    "failure_point_timestamp": "2024-01-23 11:32:51.000001"
+  },
+  "2024-01-23_10_hdd": {
+    "comment": "HDD",
+    "label_region": 660,
+    "label_region_timestamp": "2024-01-23 12:35:38.000001",
+    "failure_point": 839,
+    "failure_point_timestamp": "2024-01-23 12:40:16.000001"
+  },
+  "2024-01-23_11_hdd": {
+    "comment": "HDD",
+    "label_region": 663,
+    "label_region_timestamp": "2024-01-23 13:43:58.000001",
+    "failure_point": 1436,
+    "failure_point_timestamp": "2024-01-23 14:12:07.000001"
+  },
+  "2024-01-23_12_hdd": {
+    "comment": "HDD",
+    "label_region": 565,
+    "label_region_timestamp": "2024-01-23 15:20:21.000001",
+    "failure_point": 997,
+    "failure_point_timestamp": "2024-01-23 15:30:00.000001"
+  },
+  "2024-01-23_13_hdd": {
+    "comment": "HDD",
+    "label_region": 507,
+    "label_region_timestamp": "2024-01-23 16:36:15.000001",
+    "failure_point": 1465,
+    "failure_point_timestamp": "2024-01-23 17:04:23.000001"
+  },
+  "2024-01-23_14_hdd": {
+    "comment": "HDD",
+    "label_region": 602,
+    "label_region_timestamp": "2024-01-23 18:03:04.000001",
+    "failure_point": 1137,
+    "failure_point_timestamp": "2024-01-23 18:26:39.000001"
+  },
+  "2024-01-23_15_hdd": {
+    "comment": "HDD",
+    "label_region": 664,
+    "label_region_timestamp": "2024-01-23 19:34:07.000001",
+    "failure_point": 1229,
+    "failure_point_timestamp": "2024-01-23 19:58:19.000001"
+  },
+  "2024-01-23_16_hdd": {
+    "comment": "HDD",
+    "label_region": 555,
+    "label_region_timestamp": "2024-01-23 21:01:17.000001",
+    "failure_point": 990,
+    "failure_point_timestamp": "2024-01-23 21:16:25.000001"
+  },
+  "2024-01-23_17_hdd": {
+    "comment": "HDD",
+    "label_region": 668,
+    "label_region_timestamp": "2024-01-23 22:26:18.000001",
+    "failure_point": 1554,
+    "failure_point_timestamp": "2024-01-23 22:56:08.000001"
+  },
+  "2024-01-24_01_hdd": {
+    "comment": "HDD",
+    "label_region": 605,
+    "label_region_timestamp": "2024-01-23 23:51:08.000001",
+    "failure_point": 1562,
+    "failure_point_timestamp": "2024-01-24 00:30:21.000001"
+  },
+  "2024-01-24_02_hdd": {
+    "comment": "HDD",
+    "label_region": 573,
+    "label_region_timestamp": "2024-01-24 01:38:52.000001",
+    "failure_point": 846,
+    "failure_point_timestamp": "2024-01-24 01:54:29.000001"
+  },
+  "2024-01-24_03_hdd": {
+    "comment": "HDD",
+    "label_region": 824,
+    "label_region_timestamp": "2024-01-24 03:05:51.000001",
+    "failure_point": 1753,
+    "failure_point_timestamp": "2024-01-24 03:45:17.000001"
+  },
+  "2024-01-24_04_hdd": {
+    "comment": "HDD",
+    "label_region": 765,
+    "label_region_timestamp": "2024-01-24 04:51:39.000001",
+    "failure_point": 1750,
+    "failure_point_timestamp": "2024-01-24 05:28:04.000001"
+  },
+  "2024-01-24_05_hdd": {
+    "comment": "HDD",
+    "label_region": 403,
+    "label_region_timestamp": "2024-01-24 06:29:35.000001",
+    "failure_point": 1202,
+    "failure_point_timestamp": "2024-01-24 07:01:04.000001"
+  },
+  "2024-01-24_06_hdd": {
+    "comment": "HDD",
+    "label_region": 607,
+    "label_region_timestamp": "2024-01-24 08:02:38.000001",
+    "failure_point": 949,
+    "failure_point_timestamp": "2024-01-24 08:18:56.000001"
+  },
+  "2024-01-24_07_hdd": {
+    "comment": "HDD",
+    "label_region": 554,
+    "label_region_timestamp": "2024-01-24 09:14:22.000001",
+    "failure_point": 948,
+    "failure_point_timestamp": "2024-01-24 09:32:56.000001"
+  },
+  "2024-01-24_08_hdd": {
+    "comment": "HDD",
+    "label_region": 405,
+    "label_region_timestamp": "2024-01-24 10:38:53.000001",
+    "failure_point": 1258,
+    "failure_point_timestamp": "2024-01-24 11:09:45.000001"
+  },
+  "2024-01-24_09_hdd": {
+    "comment": "HDD",
+    "label_region": 452,
+    "label_region_timestamp": "2024-01-24 12:13:14.000001",
+    "failure_point": 664,
+    "failure_point_timestamp": "2024-01-24 12:19:46.000001"
+  },
+  "2024-01-24_10_hdd": {
+    "comment": "HDD",
+    "label_region": 566,
+    "label_region_timestamp": "2024-01-24 13:31:01.000001",
+    "failure_point": 1105,
+    "failure_point_timestamp": "2024-01-24 13:45:33.000001"
+  },
+  "2024-01-24_11_hdd": {
+    "comment": "HDD",
+    "label_region": 554,
+    "label_region_timestamp": "2024-01-24 14:47:03.000001",
+    "failure_point": 752,
+    "failure_point_timestamp": "2024-01-24 14:49:15.000001"
+  },
+  "2024-01-24_12_hdd": {
+    "comment": "HDD",
+    "label_region": 719,
+    "label_region_timestamp": "2024-01-24 16:00:46.000001",
+    "failure_point": 1430,
+    "failure_point_timestamp": "2024-01-24 16:31:47.000001"
+  },
+  "2024-01-24_13_hdd": {
+    "comment": "HDD",
+    "label_region": 659,
+    "label_region_timestamp": "2024-01-24 17:35:36.000001",
+    "failure_point": 1317,
+    "failure_point_timestamp": "2024-01-24 17:55:34.000001"
+  },
+  "2024-01-24_14_hdd": {
+    "comment": "HDD",
+    "label_region": 562,
+    "label_region_timestamp": "2024-01-24 19:02:25.000001",
+    "failure_point": 1342,
+    "failure_point_timestamp": "2024-01-24 19:39:47.000001"
+  },
+  "2024-01-24_15_hdd": {
+    "comment": "HDD",
+    "label_region": 444,
+    "label_region_timestamp": "2024-01-24 20:39:04.000001",
+    "failure_point": 1000,
+    "failure_point_timestamp": "2024-01-24 20:57:24.000001"
+  },
+  "2024-01-24_16_hdd": {
+    "comment": "HDD",
+    "label_region": 463,
+    "label_region_timestamp": "2024-01-24 22:10:50.000001",
+    "failure_point": 884,
+    "failure_point_timestamp": "2024-01-24 22:22:51.000001"
+  },
+  "2024-01-24_17_hdd": {
+    "comment": "HDD",
+    "label_region": 665,
+    "label_region_timestamp": "2024-01-24 23:29:26.000001",
+    "failure_point": 965,
+    "failure_point_timestamp": "2024-01-24 23:43:56.000001"
+  },
+  "2024-01-25_01_hdd": {
+    "comment": "HDD",
+    "label_region": 787,
+    "label_region_timestamp": "2024-01-25 00:57:15.000001",
+    "failure_point": 1297,
+    "failure_point_timestamp": "2024-01-25 01:22:32.000001"
+  },
+  "2024-01-25_02_hdd": {
+    "comment": "HDD",
+    "label_region": 615,
+    "label_region_timestamp": "2024-01-25 02:29:52.000001",
+    "failure_point": 1334,
+    "failure_point_timestamp": "2024-01-25 03:02:46.000001"
+  },
+  "2024-01-25_03_hdd": {
+    "comment": "HDD",
+    "label_region": 570,
+    "label_region_timestamp": "2024-01-25 04:14:35.000001",
+    "failure_point": 1055,
+    "failure_point_timestamp": "2024-01-25 04:30:15.000001"
+  },
+  "2024-01-25_04_hdd": {
+    "comment": "HDD",
+    "label_region": 400,
+    "label_region_timestamp": "2024-01-25 05:36:51.000001",
+    "failure_point": 634,
+    "failure_point_timestamp": "2024-01-25 05:45:58.000001"
+  },
+  "2024-01-25_05_hdd": {
+    "comment": "HDD",
+    "label_region": 568,
+    "label_region_timestamp": "2024-01-25 06:50:15.000001",
+    "failure_point": 1633,
+    "failure_point_timestamp": "2024-01-25 07:29:37.000001"
+  },
+  "2024-01-25_06_hdd": {
+    "comment": "HDD",
+    "label_region": 459,
+    "label_region_timestamp": "2024-01-25 08:37:36.000001",
+    "failure_point": 1298,
+    "failure_point_timestamp": "2024-01-25 09:03:56.000001"
+  },
+  "2024-01-25_07_hdd": {
+    "comment": "HDD",
+    "label_region": 614,
+    "label_region_timestamp": "2024-01-25 10:09:02.000001",
+    "failure_point": 983,
+    "failure_point_timestamp": "2024-01-25 10:23:15.000001"
+  },
+  "2024-01-25_08_hdd": {
+    "comment": "HDD",
+    "label_region": 663,
+    "label_region_timestamp": "2024-01-25 11:24:12.000001",
+    "failure_point": 1051,
+    "failure_point_timestamp": "2024-01-25 11:40:20.000001"
+  },
+  "2024-01-25_09_hdd": {
+    "comment": "HDD",
+    "label_region": 612,
+    "label_region_timestamp": "2024-01-25 12:51:23.000001",
+    "failure_point": 890,
+    "failure_point_timestamp": "2024-01-25 13:00:10.000001"
+  },
+  "2024-01-25_10_hdd": {
+    "comment": "HDD",
+    "label_region": 560,
+    "label_region_timestamp": "2024-01-25 14:05:27.000001",
+    "failure_point": 761,
+    "failure_point_timestamp": "2024-01-25 14:09:22.000001"
+  },
+  "2024-01-25_11_hdd": {
+    "comment": "HDD",
+    "label_region": 664,
+    "label_region_timestamp": "2024-01-25 15:08:56.000001",
+    "failure_point": 967,
+    "failure_point_timestamp": "2024-01-25 15:21:34.000001"
+  },
+  "2024-01-25_12_hdd": {
+    "comment": "HDD",
+    "label_region": 553,
+    "label_region_timestamp": "2024-01-25 16:23:51.000001",
+    "failure_point": 931,
+    "failure_point_timestamp": "2024-01-25 16:44:32.000001"
+  }
+}

@@ -1,0 +1,29 @@
+[tool.poetry]
+authors = ["Pratheek Senevirathne <pratheeksenevirathne@gmail.com>"]
+description = "Virtual Machine Proactive Fault Tolerance using Log-based Anomaly Detection"
+license = "MIT"
+name = "vmft_lad"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+drain3 = "^0.9.11"
+numpy = "^1.24.3"
+pandas = "^1.5.3"
+python = "^3.8"
+torch = "^2.0.1"
+transformers = "^4.36.2"
+plotly = "^5.18.0"
+nbformat = "^5.9.2"
+openai = "^1.12.0"
+matplotlib = "3.7.1"
+kaleido = "0.1.0.post1"
+pympler = "^1.0.1"
+inputimeout = "^1.0.4"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]

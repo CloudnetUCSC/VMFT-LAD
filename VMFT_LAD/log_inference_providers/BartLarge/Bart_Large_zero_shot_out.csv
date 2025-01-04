@@ -1,0 +1,789 @@
+log_key,log_template,log_text,label
+1,[<:NUM:>.<:NUM:>] br0: port <:*:> entered <:*:> state,[.] br0: port  entered  state,True
+2,[<:NUM:>.<:NUM:>] device <:*:> <:*:> promiscuous mode,[.] device   promiscuous mode,False
+3,[<:NUM:>.<:NUM:>] IPv6: ADDRCONF(NETDEV CHANGE): <:*:> link becomes ready,[.] IPv6: ADDRCONF(NETDEV CHANGE):  link becomes ready,False
+4,"[<:NUM:>.<:NUM:>] kvm [<:NUM:>]: vcpu0, guest rIP: <:HEX:> disabled perfctr wrmsr: <:HEX:> data <:HEX:>","[.] kvm []: vcpu0, guest rIP: <:HEX:> disabled perfctr wrmsr: <:HEX:> data <:HEX:>",False
+5,"[<:NUM:>.<:NUM:>] qemu-system-x86 invoked oom-killer: gfp mask=<:HEX:>(GFP KERNEL ACCOUNT), order=<:NUM:>, oom score adj=<:NUM:>","[.] qemu-system-x86 invoked oom-killer: gfp mask=<:HEX:>(GFP KERNEL ACCOUNT), order=, oom score adj=",False
+6,[<:NUM:>.<:NUM:>] CPU: <:NUM:> PID: <:NUM:> Comm: qemu-system-x86 Not tainted <:NUM:>.<:NUM:>.<:NUM:>-<:NUM:>-generic #<:NUM:>-Ubuntu,[.] CPU:  PID:  Comm: qemu-system-x86 Not tainted ..--generic #-Ubuntu,False
+7,"[<:NUM:>.<:NUM:>] Hardware name: Hewlett-Packard HP Z620 Workstation/158A, BIOS J61 v03.<:NUM:> <:NUM:>/<:NUM:>/<:NUM:>","[.] Hardware name: Hewlett-Packard HP Z620 Workstation/158A, BIOS J61 v03. //",False
+8,[<:NUM:>.<:NUM:>] Call Trace:,[.] Call Trace:,False
+9,[<:NUM:>.<:NUM:>] dump <:*:>,[.] dump ,False
+10,[<:NUM:>.<:NUM:>] oom kill process.cold+<:HEX:>/<:HEX:>,[.] oom kill process.cold+<:HEX:>/<:HEX:>,False
+11,[<:NUM:>.<:NUM:>] out of memory+<:HEX:>/<:HEX:>,[.] out of memory+<:HEX:>/<:HEX:>,False
+12,[<:NUM:>.<:NUM:>] <:*:> pages <:*:>,[.]  pages ,False
+13,[<:NUM:>.<:NUM:>] ? page counter try charge+<:HEX:>/<:HEX:>,[.] ? page counter try charge+<:HEX:>/<:HEX:>,False
+14,[<:NUM:>.<:NUM:>] get free pages+<:HEX:>/<:HEX:>,[.] get free pages+<:HEX:>/<:HEX:>,False
+15,[<:NUM:>.<:NUM:>] mmu topup memory caches+<:HEX:>/<:HEX:> [kvm],[.] mmu topup memory caches+<:HEX:>/<:HEX:> [kvm],False
+16,[<:NUM:>.<:NUM:>] <:*:> <:*:> <:*:> [kvm],[.]    [kvm],False
+17,[<:NUM:>.<:NUM:>] kvm mmu page fault+<:HEX:>/<:HEX:> [kvm],[.] kvm mmu page fault+<:HEX:>/<:HEX:> [kvm],True
+18,[<:NUM:>.<:NUM:>] <:*:> <:*:> <:*:> [kvm intel],[.]    [kvm intel],False
+19,[<:NUM:>.<:NUM:>] ? kvm apic local deliver+<:HEX:>/<:HEX:> [kvm],[.] ? kvm apic local deliver+<:HEX:>/<:HEX:> [kvm],False
+20,[<:NUM:>.<:NUM:>] kvm arch vcpu ioctl run+<:HEX:>/<:HEX:> [kvm],[.] kvm arch vcpu ioctl run+<:HEX:>/<:HEX:> [kvm],False
+21,[<:NUM:>.<:NUM:>] ? <:*:> <:*:>,[.] ?  ,False
+22,[<:NUM:>.<:NUM:>] <:*:> <:*:> ioctl+<:HEX:>/<:HEX:>,[.]   ioctl+<:HEX:>/<:HEX:>,False
+23,[<:NUM:>.<:NUM:>] ksys <:*:>,[.] ksys ,False
+24,[<:NUM:>.<:NUM:>] do <:*:> <:*:>,[.] do  ,False
+25,[<:NUM:>.<:NUM:>] entry SYSCALL <:NUM:> after hwframe+<:HEX:>/<:HEX:>,[.] entry SYSCALL  after hwframe+<:HEX:>/<:HEX:>,False
+26,[<:NUM:>.<:NUM:>] RIP: <:NUM:>:<:HEX:>,[.] RIP: :<:HEX:>,True
+27,[<:NUM:>.<:NUM:>] Code: 0f 1e fa <:NUM:> 8b <:NUM:> e5 7a 0d <:NUM:> <:NUM:> c7 <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> c7 c0 ff ff ff ff c3 <:NUM:> 0f 1f <:NUM:> <:NUM:> <:NUM:> f3 0f 1e fa b8 <:NUM:> <:NUM:> <:NUM:> <:NUM:> 0f <:NUM:> <<:NUM:>> 3d <:NUM:> f0 ff ff <:NUM:> <:NUM:> c3 <:NUM:> 8b 0d b5 7a 0d <:NUM:> f7 d8 <:NUM:> <:NUM:> <:NUM:> <:NUM:>,[.] Code: 0f 1e fa  8b  e5 7a 0d   c7       c7 c0 ff ff ff ff c3  0f 1f    f3 0f 1e fa b8     0f  <> 3d  f0 ff ff   c3  8b 0d b5 7a 0d  f7 d8    ,True
+28,[<:NUM:>.<:NUM:>] RSP: <:*:> EFLAGS: <:NUM:> ORIG RAX: <:*:>,[.] RSP:  EFLAGS:  ORIG RAX: ,True
+29,[<:NUM:>.<:NUM:>] RAX: ffffffffffffffda RBX: <:*:> RCX: <:*:>,[.] RAX: ffffffffffffffda RBX:  RCX: ,True
+30,[<:NUM:>.<:NUM:>] RDX: <:*:> RSI: <:*:> RDI: <:*:>,[.] RDX:  RSI:  RDI: ,True
+31,[<:NUM:>.<:NUM:>] RBP: <:*:> R08: <:*:> R09: <:*:>,[.] RBP:  R08:  R09: ,False
+32,[<:NUM:>.<:NUM:>] <:*:> <:SEQ:> <:*:> <:*:> <:*:> <:SEQ:>,[.]      ,False
+33,[<:NUM:>.<:NUM:>] <:*:>,[.] ,False
+34,[<:NUM:>.<:NUM:>] active <:*:> inactive <:*:> isolated <:*:>,[.] active  inactive  isolated ,False
+35,[<:NUM:>.<:NUM:>] unevictable:<:NUM:> dirty:<:NUM:> writeback:<:NUM:> unstable:<:NUM:>,[.] unevictable: dirty: writeback: unstable:,False
+36,[<:NUM:>.<:NUM:>] slab reclaimable:<:NUM:> slab unreclaimable:<:NUM:>,[.] slab reclaimable: slab unreclaimable:,False
+37,[<:NUM:>.<:NUM:>] mapped:<:NUM:> shmem:<:NUM:> pagetables:<:NUM:> bounce:<:NUM:>,[.] mapped: shmem: pagetables: bounce:,False
+38,[<:NUM:>.<:NUM:>] free:<:NUM:> free pcp:<:NUM:> free cma:<:NUM:>,[.] free: free pcp: free cma:,False
+39,[<:NUM:>.<:NUM:>] Node <:NUM:> active anon:14144536kB inactive anon:1406324kB active file:776kB inactive file:772kB unevictable:18472kB isolated(anon):0kB isolated(file):0kB mapped:8764kB dirty:0kB writeback:0kB shmem:76kB shmem thp: 0kB shmem pmdmapped: 0kB anon thp: 4970496kB writeback tmp:0kB unstable:0kB all unreclaimable? no,[.] Node  active anon:14144536kB inactive anon:1406324kB active file:776kB inactive file:772kB unevictable:18472kB isolated(anon):0kB isolated(file):0kB mapped:8764kB dirty:0kB writeback:0kB shmem:76kB shmem thp: 0kB shmem pmdmapped: 0kB anon thp: 4970496kB writeback tmp:0kB unstable:0kB all unreclaimable? no,False
+40,[<:NUM:>.<:NUM:>] Node <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> active <:*:> inactive <:*:> active <:*:> inactive <:*:> <:*:> writepending:0kB <:*:> <:*:> <:*:> kernel <:*:> <:*:> bounce:0kB free <:*:> local <:*:> free cma:0kB,[.] Node       active  inactive  active  inactive   writepending:0kB    kernel   bounce:0kB free  local  free cma:0kB,False
+41,[<:NUM:>.<:NUM:>] lowmem reserve[]: <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>,[.] lowmem reserve[]:     ,False
+42,[<:NUM:>.<:NUM:>] Node <:NUM:> DMA: <:NUM:>*4kB <:NUM:>*8kB (U) <:NUM:>*16kB (U) <:NUM:>*32kB (U) <:NUM:>*64kB (U) <:NUM:>*128kB (U) <:NUM:>*256kB (U) <:NUM:>*512kB <:NUM:>*1024kB (U) <:NUM:>*2048kB (M) <:NUM:>*4096kB (M) = 15864kB,[.] Node  DMA: *4kB *8kB (U) *16kB (U) *32kB (U) *64kB (U) *128kB (U) *256kB (U) *512kB *1024kB (U) *2048kB (M) *4096kB (M) = 15864kB,False
+43,[<:NUM:>.<:NUM:>] Node <:NUM:> DMA32: <:NUM:>*4kB (UME) <:NUM:>*8kB (UE) <:NUM:>*16kB (UE) <:NUM:>*32kB (UME) <:NUM:>*64kB (UE) <:NUM:>*128kB (UE) <:NUM:>*256kB (UME) <:NUM:>*512kB (UE) <:NUM:>*1024kB (UME) <:NUM:>*2048kB <:NUM:>*4096kB = 63912kB,[.] Node  DMA32: *4kB (UME) *8kB (UE) *16kB (UE) *32kB (UME) *64kB (UE) *128kB (UE) *256kB (UME) *512kB (UE) *1024kB (UME) *2048kB *4096kB = 63912kB,False
+44,[<:NUM:>.<:NUM:>] Node <:NUM:> Normal: <:NUM:>*4kB (UEH) <:NUM:>*8kB (UMEH) <:NUM:>*16kB (UEH) <:NUM:>*32kB (UMEH) <:NUM:>*64kB (UE) <:NUM:>*128kB (UME) <:NUM:>*256kB <:NUM:>*512kB <:NUM:>*1024kB <:NUM:>*2048kB <:NUM:>*4096kB = 54324kB,[.] Node  Normal: *4kB (UEH) *8kB (UMEH) *16kB (UEH) *32kB (UMEH) *64kB (UE) *128kB (UME) *256kB *512kB *1024kB *2048kB *4096kB = 54324kB,False
+45,[<:NUM:>.<:NUM:>] Node <:NUM:> hugepages total=<:NUM:> hugepages free=<:NUM:> hugepages surp=<:NUM:> hugepages <:*:>,[.] Node  hugepages total= hugepages free= hugepages surp= hugepages ,False
+46,[<:NUM:>.<:NUM:>] <:NUM:> <:*:> <:*:> <:*:>,[.]    ,False
+47,[<:NUM:>.<:NUM:>] <:NUM:> pages in swap cache,[.]  pages in swap cache,False
+48,"[<:NUM:>.<:NUM:>] Swap cache stats: add <:NUM:>, delete <:NUM:>, find <:NUM:>/<:NUM:>","[.] Swap cache stats: add , delete , find /",False
+49,[<:NUM:>.<:NUM:>] <:*:> swap = <:*:>,[.]  swap = ,False
+50,[<:NUM:>.<:NUM:>] Tasks state (memory values in pages):,[.] Tasks state (memory values in pages):,False
+51,[<:NUM:>.<:NUM:>] [ pid ] uid tgid total vm rss pgtables bytes swapents oom score adj name,[.] [ pid ] uid tgid total vm rss pgtables bytes swapents oom score adj name,False
+52,[<:NUM:>.<:NUM:>] [ <:NUM:>] <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:>,[.] [ ]        ,False
+53,[<:NUM:>.<:NUM:>] [ <:NUM:>] <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> tmux: <:*:>,[.] [ ]        tmux: ,False
+54,"[<:NUM:>.<:NUM:>] oom-kill:constraint=CONSTRAINT NONE,nodemask=(null),cpuset=/,mems allowed=<:NUM:>,global oom,task memcg=/user.slice/user-<:NUM:>.slice/session-<:NUM:>.scope,task=qemu-system-x86,pid=<:NUM:>,uid=<:NUM:>","[.] oom-kill:constraint=CONSTRAINT NONE,nodemask=(null),cpuset=/,mems allowed=,global oom,task memcg=/user.slice/user-.slice/session-.scope,task=qemu-system-x86,pid=,uid=",False
+55,"[<:NUM:>.<:NUM:>] Out of memory: Killed process <:NUM:> (qemu-system-x86) total-vm:8973356kB, anon-rss:5561392kB, file-rss:1892kB, shmem-rss:0kB, UID:<:NUM:> pgtables:14180kB oom score adj:<:NUM:>","[.] Out of memory: Killed process  (qemu-system-x86) total-vm:8973356kB, anon-rss:5561392kB, file-rss:1892kB, shmem-rss:0kB, UID: pgtables:14180kB oom score adj:",True
+56,br0: port <:*:> entered <:*:> state,br0: port  entered  state,True
+57,device <:*:> entered promiscuous mode,device  entered promiscuous mode,True
+58,IPv6: ADDRCONF(NETDEV CHANGE): <:*:> link becomes ready,IPv6: ADDRCONF(NETDEV CHANGE):  link becomes ready,False
+59,"kvm [<:NUM:>]: vcpu0, guest rIP: <:HEX:> disabled perfctr wrmsr: <:HEX:> data <:HEX:>","kvm []: vcpu0, guest rIP: <:HEX:> disabled perfctr wrmsr: <:HEX:> data <:HEX:>",True
+60,"qemu-system-x86 invoked oom-killer: gfp mask=<:HEX:>(GFP KERNEL ACCOUNT), order=<:NUM:>, oom score adj=<:NUM:>","qemu-system-x86 invoked oom-killer: gfp mask=<:HEX:>(GFP KERNEL ACCOUNT), order=, oom score adj=",True
+61,CPU: <:NUM:> PID: <:NUM:> Comm: qemu-system-x86 Not tainted <:NUM:>.<:NUM:>.<:NUM:>-<:NUM:>-generic #<:NUM:>-Ubuntu,CPU:  PID:  Comm: qemu-system-x86 Not tainted ..--generic #-Ubuntu,False
+62,"Hardware name: Hewlett-Packard HP Z620 Workstation/158A, BIOS J61 v03.<:NUM:> <:NUM:>/<:NUM:>/<:NUM:>","Hardware name: Hewlett-Packard HP Z620 Workstation/158A, BIOS J61 v03. //",False
+63,Call Trace:,Call Trace:,False
+64,dump <:*:>,dump ,False
+65,oom kill process.cold+<:HEX:>/<:HEX:>,oom kill process.cold+<:HEX:>/<:HEX:>,False
+66,out of memory+<:HEX:>/<:HEX:>,out of memory+<:HEX:>/<:HEX:>,False
+67,alloc pages <:*:>,alloc pages ,False
+68,? page counter try charge+<:HEX:>/<:HEX:>,? page counter try charge+<:HEX:>/<:HEX:>,False
+69,get free pages+<:HEX:>/<:HEX:>,get free pages+<:HEX:>/<:HEX:>,False
+70,mmu topup memory caches+<:HEX:>/<:HEX:> [kvm],mmu topup memory caches+<:HEX:>/<:HEX:> [kvm],False
+71,tdp page fault+<:HEX:>/<:HEX:> [kvm],tdp page fault+<:HEX:>/<:HEX:> [kvm],True
+72,kvm mmu page fault+<:HEX:>/<:HEX:> [kvm],kvm mmu page fault+<:HEX:>/<:HEX:> [kvm],True
+73,handle ept violation+<:HEX:>/<:HEX:> [kvm intel],handle ept violation+<:HEX:>/<:HEX:> [kvm intel],True
+74,vmx handle exit+<:HEX:>/<:HEX:> [kvm intel],vmx handle exit+<:HEX:>/<:HEX:> [kvm intel],False
+75,vcpu enter guest+<:HEX:>/<:HEX:> [kvm],vcpu enter guest+<:HEX:>/<:HEX:> [kvm],False
+76,? kvm apic local deliver+<:HEX:>/<:HEX:> [kvm],? kvm apic local deliver+<:HEX:>/<:HEX:> [kvm],False
+77,kvm arch vcpu ioctl run+<:HEX:>/<:HEX:> [kvm],kvm arch vcpu ioctl run+<:HEX:>/<:HEX:> [kvm],False
+78,kvm vcpu ioctl+<:HEX:>/<:HEX:> [kvm],kvm vcpu ioctl+<:HEX:>/<:HEX:> [kvm],False
+79,? do futex+<:HEX:>/<:HEX:>,? do futex+<:HEX:>/<:HEX:>,False
+80,do vfs ioctl+<:HEX:>/<:HEX:>,do vfs ioctl+<:HEX:>/<:HEX:>,False
+81,ksys ioctl+<:HEX:>/<:HEX:>,ksys ioctl+<:HEX:>/<:HEX:>,False
+82,x64 sys ioctl+<:HEX:>/<:HEX:>,x64 sys ioctl+<:HEX:>/<:HEX:>,False
+83,do syscall <:NUM:>+<:HEX:>/<:HEX:>,do syscall +<:HEX:>/<:HEX:>,False
+84,entry SYSCALL <:NUM:> after hwframe+<:HEX:>/<:HEX:>,entry SYSCALL  after hwframe+<:HEX:>/<:HEX:>,False
+85,RIP: <:NUM:>:<:HEX:>,RIP: :<:HEX:>,False
+86,Code: 0f 1e fa <:NUM:> 8b <:NUM:> e5 7a 0d <:NUM:> <:NUM:> c7 <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> c7 c0 ff ff ff ff c3 <:NUM:> 0f 1f <:NUM:> <:NUM:> <:NUM:> f3 0f 1e fa b8 <:NUM:> <:NUM:> <:NUM:> <:NUM:> 0f <:NUM:> <<:NUM:>> 3d <:NUM:> f0 ff ff <:NUM:> <:NUM:> c3 <:NUM:> 8b 0d b5 7a 0d <:NUM:> f7 d8 <:NUM:> <:NUM:> <:NUM:> <:NUM:>,Code: 0f 1e fa  8b  e5 7a 0d   c7       c7 c0 ff ff ff ff c3  0f 1f    f3 0f 1e fa b8     0f  <> 3d  f0 ff ff   c3  8b 0d b5 7a 0d  f7 d8    ,True
+87,RSP: 002b:00007f50ec834ac8 EFLAGS: <:NUM:> ORIG RAX: <:SEQ:>,RSP: 002b:00007f50ec834ac8 EFLAGS:  ORIG RAX: ,False
+88,RAX: ffffffffffffffda RBX: 000055845ca00b20 RCX: 00007f50eece33ab,RAX: ffffffffffffffda RBX: 000055845ca00b20 RCX: 00007f50eece33ab,True
+89,RDX: <:SEQ:> RSI: 000000000000ae80 RDI: 000000000000000f,RDX:  RSI: 000000000000ae80 RDI: 000000000000000f,False
+90,RBP: 00007f50ef14c000 R08: 000055845a9dc1f0 R09: 00000000000000ff,RBP: 00007f50ef14c000 R08: 000055845a9dc1f0 R09: 00000000000000ff,False
+91,R10: <:SEQ:> R11: <:SEQ:> R12: <:SEQ:>,R10:  R11:  R12: ,False
+92,R13: <:SEQ:> R14: 000055845acb2a80 R15: <:SEQ:>,R13:  R14: 000055845acb2a80 R15: ,False
+93,Mem-Info:,Mem-Info:,False
+94,active <:*:> inactive <:*:> isolated <:*:>,active  inactive  isolated ,False
+95,unevictable:<:NUM:> dirty:<:NUM:> writeback:<:NUM:> unstable:<:NUM:>,unevictable: dirty: writeback: unstable:,False
+96,slab reclaimable:<:NUM:> slab unreclaimable:<:NUM:>,slab reclaimable: slab unreclaimable:,False
+97,mapped:<:NUM:> shmem:<:NUM:> pagetables:<:NUM:> bounce:<:NUM:>,mapped: shmem: pagetables: bounce:,False
+98,free:<:NUM:> free pcp:<:NUM:> free cma:<:NUM:>,free: free pcp: free cma:,False
+99,Node <:NUM:> active anon:14144536kB inactive anon:1406324kB active file:776kB inactive file:772kB unevictable:18472kB isolated(anon):0kB isolated(file):0kB mapped:8764kB dirty:0kB writeback:0kB shmem:76kB shmem thp: 0kB shmem pmdmapped: 0kB anon thp: 4970496kB writeback tmp:0kB unstable:0kB all unreclaimable? no,Node  active anon:14144536kB inactive anon:1406324kB active file:776kB inactive file:772kB unevictable:18472kB isolated(anon):0kB isolated(file):0kB mapped:8764kB dirty:0kB writeback:0kB shmem:76kB shmem thp: 0kB shmem pmdmapped: 0kB anon thp: 4970496kB writeback tmp:0kB unstable:0kB all unreclaimable? no,False
+100,Node <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> active <:*:> inactive <:*:> active <:*:> inactive <:*:> <:*:> writepending:0kB <:*:> <:*:> <:*:> kernel <:*:> <:*:> bounce:0kB free <:*:> local <:*:> free cma:0kB,Node       active  inactive  active  inactive   writepending:0kB    kernel   bounce:0kB free  local  free cma:0kB,False
+101,lowmem reserve[]: <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>,lowmem reserve[]:     ,False
+102,Node <:NUM:> DMA: <:NUM:>*4kB <:NUM:>*8kB (U) <:NUM:>*16kB (U) <:NUM:>*32kB (U) <:NUM:>*64kB (U) <:NUM:>*128kB (U) <:NUM:>*256kB (U) <:NUM:>*512kB <:NUM:>*1024kB (U) <:NUM:>*2048kB (M) <:NUM:>*4096kB (M) = 15864kB,Node  DMA: *4kB *8kB (U) *16kB (U) *32kB (U) *64kB (U) *128kB (U) *256kB (U) *512kB *1024kB (U) *2048kB (M) *4096kB (M) = 15864kB,False
+103,Node <:NUM:> DMA32: <:NUM:>*4kB (UME) <:NUM:>*8kB (UE) <:NUM:>*16kB (UE) <:NUM:>*32kB (UME) <:NUM:>*64kB (UE) <:NUM:>*128kB (UE) <:NUM:>*256kB (UME) <:NUM:>*512kB (UE) <:NUM:>*1024kB (UME) <:NUM:>*2048kB <:NUM:>*4096kB = 63912kB,Node  DMA32: *4kB (UME) *8kB (UE) *16kB (UE) *32kB (UME) *64kB (UE) *128kB (UE) *256kB (UME) *512kB (UE) *1024kB (UME) *2048kB *4096kB = 63912kB,True
+104,Node <:NUM:> Normal: <:NUM:>*4kB (UEH) <:NUM:>*8kB (UMEH) <:NUM:>*16kB (UEH) <:NUM:>*32kB (UMEH) <:NUM:>*64kB (UE) <:NUM:>*128kB (UME) <:NUM:>*256kB <:NUM:>*512kB <:NUM:>*1024kB <:NUM:>*2048kB <:NUM:>*4096kB = 54324kB,Node  Normal: *4kB (UEH) *8kB (UMEH) *16kB (UEH) *32kB (UMEH) *64kB (UE) *128kB (UME) *256kB *512kB *1024kB *2048kB *4096kB = 54324kB,False
+105,Node <:NUM:> hugepages total=<:NUM:> hugepages free=<:NUM:> hugepages surp=<:NUM:> hugepages <:*:>,Node  hugepages total= hugepages free= hugepages surp= hugepages ,False
+106,<:NUM:> total pagecache pages, total pagecache pages,False
+107,<:NUM:> pages in swap cache, pages in swap cache,False
+108,"Swap cache stats: add <:NUM:>, delete <:NUM:>, find <:NUM:>/<:NUM:>","Swap cache stats: add , delete , find /",False
+109,Free swap = 0kB,Free swap = 0kB,False
+110,Total swap = 4194300kB,Total swap = 4194300kB,False
+111,<:NUM:> pages <:*:>, pages ,False
+112,<:NUM:> pages cma reserved, pages cma reserved,False
+113,Tasks state (memory values in pages):,Tasks state (memory values in pages):,False
+114,[ pid ] uid tgid total vm rss pgtables bytes swapents oom score adj name,[ pid ] uid tgid total vm rss pgtables bytes swapents oom score adj name,False
+115,[ <:NUM:>] <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:>,[ ]        ,False
+116,[ <:NUM:>] <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> tmux: <:*:>,[ ]        tmux: ,False
+117,"oom-kill:constraint=CONSTRAINT NONE,nodemask=(null),cpuset=/,mems allowed=<:NUM:>,global oom,task memcg=/user.slice/user-<:NUM:>.slice/session-<:NUM:>.scope,task=qemu-system-x86,pid=<:NUM:>,uid=<:NUM:>","oom-kill:constraint=CONSTRAINT NONE,nodemask=(null),cpuset=/,mems allowed=,global oom,task memcg=/user.slice/user-.slice/session-.scope,task=qemu-system-x86,pid=,uid=",False
+118,"Out of memory: Killed process <:NUM:> (qemu-system-x86) total-vm:8973356kB, anon-rss:5561392kB, file-rss:1892kB, shmem-rss:0kB, UID:<:NUM:> pgtables:14180kB oom score adj:<:NUM:>","Out of memory: Killed process  (qemu-system-x86) total-vm:8973356kB, anon-rss:5561392kB, file-rss:1892kB, shmem-rss:0kB, UID: pgtables:14180kB oom score adj:",True
+119,debug: /dev/sda1 is a FAT32 partition,debug: /dev/sda1 is a FAT32 partition,False
+120,debug: /dev/sda1 partition <:*:> is <:*:>,debug: /dev/sda1 partition  is ,False
+121,debug: running subtest <:*:>,debug: running subtest ,False
+122,debug: /dev/sda1 is not <:*:> <:*:> partition: exiting,debug: /dev/sda1 is not   partition: exiting,False
+123,debug: Skipping legacy bootloaders on UEFI system,debug: Skipping legacy bootloaders on UEFI system,False
+124,* Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s,* Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s,False
+125,"just raised the bar for easy, resilient and secure K8s cluster deployment.","just raised the bar for easy, resilient and secure K8s cluster deployment.",True
+126,https://ubuntu.com/engage/secure-kubernetes-at-the-edge,https://ubuntu.com/engage/secure-kubernetes-at-the-edge,False
+127,started daemon version <:NUM:>.<:NUM:>.<:NUM:>,started daemon version ..,False
+128,pam <:*:> session opened for user <:*:> by <:*:>,pam  session opened for user  by ,False
+129,(root) CMD ( cd / && run-parts --report /etc/cron.hourly),(root) CMD ( cd / && run-parts --report /etc/cron.hourly),False
+130,pam <:*:> session closed for user <:*:>,pam  session closed for user ,False
+131,"[system] Activating via systemd: service <:*:> <:*:> requested by ':<:NUM:>.<:NUM:>' (uid=<:NUM:> pid=<:NUM:> <:*:> "" label=""unconfined"")","[system] Activating via systemd: service   requested by ':.' (uid= pid=  "" label=""unconfined"")",False
+132,[system] Successfully activated service <:*:>,[system] Successfully activated service ,False
+133,"[system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':<:NUM:>.<:NUM:>' (uid=<:NUM:> pid=<:NUM:> comm=""/usr/bin/gdbus call --system --dest org.freedeskto"" label=""unconfined"")","[system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':.' (uid= pid= comm=""/usr/bin/gdbus call --system --dest org.freedeskto"" label=""unconfined"")",False
+134,"Unknown group ""power"" in message bus configuration file","Unknown group ""power"" in message bus configuration file",False
+135,[system] Reloaded configuration,[system] Reloaded configuration,False
+136,"[ <:NUM:>.<:NUM:>] SGI XFS with ACLs, security attributes, realtime, no debug enabled","[ .] SGI XFS with ACLs, security attributes, realtime, no debug enabled",False
+137,"[ <:NUM:>.<:NUM:>] JFS: nTxBlock = <:NUM:>, nTxLock = <:NUM:>","[ .] JFS: nTxBlock = , nTxLock = ",False
+138,[ <:NUM:>.<:NUM:>] ntfs: driver <:NUM:>.<:NUM:>.<:NUM:> [Flags: R/O MODULE].,[ .] ntfs: driver .. [Flags: R/O MODULE].,False
+139,[ <:NUM:>.<:NUM:>] QNX4 filesystem <:NUM:>.<:NUM:>.<:NUM:> registered.,[ .] QNX4 filesystem .. registered.,False
+140,[ <:NUM:>.<:NUM:>] <:*:> <:*:> <:*:> <:NUM:> callbacks suppressed,[ .]     callbacks suppressed,False
+141,"[ <:NUM:>.<:NUM:>] audit: type=<:NUM:> audit(<:NUM:>.<:NUM:>:<:NUM:>): apparmor=""STATUS"" operation=""profile <:*:> profile=""unconfined"" <:*:> pid=<:NUM:> comm=""apparmor parser""","[ .] audit: type= audit(.:): apparmor=""STATUS"" operation=""profile  profile=""unconfined""  pid= comm=""apparmor parser""",False
+142,"[ <:NUM:>.<:NUM:>] audit: type=<:NUM:> audit(<:NUM:>.<:NUM:>:<:NUM:>): apparmor=""STATUS"" operation=""profile replace"" info=""same as current profile, skipping"" profile=""unconfined"" <:*:> pid=<:NUM:> comm=""apparmor parser""","[ .] audit: type= audit(.:): apparmor=""STATUS"" operation=""profile replace"" info=""same as current profile, skipping"" profile=""unconfined""  pid= comm=""apparmor parser""",False
+143,[ <:NUM:>.<:NUM:>] br0: port <:*:> entered <:*:> state,[ .] br0: port  entered  state,True
+144,[ <:NUM:>.<:NUM:>] device <:*:> <:*:> promiscuous mode,[ .] device   promiscuous mode,False
+145,[ <:NUM:>.<:NUM:>] IPv6: ADDRCONF(NETDEV CHANGE): <:*:> link becomes ready,[ .] IPv6: ADDRCONF(NETDEV CHANGE):  link becomes ready,False
+146,"[ <:NUM:>.<:NUM:>] kvm [<:NUM:>]: vcpu0, guest rIP: <:HEX:> disabled perfctr wrmsr: <:HEX:> data <:HEX:>","[ .] kvm []: vcpu0, guest rIP: <:HEX:> disabled perfctr wrmsr: <:HEX:> data <:HEX:>",False
+147,[<:NUM:>.<:NUM:>] INFO: task qemu-system-x86:<:NUM:> blocked for more than <:NUM:> seconds.,[.] INFO: task qemu-system-x86: blocked for more than  seconds.,False
+148,[<:NUM:>.<:NUM:>] Not tainted <:NUM:>.<:NUM:>.<:NUM:>-<:NUM:>-generic #<:NUM:>-Ubuntu,[.] Not tainted ..--generic #-Ubuntu,False
+149,"[<:NUM:>.<:NUM:>] ""echo <:NUM:> > /proc/sys/kernel/hung task timeout secs"" disables this message.","[.] ""echo  > /proc/sys/kernel/hung task timeout secs"" disables this message.",False
+150,[<:NUM:>.<:NUM:>] qemu-system-x86 D <:NUM:> <:NUM:> <:NUM:> <:HEX:>,[.] qemu-system-x86 D    <:HEX:>,False
+151,[<:NUM:>.<:NUM:>] ? <:*:> <:*:> <:*:>,[.] ?   ,False
+152,[<:NUM:>.<:NUM:>] io schedule+<:HEX:>/<:HEX:>,[.] io schedule+<:HEX:>/<:HEX:>,False
+153,[<:NUM:>.<:NUM:>] bit wait io+<:HEX:>/<:HEX:>,[.] bit wait io+<:HEX:>/<:HEX:>,False
+154,[<:NUM:>.<:NUM:>] wait on bit+<:HEX:>/<:HEX:>,[.] wait on bit+<:HEX:>/<:HEX:>,False
+155,[<:NUM:>.<:NUM:>] out of line wait on bit+<:HEX:>/<:HEX:>,[.] out of line wait on bit+<:HEX:>/<:HEX:>,False
+156,[<:NUM:>.<:NUM:>] nfs wait on request+<:HEX:>/<:HEX:> [nfs],[.] nfs wait on request+<:HEX:>/<:HEX:> [nfs],False
+157,[<:NUM:>.<:NUM:>] nfs lock and join requests+<:HEX:>/<:HEX:> [nfs],[.] nfs lock and join requests+<:HEX:>/<:HEX:> [nfs],False
+158,[<:NUM:>.<:NUM:>] nfs <:*:> <:*:> [nfs],[.] nfs   [nfs],False
+159,[<:NUM:>.<:NUM:>] nfs <:*:> [nfs],[.] nfs  [nfs],False
+160,[<:NUM:>.<:NUM:>] ? iov iter copy from user atomic+<:HEX:>/<:HEX:>,[.] ? iov iter copy from user atomic+<:HEX:>/<:HEX:>,False
+161,[<:NUM:>.<:NUM:>] <:*:> <:*:> write+<:HEX:>/<:HEX:>,[.]   write+<:HEX:>/<:HEX:>,False
+162,[<:NUM:>.<:NUM:>] do iter readv writev+<:HEX:>/<:HEX:>,[.] do iter readv writev+<:HEX:>/<:HEX:>,False
+163,[<:NUM:>.<:NUM:>] vfs <:*:>,[.] vfs ,False
+164,[<:NUM:>.<:NUM:>] do <:*:>,[.] do ,False
+165,[<:NUM:>.<:NUM:>] x64 sys <:*:>,[.] x64 sys ,False
+166,[<:NUM:>.<:NUM:>] Code: Bad RIP value.,[.] Code: Bad RIP value.,True
+167,[<:NUM:>.<:NUM:>] R10: <:*:> R11: <:SEQ:> R12: <:*:>,[.] R10:  R11:  R12: ,False
+168,[<:NUM:>.<:NUM:>] R13: <:*:> R14: <:*:> R15: <:*:>,[.] R13:  R14:  R15: ,False
+169,[<:NUM:>.<:NUM:>] wait on page <:*:>,[.] wait on page ,False
+170,[<:NUM:>.<:NUM:>] <:*:> <:*:> range+<:HEX:>/<:HEX:>,[.]   range+<:HEX:>/<:HEX:>,False
+171,[<:NUM:>.<:NUM:>] file write and wait range+<:HEX:>/<:HEX:>,[.] file write and wait range+<:HEX:>/<:HEX:>,False
+172,"WARNING:Unknown index <:NUM:> seen, reloading interface list","WARNING:Unknown index  seen, reloading interface list",False
+173,debug: running <:*:> on mounted /dev/sda1,debug: running  on mounted /dev/sda1,False
+174,daemon <:*:>,daemon ,False
+175,cannot connect to <:IP:>:<:NUM:>: Network is unreachable [v8.<:NUM:>.<:NUM:> try https://www.rsyslog.com/e/<:NUM:> ],cannot connect to :: Network is unreachable [v8.. try https://www.rsyslog.com/e/ ],True
+176,action 'action-<:NUM:>-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.<:NUM:>.<:NUM:> try https://www.rsyslog.com/e/<:NUM:> ],action 'action--builtin:omfwd' resumed (module 'builtin:omfwd') [v8.. try https://www.rsyslog.com/e/ ],False
+177,"[origin software=""rsyslogd"" swVersion=""<:NUM:>.<:NUM:>.<:NUM:>"" x-pid=""<:NUM:>"" x-info=""https://www.rsyslog.com""] exiting on signal <:NUM:>.","[origin software=""rsyslogd"" swVersion="".."" x-pid="""" x-info=""https://www.rsyslog.com""] exiting on signal .",False
+178,imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd <:NUM:>) from systemd. [v8.<:NUM:>.<:NUM:>],imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd ) from systemd. [v8..],False
+179,rsyslogd's <:*:> changed to <:NUM:>,rsyslogd's  changed to ,False
+180,"imfile: on startup file <:*:> qemu.log' does not exist but is configured in static file monitor - this may indicate a misconfiguration. If the file appears at a later time, it will automatically be processed. Reason: No such file or directory [v8.<:NUM:>.<:NUM:>]","imfile: on startup file  qemu.log' does not exist but is configured in static file monitor - this may indicate a misconfiguration. If the file appears at a later time, it will automatically be processed. Reason: No such file or directory [v8..]",False
+181,"[origin software=""rsyslogd"" swVersion=""<:NUM:>.<:NUM:>.<:NUM:>"" x-pid=""<:NUM:>"" x-info=""https://www.rsyslog.com""] start","[origin software=""rsyslogd"" swVersion="".."" x-pid="""" x-info=""https://www.rsyslog.com""] start",False
+182,main.go:<:NUM:>: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd.<:NUM:> /var/lib/snapd/apparmor/profiles/snap-confine.snapd.<:NUM:> /var/lib/snapd/apparmor/profiles/snap-update-ns.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.activate /var/lib/snapd/apparmor/profiles/snap.lxd.benchmark /var/lib/snapd/apparmor/profiles/snap.lxd.buginfo /var/lib/snapd/apparmor/profiles/snap.lxd.check-kernel /var/lib/snapd/apparmor/profiles/snap.lxd.daemon /var/lib/snapd/apparmor/profiles/snap.lxd.hook.configure /var/lib/snapd/apparmor/profiles/snap.lxd.hook.install /var/lib/snapd/apparmor/profiles/snap.lxd.hook.remove /var/lib/snapd/apparmor/profiles/snap.lxd.lxc /var/lib/snapd/apparmor/profiles/snap.lxd.lxc-to-lxd /var/lib/snapd/apparmor/profiles/snap.lxd.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.migrate /var/lib/snapd/apparmor/profiles/snap.lxd.user-daemon],main.go:: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd. /var/lib/snapd/apparmor/profiles/snap-confine.snapd. /var/lib/snapd/apparmor/profiles/snap-update-ns.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.activate /var/lib/snapd/apparmor/profiles/snap.lxd.benchmark /var/lib/snapd/apparmor/profiles/snap.lxd.buginfo /var/lib/snapd/apparmor/profiles/snap.lxd.check-kernel /var/lib/snapd/apparmor/profiles/snap.lxd.daemon /var/lib/snapd/apparmor/profiles/snap.lxd.hook.configure /var/lib/snapd/apparmor/profiles/snap.lxd.hook.install /var/lib/snapd/apparmor/profiles/snap.lxd.hook.remove /var/lib/snapd/apparmor/profiles/snap.lxd.lxc /var/lib/snapd/apparmor/profiles/snap.lxd.lxc-to-lxd /var/lib/snapd/apparmor/profiles/snap.lxd.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.migrate /var/lib/snapd/apparmor/profiles/snap.lxd.user-daemon],False
+183,"storehelpers.go:<:NUM:>: cannot refresh: snap has no updates available: ""core18"", ""core22"", ""lxd"", ""snapd""","storehelpers.go:: cannot refresh: snap has no updates available: ""core18"", ""core22"", ""lxd"", ""snapd""",False
+184,main.go:<:NUM:>: Exiting on terminated signal.,main.go:: Exiting on terminated signal.,True
+185,overlord.go:<:NUM:>: <:*:> state lock file,overlord.go::  state lock file,False
+186,daemon.go:<:NUM:>: started snapd/<:NUM:>.<:NUM:>.<:NUM:> (series <:NUM:>; classic) ubuntu/<:NUM:>.<:NUM:> (amd64) linux/<:NUM:>.<:NUM:>.<:NUM:>-<:NUM:>-generic.,daemon.go:: started snapd/.. (series ; classic) ubuntu/. (amd64) linux/..--generic.,False
+187,daemon.go:<:NUM:>: adjusting startup timeout by <:*:> (pessimistic estimate of 30s plus 5s per snap),daemon.go:: adjusting startup timeout by  (pessimistic estimate of 30s plus 5s per snap),False
+188,backends.go:<:NUM:>: AppArmor status: apparmor is enabled and all features are available,backends.go:: AppArmor status: apparmor is enabled and all features are available,False
+189,Accepted password for <:*:> from <:IP:> port <:NUM:> ssh2,Accepted password for  from  port  ssh2,False
+190,Received signal <:NUM:>; terminating.,Received signal ; terminating.,True
+191,Server listening on <:*:> port <:NUM:>.,Server listening on  port .,False
+192,pam <:*:> authentication failure; <:*:> uid=<:NUM:> euid=<:NUM:> <:*:> <:*:> <:*:> <:*:>,pam  authentication failure;  uid= euid=    ,False
+193,Failed password for <:*:> from <:IP:> port <:NUM:> ssh2,Failed password for  from  port  ssh2,False
+194,root : TTY=pts/<:NUM:> ; <:*:> <:*:> <:*:> ; <:*:> <:*:> <:*:>,root : TTY=pts/ ;    ;   ,False
+195,New session <:NUM:> of user <:*:>,New session  of user ,False
+196,Session <:NUM:> logged out. Waiting for processes to exit.,Session  logged out. Waiting for processes to exit.,False
+197,<:*:> Link UP, Link UP,False
+198,tap1: Gained <:*:>,tap1: Gained ,False
+199,<:*:> Lost carrier, Lost carrier,False
+200,tap2: Gained <:*:>,tap2: Gained ,False
+201,tap3: Gained <:*:>,tap3: Gained ,False
+202,Initial synchronization to time server <:IP:>:<:NUM:> (ntp.ubuntu.com).,Initial synchronization to time server : (ntp.ubuntu.com).,False
+203,Using default interface naming scheme <:*:>,Using default interface naming scheme ,False
+204,"ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.","ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.",False
+205,<:*:> Could not generate persistent MAC: No data available, Could not generate persistent MAC: No data available,False
+206,Starting Time & Date Service...,Starting Time & Date Service...,False
+207,Started Time & Date Service.,Started Time & Date Service.,False
+208,systemd-timedated.service: Succeeded.,systemd-timedated.service: Succeeded.,False
+209,Starting <:*:> of <:*:> <:*:>,Starting  of  ,False
+210,systemd-tmpfiles-clean.service: Succeeded.,systemd-tmpfiles-clean.service: Succeeded.,False
+211,Finished <:*:> of <:*:> <:*:>,Finished  of  ,False
+212,Started Session <:NUM:> of <:*:> <:*:>,Started Session  of  ,False
+213,Starting Daily apt upgrade and clean activities...,Starting Daily apt upgrade and clean activities...,False
+214,Starting <:*:> Daemon...,Starting  Daemon...,False
+215,Started <:*:> Daemon.,Started  Daemon.,False
+216,Reloading.,Reloading.,False
+217,message repeated <:NUM:> times: [ Reloading.],message repeated  times: [ Reloading.],False
+218,Condition check resulted in <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> being skipped.,Condition check resulted in         being skipped.,False
+219,Condition check resulted in <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> being skipped.,Condition check resulted in        being skipped.,False
+220,motd-news.service: Succeeded.,motd-news.service: Succeeded.,False
+221,qemu-kvm.service: Succeeded.,qemu-kvm.service: Succeeded.,False
+222,"Stopped QEMU KVM preparation - module, ksm, hugepages.","Stopped QEMU KVM preparation - module, ksm, hugepages.",True
+223,"Stopping QEMU KVM preparation - module, ksm, hugepages...","Stopping QEMU KVM preparation - module, ksm, hugepages...",True
+224,"Starting QEMU KVM preparation - module, ksm, hugepages...","Starting QEMU KVM preparation - module, ksm, hugepages...",False
+225,"Finished QEMU KVM preparation - module, ksm, hugepages.","Finished QEMU KVM preparation - module, ksm, hugepages.",False
+226,Stopping System Logging Service...,Stopping System Logging Service...,True
+227,rsyslog.service: Succeeded.,rsyslog.service: Succeeded.,False
+228,Stopped System Logging Service.,Stopped System Logging Service.,True
+229,Starting <:*:> <:*:> Service...,Starting   Service...,False
+230,Started <:*:> <:*:> Service.,Started   Service.,False
+231,Stopping OpenBSD Secure Shell server...,Stopping OpenBSD Secure Shell server...,True
+232,ssh.service: Succeeded.,ssh.service: Succeeded.,False
+233,Stopped OpenBSD Secure Shell server.,Stopped OpenBSD Secure Shell server.,True
+234,Starting OpenBSD Secure Shell server...,Starting OpenBSD Secure Shell server...,False
+235,Started OpenBSD Secure Shell server.,Started OpenBSD Secure Shell server.,False
+236,Starting Refresh fwupd metadata and update motd...,Starting Refresh fwupd metadata and update motd...,False
+237,"fwupd-refresh.service: Main process exited, code=exited, status=<:NUM:>/FAILURE","fwupd-refresh.service: Main process exited, code=exited, status=/FAILURE",True
+238,fwupd-refresh.service: Failed with result 'exit-code'.,fwupd-refresh.service: Failed with result 'exit-code'.,True
+239,Failed to start Refresh fwupd metadata and update motd.,Failed to start Refresh fwupd metadata and update motd.,True
+240,Stopping Accounts Service...,Stopping Accounts Service...,True
+241,accounts-daemon.service: Succeeded.,accounts-daemon.service: Succeeded.,False
+242,Stopped Accounts Service.,Stopped Accounts Service.,True
+243,Starting Accounts Service...,Starting Accounts Service...,False
+244,Started Accounts Service.,Started Accounts Service.,False
+245,Reached target <:*:> <:*:>,Reached target  ,False
+246,snapd.seeded.service: Succeeded.,snapd.seeded.service: Succeeded.,False
+247,Stopped Wait until snapd is fully seeded.,Stopped Wait until snapd is fully seeded.,False
+248,Stopping Wait until snapd is fully seeded...,Stopping Wait until snapd is fully seeded...,False
+249,Stopping Snap Daemon...,Stopping Snap Daemon...,True
+250,snapd.service: Succeeded.,snapd.service: Succeeded.,False
+251,Stopped Snap Daemon.,Stopped Snap Daemon.,True
+252,snapd.socket: Succeeded.,snapd.socket: Succeeded.,False
+253,Closed Socket activation for snappy daemon.,Closed Socket activation for snappy daemon.,False
+254,Stopping Socket activation for snappy daemon.,Stopping Socket activation for snappy daemon.,True
+255,Starting Socket activation for snappy daemon.,Starting Socket activation for snappy daemon.,False
+256,Listening on <:*:> <:*:> <:*:> <:*:> daemon.,Listening on     daemon.,False
+257,<:*:> Succeeded., Succeeded.,False
+258,Starting Daily apt download activities...,Starting Daily apt download activities...,False
+259,Starting Wait until snapd is fully seeded...,Starting Wait until snapd is fully seeded...,False
+260,Finished Wait until snapd is fully seeded.,Finished Wait until snapd is fully seeded.,False
+261,Condition check resulted in <:*:> <:*:> <:*:> <:*:> <:*:> being skipped.,Condition check resulted in      being skipped.,False
+262,Stopped Load AppArmor profiles managed internally by snapd.,Stopped Load AppArmor profiles managed internally by snapd.,True
+263,Stopping Load AppArmor profiles managed internally by snapd...,Stopping Load AppArmor profiles managed internally by snapd...,False
+264,Starting Load AppArmor profiles managed internally by snapd...,Starting Load AppArmor profiles managed internally by snapd...,False
+265,Condition check resulted in Auto import assertions from block devices being skipped.,Condition check resulted in Auto import assertions from block devices being skipped.,True
+266,Stopped target <:*:> <:*:>,Stopped target  ,True
+267,Stopping Mounted snaps.,Stopping Mounted snaps.,True
+268,Finished Load AppArmor profiles managed internally by snapd.,Finished Load AppArmor profiles managed internally by snapd.,True
+269,Finished Daily apt upgrade and clean activities.,Finished Daily apt upgrade and clean activities.,False
+270,Finished Daily apt download activities.,Finished Daily apt download activities.,False
+271,CR0=<:HEX:>,CR0=<:HEX:>,False
+272,Received disconnect from <:IP:> port <:NUM:>:<:NUM:>: disconnected by user,Received disconnect from  port :: disconnected by user,True
+273,Disconnected from user <:*:> <:IP:> port <:NUM:>,Disconnected from user   port ,True
+274,Removed session <:NUM:>.,Removed session .,False
+275,(root) <:*:> (root),(root)  (root),False
+276,[session uid=<:NUM:> pid=<:NUM:>] AppArmor D-Bus mediation is enabled,[session uid= pid=] AppArmor D-Bus mediation is enabled,False
+277,"[<:NUM:>.<:NUM:>] perf: interrupt took too long (<:NUM:> > <:NUM:>), lowering kernel.perf event max sample rate to <:NUM:>","[.] perf: interrupt took too long ( > ), lowering kernel.perf event max sample rate to ",True
+278,message repeated <:NUM:> times: [cannot connect to <:IP:>:<:NUM:>: Network is unreachable [v8.<:NUM:>.<:NUM:> try https://www.rsyslog.com/e/<:NUM:> ]],message repeated  times: [cannot connect to :: Network is unreachable [v8.. try https://www.rsyslog.com/e/ ]],True
+279,Started D-Bus <:*:> Message Bus.,Started D-Bus  Message Bus.,False
+280,unknown command <:NUM:>,unknown command ,False
+281,(root) CMD ( test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond),(root) CMD ( test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond),False
+282,(root) CMD (test -e /run/systemd/system || SERVICE MODE=<:NUM:> <:*:> <:*:> <:*:> <:*:>,(root) CMD (test -e /run/systemd/system || SERVICE MODE=    ,False
+283,(root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report <:*:> )),(root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report  )),False
+284,"[origin software=""rsyslogd"" swVersion=""<:NUM:>.<:NUM:>.<:NUM:>"" x-pid=""<:NUM:>"" x-info=""https://www.rsyslog.com""] rsyslogd was HUPed","[origin software=""rsyslogd"" swVersion="".."" x-pid="""" x-info=""https://www.rsyslog.com""] rsyslogd was HUPed",False
+285,storehelpers.go:<:NUM:>: cannot refresh: snap has no updates available: <:*:> <:*:> <:*:>,storehelpers.go:: cannot refresh: snap has no updates available:   ,False
+286,storehelpers.go:<:NUM:>: cannot refresh snap <:*:> snap has no updates available,storehelpers.go:: cannot refresh snap  snap has no updates available,False
+287,Connection <:*:> by <:*:> user <:*:> <:IP:> port <:NUM:> [preauth],Connection  by  user   port  [preauth],False
+288,Mounting Mount unit for <:*:> revision <:NUM:>...,Mounting Mount unit for  revision ...,False
+289,Mounted Mount unit for <:*:> revision <:NUM:>.,Mounted Mount unit for  revision .,False
+290,Starting Rotate log files...,Starting Rotate log files...,False
+291,Starting Daily man-db regeneration...,Starting Daily man-db regeneration...,False
+292,Finished Rotate log files.,Finished Rotate log files.,False
+293,Finished Daily man-db regeneration.,Finished Daily man-db regeneration.,False
+294,[<:NUM:>.<:NUM:>] <:*:> <:*:> <:*:> <:NUM:> callbacks suppressed,[.]     callbacks suppressed,False
+295,"[<:NUM:>.<:NUM:>] audit: type=<:NUM:> audit(<:NUM:>.<:NUM:>:<:NUM:>): apparmor=""STATUS"" operation=""profile replace"" info=""same as current profile, skipping"" profile=""unconfined"" <:*:> pid=<:NUM:> comm=""apparmor parser""","[.] audit: type= audit(.:): apparmor=""STATUS"" operation=""profile replace"" info=""same as current profile, skipping"" profile=""unconfined""  pid= comm=""apparmor parser""",False
+296,"[<:NUM:>.<:NUM:>] audit: type=<:NUM:> audit(<:NUM:>.<:NUM:>:<:NUM:>): apparmor=""STATUS"" operation=""profile replace"" profile=""unconfined"" <:*:> pid=<:NUM:> comm=""apparmor parser""","[.] audit: type= audit(.:): apparmor=""STATUS"" operation=""profile replace"" profile=""unconfined""  pid= comm=""apparmor parser""",False
+297,=> Starting LXD activation,=> Starting LXD activation,False
+298,==> Loading snap configuration,==> Loading snap configuration,False
+299,==> Checking for socket activation support,==> Checking for socket activation support,False
+300,==> Setting LXD socket ownership,==> Setting LXD socket ownership,False
+301,==> Setting LXD user socket ownership,==> Setting LXD user socket ownership,False
+302,"==> LXD never started on this system, no need to start it now","==> LXD never started on this system, no need to start it now",False
+303,storehelpers.go:<:NUM:>: cannot refresh: snap has no updates available: <:*:> <:*:>,storehelpers.go:: cannot refresh: snap has no updates available:  ,False
+304,services.go:<:NUM:>: RemoveSnapServices - <:*:> <:*:>,services.go:: RemoveSnapServices -  ,False
+305,(root) CMD ((sleep <:NUM:> ; curl http://<:IP:>:<:NUM:>/notify/Cloudnet2)),(root) CMD ((sleep  ; curl http://:/notify/Cloudnet2)),False
+306,(root) CMD (curl http://<:IP:>:<:NUM:>/notify/Cloudnet2),(root) CMD (curl http://:/notify/Cloudnet2),False
+307,"(CRON) info (No MTA installed, discarding output)","(CRON) info (No MTA installed, discarding output)",False
+308,(root) <:*:> EDIT (root),(root)  EDIT (root),False
+309,[ <:NUM:>.<:NUM:>] e1000e: enp1s0 NIC Link is Down,[ .] e1000e: enp1s0 NIC Link is Down,False
+310,"[ <:NUM:>.<:NUM:>] e1000e: enp1s0 NIC Link is Up <:NUM:> Mbps Full Duplex, Flow Control: None","[ .] e1000e: enp1s0 NIC Link is Up  Mbps Full Duplex, Flow Control: None",False
+311,[ <:NUM:>.<:NUM:>] <:*:> <:*:>,[ .]  ,False
+312,[ <:NUM:>.<:NUM:>] FS-Cache: Netfs 'nfs' registered for caching,[ .] FS-Cache: Netfs 'nfs' registered for caching,False
+313,[ <:NUM:>.<:NUM:>] NFS: Registering the id resolver key type,[ .] NFS: Registering the id resolver key type,False
+314,[ <:NUM:>.<:NUM:>] Key type id <:*:> registered,[ .] Key type id  registered,False
+315,"[<:NUM:>.<:NUM:>] br0: received packet on enp1s0 with own address as source address (addr:<:ID:>, vlan:<:NUM:>)","[.] br0: received packet on enp1s0 with own address as source address (addr:, vlan:)",False
+316,"[<:NUM:>.<:NUM:>] SGI XFS with ACLs, security attributes, realtime, no debug enabled","[.] SGI XFS with ACLs, security attributes, realtime, no debug enabled",False
+317,"[<:NUM:>.<:NUM:>] JFS: nTxBlock = <:NUM:>, nTxLock = <:NUM:>","[.] JFS: nTxBlock = , nTxLock = ",False
+318,[<:NUM:>.<:NUM:>] ntfs: driver <:NUM:>.<:NUM:>.<:NUM:> [Flags: R/O MODULE].,[.] ntfs: driver .. [Flags: R/O MODULE].,False
+319,[<:NUM:>.<:NUM:>] QNX4 filesystem <:NUM:>.<:NUM:>.<:NUM:> registered.,[.] QNX4 filesystem .. registered.,False
+320,"devicemgr.go:<:NUM:>: no NTP sync after 10m0s, trying auto-refresh anyway","devicemgr.go:: no NTP sync after 10m0s, trying auto-refresh anyway",False
+321,daemon.go:<:NUM:>: <:*:> waiting for running hooks,daemon.go::  waiting for running hooks,False
+322,patch.go:<:NUM:>: Patching system state level <:NUM:> to sublevel <:NUM:>...,patch.go:: Patching system state level  to sublevel ...,False
+323,backends.go:<:NUM:>: AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor parser),backends.go:: AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor parser),False
+324,"stateengine.go:<:NUM:>: state ensure error: Get ""https://api.snapcraft.io/api/v1/snaps/sections"": dial tcp: lookup api.snapcraft.io: no such host","stateengine.go:: state ensure error: Get ""https://api.snapcraft.io/api/v1/snaps/sections"": dial tcp: lookup api.snapcraft.io: no such host",True
+325,Exiting on signal <:NUM:>,Exiting on signal ,False
+326,Invalid user <:*:> from <:IP:> port <:NUM:>,Invalid user  from  port ,False
+327,pam <:*:> check pass; user unknown,pam  check pass; user unknown,False
+328,pam <:*:> authentication failure; <:*:> uid=<:NUM:> euid=<:NUM:> <:*:> ruser= <:*:>,pam  authentication failure;  uid= euid=  ruser= ,False
+329,Failed <:*:> for invalid user <:*:> from <:IP:> port <:NUM:> ssh2,Failed  for invalid user  from  port  ssh2,False
+330,PAM <:NUM:> more authentication failures; logname= uid=<:NUM:> euid=<:NUM:> tty=ssh ruser= rhost=<:IP:>,PAM  more authentication failures; logname= uid= euid= tty=ssh ruser= rhost=,False
+331,(to root) <:*:> on <:*:>,(to root)  on ,False
+332,cloudnet : TTY=pts/<:NUM:> ; <:*:> ; USER=root ; COMMAND=/usr/bin/su,cloudnet : TTY=pts/ ;  ; USER=root ; COMMAND=/usr/bin/su,False
+333,"root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -name vm1 -smp <:NUM:> -boot c -m <:NUM:> -vnc :<:NUM:> -drive <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> -cpu host --enable-kvm -qmp unix:/media/qmp1,server,nowait","root : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -name vm1 -smp  -boot c -m  -vnc : -drive       -cpu host --enable-kvm -qmp unix:/media/qmp1,server,nowait",False
+334,"root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -name vm1 -smp <:NUM:> -boot c -m <:NUM:> -vnc :<:NUM:> -drive file=vdisk <:*:> -net nic,model=virtio,macaddr=<:ID:> -net <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>","root : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -name vm1 -smp  -boot c -m  -vnc : -drive file=vdisk  -net nic,model=virtio,macaddr= -net        ",False
+335,"root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -name vm1 -smp <:NUM:> -boot c -m <:NUM:> -vnc :<:NUM:> -drive file=vdisk qe0.img,if=virtio -net nic,model=virtio,macaddr=<:ID:> -net tap,ifname=tap0,script=no,downscript=no -cpu host --enable-kvm -qmp unix:/media/qmp1,server,nowait hostfwd=tcp::<:NUM:>-:<:NUM:>","root : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -name vm1 -smp  -boot c -m  -vnc : -drive file=vdisk qe0.img,if=virtio -net nic,model=virtio,macaddr= -net tap,ifname=tap0,script=no,downscript=no -cpu host --enable-kvm -qmp unix:/media/qmp1,server,nowait hostfwd=tcp::-:",False
+336,root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -name vm1 -smp <:NUM:> -boot c -m <:NUM:> -vnc :<:NUM:> -drive <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>,root : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -name vm1 -smp  -boot c -m  -vnc : -drive          ,False
+337,root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; <:*:> <:*:> <:*:> <:*:>,root : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ;    ,False
+338,root : TTY=pts/<:NUM:> ; <:*:> <:*:> ; USER=root ; <:*:> <:*:> <:*:>,root : TTY=pts/ ;   ; USER=root ;   ,False
+339,root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -name vm1 -smp <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> -net <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>,root : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -name vm1 -smp           -net      ,False
+340,tap0: Gained <:*:>,tap0: Gained ,False
+341,<:*:> Link DOWN, Link DOWN,False
+342,"rtnl: received neighbor for link '<:NUM:>' we don't know about, ignoring.","rtnl: received neighbor for link '' we don't know about, ignoring.",False
+343,<:*:> Gained carrier, Gained carrier,False
+344,Using degraded feature set <:*:> for DNS server <:IP:>.,Using degraded feature set  for DNS server .,True
+345,"Grace period over, resuming full feature set (UDP+EDNS0) for DNS server <:IP:>.","Grace period over, resuming full feature set (UDP+EDNS0) for DNS server .",False
+346,"No network connectivity, watching for changes.","No network connectivity, watching for changes.",False
+347,"Network configuration changed, trying to establish connection.","Network configuration changed, trying to establish connection.",False
+348,"snapd.service: Scheduled restart job, restart counter is at <:NUM:>.","snapd.service: Scheduled restart job, restart counter is at .",False
+349,Stopping Session <:NUM:> of user <:*:>,Stopping Session  of user ,False
+350,Removed slice system-modprobe.slice.,Removed slice system-modprobe.slice.,False
+351,Stopped target Host and Network Name Lookups.,Stopped target Host and Network Name Lookups.,False
+352,Stopped target <:*:> <:*:> <:*:>,Stopped target   ,True
+353,Stopped target <:*:>,Stopped target ,True
+354,Stopped Daily apt upgrade and clean activities.,Stopped Daily apt upgrade and clean activities.,False
+355,Stopped Daily apt download activities.,Stopped Daily apt download activities.,False
+356,e2scrub <:*:> Succeeded.,e2scrub  Succeeded.,False
+357,Stopped Periodic ext4 Online Metadata Check for All Filesystems.,Stopped Periodic ext4 Online Metadata Check for All Filesystems.,False
+358,Stopped Discard unused blocks once a week.,Stopped Discard unused blocks once a week.,False
+359,Stopped Refresh fwupd metadata regularly.,Stopped Refresh fwupd metadata regularly.,False
+360,Stopped Daily <:*:> of <:*:> <:*:>,Stopped Daily  of  ,False
+361,Stopped Daily man-db regeneration.,Stopped Daily man-db regeneration.,False
+362,Stopped Message of the Day.,Stopped Message of the Day.,False
+363,Closed <:*:> <:*:> <:*:> socket.,Closed    socket.,True
+364,Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.,Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.,False
+365,Unmounting RPC Pipe File System...,Unmounting RPC Pipe File System...,False
+366,Stopping Availability of block devices...,Stopping Availability of block devices...,True
+367,Stopped Execute cloud user/final scripts.,Stopped Execute cloud user/final scripts.,False
+368,Stopping LSB: automatic crash report generation...,Stopping LSB: automatic crash report generation...,True
+369,run-rpc pipefs.mount: Succeeded.,run-rpc pipefs.mount: Succeeded.,False
+370,Stopping Deferred execution scheduler...,Stopping Deferred execution scheduler...,True
+371,Stopped Apply the settings specified in cloud-config.,Stopped Apply the settings specified in cloud-config.,False
+372,Closed Socket unix for snap application <:*:>,Closed Socket unix for snap application ,True
+373,Stopping Regular background program processing daemon...,Stopping Regular background program processing daemon...,False
+374,Stopping Create final runtime dir for shutdown pivot root...,Stopping Create final runtime dir for shutdown pivot root...,False
+375,Stopping Getty on tty1...,Stopping Getty on tty1...,False
+376,Stopping LSB: Record successful boot for GRUB...,Stopping LSB: Record successful boot for GRUB...,False
+377,Stopping <:*:> daemon...,Stopping  daemon...,False
+378,Stopping Suspend/Resume Running libvirt Guests...,Stopping Suspend/Resume Running libvirt Guests...,False
+379,Stopping Dispatcher daemon for systemd-networkd...,Stopping Dispatcher daemon for systemd-networkd...,True
+380,Stopping Authorization Manager...,Stopping Authorization Manager...,False
+381,changed password expiry for uml-net,changed password expiry for uml-net,False
+382,group added to /etc/group: <:*:> GID=<:NUM:>,group added to /etc/group:  GID=,False
+383,group added to /etc/gshadow: <:*:>,group added to /etc/gshadow: ,False
+384,new group: <:*:> GID=<:NUM:>,new group:  GID=,False
+385,"[ <:NUM:>.<:NUM:>] <:*:> invoked oom-killer: gfp mask=<:HEX:>(GFP HIGHUSER MOVABLE), order=<:NUM:>, oom score adj=<:NUM:>","[ .]  invoked oom-killer: gfp mask=<:HEX:>(GFP HIGHUSER MOVABLE), order=, oom score adj=",False
+386,[ <:NUM:>.<:NUM:>] CPU: <:NUM:> PID: <:NUM:> Comm: <:*:> Not tainted <:NUM:>.<:NUM:>.<:NUM:>-<:NUM:>-generic #<:NUM:>-Ubuntu,[ .] CPU:  PID:  Comm:  Not tainted ..--generic #-Ubuntu,False
+387,"[ <:NUM:>.<:NUM:>] Hardware name: Hewlett-Packard HP Z620 Workstation/158A, BIOS J61 v03.<:NUM:> <:NUM:>/<:NUM:>/<:NUM:>","[ .] Hardware name: Hewlett-Packard HP Z620 Workstation/158A, BIOS J61 v03. //",False
+388,[ <:NUM:>.<:NUM:>] <:*:> <:*:> <:*:>,[ .]   ,False
+389,[ <:NUM:>.<:NUM:>] <:*:> swap <:*:> <:*:>,[ .]  swap  ,False
+390,[ <:NUM:>.<:NUM:>] ? <:*:> <:*:> <:*:>,[ .] ?   ,False
+391,[ <:NUM:>.<:NUM:>] <:*:> user <:*:> <:*:>,[ .]  user  ,False
+392,[ <:NUM:>.<:NUM:>] <:*:> <:*:> <:*:> <:*:> [kvm],[ .]     [kvm],False
+393,[ <:NUM:>.<:NUM:>] <:*:> <:*:> <:*:> [kvm],[ .]    [kvm],False
+394,[ <:NUM:>.<:NUM:>] <:*:> <:*:> <:*:> [kvm intel],[ .]    [kvm intel],False
+395,[ <:NUM:>.<:NUM:>] ? <:*:> <:*:> <:*:> <:*:> [kvm],[ .] ?     [kvm],False
+396,[ <:NUM:>.<:NUM:>] kvm <:*:> <:*:> <:*:> <:*:> [kvm],[ .] kvm     [kvm],False
+397,[ <:NUM:>.<:NUM:>] ? <:*:> <:*:> <:*:> <:*:>,[ .] ?    ,False
+398,[ <:NUM:>.<:NUM:>] entry SYSCALL <:NUM:> after hwframe+<:HEX:>/<:HEX:>,[ .] entry SYSCALL  after hwframe+<:HEX:>/<:HEX:>,False
+399,[ <:NUM:>.<:NUM:>] Code: <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> b8 <:NUM:> <:NUM:> <:NUM:> <:NUM:> 0f <:NUM:> <<:NUM:>> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>,[ .] Code:                                    b8     0f  <>                     ,False
+400,[ <:NUM:>.<:NUM:>] RSP: <:*:> EFLAGS: <:NUM:> ORIG RAX: <:*:>,[ .] RSP:  EFLAGS:  ORIG RAX: ,False
+401,[ <:NUM:>.<:NUM:>] RAX: <:*:> RBX: <:*:> RCX: <:*:>,[ .] RAX:  RBX:  RCX: ,False
+402,[ <:NUM:>.<:NUM:>] RDX: <:*:> RSI: <:*:> RDI: <:*:>,[ .] RDX:  RSI:  RDI: ,False
+403,[ <:NUM:>.<:NUM:>] RBP: <:*:> R08: <:*:> R09: <:*:>,[ .] RBP:  R08:  R09: ,False
+404,[ <:NUM:>.<:NUM:>] <:*:> <:SEQ:> <:*:> <:*:> <:*:> <:SEQ:>,[ .]      ,False
+405,[ <:NUM:>.<:NUM:>] <:*:>,[ .] ,False
+406,[ <:NUM:>.<:NUM:>] active <:*:> inactive <:*:> isolated <:*:>,[ .] active  inactive  isolated ,False
+407,[ <:NUM:>.<:NUM:>] unevictable:<:NUM:> dirty:<:NUM:> writeback:<:NUM:> unstable:<:NUM:>,[ .] unevictable: dirty: writeback: unstable:,False
+408,[ <:NUM:>.<:NUM:>] slab reclaimable:<:NUM:> slab unreclaimable:<:NUM:>,[ .] slab reclaimable: slab unreclaimable:,False
+409,[ <:NUM:>.<:NUM:>] mapped:<:NUM:> shmem:<:NUM:> pagetables:<:NUM:> bounce:<:NUM:>,[ .] mapped: shmem: pagetables: bounce:,False
+410,[ <:NUM:>.<:NUM:>] free:<:NUM:> free pcp:<:NUM:> free cma:<:NUM:>,[ .] free: free pcp: free cma:,False
+411,[ <:NUM:>.<:NUM:>] Node <:NUM:> active <:*:> inactive <:*:> active <:*:> inactive <:*:> unevictable:18472kB isolated(anon):0kB isolated(file):0kB <:*:> <:*:> <:*:> <:*:> shmem thp: 0kB shmem pmdmapped: 0kB anon thp: <:*:> writeback tmp:0kB <:*:> all unreclaimable? no,[ .] Node  active  inactive  active  inactive  unevictable:18472kB isolated(anon):0kB isolated(file):0kB     shmem thp: 0kB shmem pmdmapped: 0kB anon thp:  writeback tmp:0kB  all unreclaimable? no,False
+412,[ <:NUM:>.<:NUM:>] Node <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> active <:*:> inactive <:*:> active <:*:> inactive <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> kernel <:*:> <:*:> bounce:0kB free <:*:> local <:*:> free cma:0kB,[ .] Node       active  inactive  active  inactive       kernel   bounce:0kB free  local  free cma:0kB,False
+413,[ <:NUM:>.<:NUM:>] lowmem reserve[]: <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>,[ .] lowmem reserve[]:     ,False
+414,[ <:NUM:>.<:NUM:>] Node <:NUM:> <:*:> <:NUM:>*4kB <:*:> <:*:> <:NUM:>*16kB <:*:> <:NUM:>*32kB (U) <:NUM:>*64kB <:*:> <:NUM:>*128kB <:*:> <:NUM:>*256kB <:*:> <:NUM:>*512kB <:*:> <:*:> <:*:> <:*:> <:NUM:>*4096kB (M) = <:*:>,[ .] Node   *4kB   *16kB  *32kB (U) *64kB  *128kB  *256kB  *512kB     *4096kB (M) = ,False
+415,[ <:NUM:>.<:NUM:>] Node <:NUM:> <:*:> <:NUM:>*4kB <:*:> <:NUM:>*8kB <:*:> <:NUM:>*16kB <:*:> <:NUM:>*32kB <:*:> <:NUM:>*64kB <:*:> <:NUM:>*128kB <:*:> <:NUM:>*256kB <:*:> <:NUM:>*512kB <:*:> <:NUM:>*1024kB <:*:> <:NUM:>*2048kB <:NUM:>*4096kB = <:*:>,[ .] Node   *4kB  *8kB  *16kB  *32kB  *64kB  *128kB  *256kB  *512kB  *1024kB  *2048kB *4096kB = ,False
+416,[ <:NUM:>.<:NUM:>] Node <:NUM:> hugepages total=<:NUM:> hugepages free=<:NUM:> hugepages surp=<:NUM:> hugepages <:*:>,[ .] Node  hugepages total= hugepages free= hugepages surp= hugepages ,False
+417,[ <:NUM:>.<:NUM:>] <:NUM:> <:*:> <:*:> <:*:>,[ .]    ,False
+418,[ <:NUM:>.<:NUM:>] <:NUM:> pages in swap cache,[ .]  pages in swap cache,False
+419,"[ <:NUM:>.<:NUM:>] Swap cache stats: add <:NUM:>, delete <:NUM:>, find <:NUM:>/<:NUM:>","[ .] Swap cache stats: add , delete , find /",False
+420,[ <:NUM:>.<:NUM:>] Tasks state (memory values in pages):,[ .] Tasks state (memory values in pages):,False
+421,[ <:NUM:>.<:NUM:>] [ pid ] uid tgid total vm rss pgtables bytes swapents oom score adj name,[ .] [ pid ] uid tgid total vm rss pgtables bytes swapents oom score adj name,False
+422,[ <:NUM:>.<:NUM:>] [ <:NUM:>] <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:>,[ .] [ ]        ,False
+423,[ <:NUM:>.<:NUM:>] [ <:NUM:>] <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:>,[ .] [ ]         ,False
+424,"[ <:NUM:>.<:NUM:>] oom-kill:constraint=CONSTRAINT <:*:> <:*:> oom,task <:*:>","[ .] oom-kill:constraint=CONSTRAINT   oom,task ",True
+425,[ <:NUM:>.<:NUM:>] Out of memory: Killed process <:NUM:> (qemu-system-x86) <:*:> <:*:> <:*:> <:*:> UID:<:NUM:> <:*:> oom score adj:<:NUM:>,[ .] Out of memory: Killed process  (qemu-system-x86)     UID:  oom score adj:,True
+426,"[ <:NUM:>.<:NUM:>] perf: interrupt took too long (<:NUM:> > <:NUM:>), lowering kernel.perf event max sample rate to <:NUM:>","[ .] perf: interrupt took too long ( > ), lowering kernel.perf event max sample rate to ",True
+427,root : TTY=pts/<:NUM:> ; <:*:> ; USER=root ; <:*:> <:*:> <:*:> <:*:>,root : TTY=pts/ ;  ; USER=root ;    ,False
+428,root : TTY=pts/<:NUM:> ; <:*:> ; USER=root ; <:*:> <:*:> <:*:> <:*:> <:*:>,root : TTY=pts/ ;  ; USER=root ;     ,False
+429,root : TTY=pts/<:NUM:> ; PWD=/home/cloudnet/pratheek-research-repo ; USER=root ; COMMAND=/usr/sbin/ip link add name br0 type bridge,root : TTY=pts/ ; PWD=/home/cloudnet/pratheek-research-repo ; USER=root ; COMMAND=/usr/sbin/ip link add name br0 type bridge,False
+430,root : TTY=pts/<:NUM:> ; <:*:> ; USER=root ; <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>,root : TTY=pts/ ;  ; USER=root ;      ,False
+431,Created slice User Slice of UID <:NUM:>.,Created slice User Slice of UID .,False
+432,Starting User Runtime Directory /run/user/<:NUM:>...,Starting User Runtime Directory /run/user/...,False
+433,Finished User Runtime Directory /run/user/<:NUM:>.,Finished User Runtime Directory /run/user/.,False
+434,Starting User Manager for UID <:NUM:>...,Starting User Manager for UID ...,False
+435,Reached target <:*:>,Reached target ,False
+436,Starting D-Bus User Message Bus <:*:>,Starting D-Bus User Message Bus ,False
+437,Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).,Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).,False
+438,Listening on GnuPG cryptographic agent and passphrase cache (restricted).,Listening on GnuPG cryptographic agent and passphrase cache (restricted).,False
+439,Listening on GnuPG cryptographic agent (ssh-agent emulation).,Listening on GnuPG cryptographic agent (ssh-agent emulation).,False
+440,Listening on GnuPG cryptographic agent and passphrase cache.,Listening on GnuPG cryptographic agent and passphrase cache.,False
+441,Listening on debconf communication socket.,Listening on debconf communication socket.,False
+442,Listening on D-Bus User Message Bus Socket.,Listening on D-Bus User Message Bus Socket.,False
+443,Reached target <:*:> <:*:> <:*:>,Reached target   ,False
+444,Startup finished in <:*:>,Startup finished in ,False
+445,Started User Manager for UID <:NUM:>.,Started User Manager for UID .,False
+446,Stopping User Manager for UID <:NUM:>...,Stopping User Manager for UID ...,True
+447,Closed D-Bus User Message Bus Socket.,Closed D-Bus User Message Bus Socket.,False
+448,Closed GnuPG network certificate management daemon.,Closed GnuPG network certificate management daemon.,False
+449,Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).,Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).,False
+450,Closed GnuPG cryptographic agent and passphrase cache (restricted).,Closed GnuPG cryptographic agent and passphrase cache (restricted).,False
+451,Closed GnuPG cryptographic agent (ssh-agent emulation).,Closed GnuPG cryptographic agent (ssh-agent emulation).,False
+452,Closed GnuPG cryptographic agent and passphrase cache.,Closed GnuPG cryptographic agent and passphrase cache.,False
+453,Closed <:*:> <:*:> socket.,Closed   socket.,True
+454,Finished Exit the Session.,Finished Exit the Session.,False
+455,Stopped User Manager for UID <:NUM:>.,Stopped User Manager for UID .,True
+456,Stopping User Runtime Directory /run/user/<:NUM:>...,Stopping User Runtime Directory /run/user/...,False
+457,Stopped User Runtime Directory /run/user/<:NUM:>.,Stopped User Runtime Directory /run/user/.,True
+458,Removed slice User Slice of UID <:NUM:>.,Removed slice User Slice of UID .,False
+459,Starting LSB: start and stop UML networking services...,Starting LSB: start and stop UML networking services...,False
+460,Started LSB: start and stop UML networking services.,Started LSB: start and stop UML networking services.,False
+461,* Starting User-mode networking switch uml switch,* Starting User-mode networking switch uml switch,False
+462,...done.,...done.,False
+463,"new user: <:*:> UID=<:NUM:>, GID=<:NUM:>, <:*:> <:*:> <:*:>","new user:  UID=, GID=,   ",False
+464,change user 'uml-net' password,change user 'uml-net' password,False
+465,[ <:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: <:*:> SuperSpeed Gen <:NUM:> USB device number <:NUM:> using xhci hcd,[ .] usb -:  SuperSpeed Gen  USB device number  using xhci hcd,False
+466,"[ <:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: New USB device found, idVendor=30de, idProduct=<:NUM:>, bcdDevice= <:NUM:>.<:NUM:>","[ .] usb -: New USB device found, idVendor=30de, idProduct=, bcdDevice= .",False
+467,"[ <:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: New USB device strings: Mfr=<:NUM:>, Product=<:NUM:>, SerialNumber=<:NUM:>","[ .] usb -: New USB device strings: Mfr=, Product=, SerialNumber=",False
+468,[ <:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: <:*:> <:*:>,[ .] usb -:  ,False
+469,[ <:NUM:>.<:NUM:>] usb-storage <:NUM:>-<:NUM:>:<:NUM:>.<:NUM:>: USB Mass Storage device detected,[ .] usb-storage -:.: USB Mass Storage device detected,False
+470,[ <:NUM:>.<:NUM:>] scsi host9: usb-storage <:NUM:>-<:NUM:>:<:NUM:>.<:NUM:>,[ .] scsi host9: usb-storage -:.,False
+471,[ <:NUM:>.<:NUM:>] usbcore: registered new interface driver <:*:>,[ .] usbcore: registered new interface driver ,False
+472,[ <:NUM:>.<:NUM:>] scsi <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Direct-Access KIOXIA TransMemory PMAP PQ: <:NUM:> ANSI: <:NUM:>,[ .] scsi :::: Direct-Access KIOXIA TransMemory PMAP PQ:  ANSI: ,False
+473,[ <:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>,[ .] sd ::::      ,False
+474,[ <:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>,[ .] sd :::: [sdb]       ,False
+475,[ <:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> <:*:> <:*:> <:*:> <:*:>,[ .] sd ::::     ,False
+476,[ <:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>,[ .] sd :::: [sdb]      ,False
+477,"[ <:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA","[ .] sd :::: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA",False
+478,[ <:NUM:>.<:NUM:>] FAT-fs (sdb): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.,[ .] FAT-fs (sdb): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.,False
+479,[<:NUM:>.<:NUM:>] qemu-system-x86[<:NUM:>]: segfault at <:*:> ip <:*:> sp <:*:> error <:NUM:> in qemu-system-x86 <:*:>,[.] qemu-system-x86[]: segfault at  ip  sp  error  in qemu-system-x86 ,True
+480,[<:NUM:>.<:NUM:>] Code: <:*:> <:*:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:*:> 8b <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:NUM:>,[.] Code:                                            8b                    ,False
+481,[ <:NUM:>.<:NUM:>] qemu-system-x86[<:NUM:>]: segfault at <:NUM:> ip <:*:> sp <:*:> error <:NUM:> in qemu-system-x86 <:*:>,[ .] qemu-system-x86[]: segfault at  ip  sp  error  in qemu-system-x86 ,True
+482,[ <:NUM:>.<:NUM:>] Code: <:*:> <:*:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> 8b <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:>,[ .] Code:                                            8b                    ,False
+483,[<:NUM:>.<:NUM:>] nfs: RPC call returned error <:NUM:>,[.] nfs: RPC call returned error ,True
+484,"[<:NUM:>.<:NUM:>] audit: type=<:NUM:> audit(<:NUM:>.<:NUM:>:<:NUM:>): apparmor=""DENIED"" operation=""sendmsg"" profile=""/usr/bin/man"" pid=<:NUM:> comm=""nroff"" laddr=<:IP:> lport=<:NUM:> faddr=<:IP:> fport=<:NUM:> family=""inet"" sock type=""stream"" protocol=<:NUM:> requested mask=""send"" denied mask=""send""","[.] audit: type= audit(.:): apparmor=""DENIED"" operation=""sendmsg"" profile=""/usr/bin/man"" pid= comm=""nroff"" laddr= lport= faddr= fport= family=""inet"" sock type=""stream"" protocol= requested mask=""send"" denied mask=""send""",False
+485,[<:NUM:>.<:NUM:>] Code: <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:*:> <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:*:> <:*:> <:NUM:> 8d <:*:> <:*:> <:NUM:> <:*:> <:*:> <<:NUM:>> 8b <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:*:> <:*:> <:*:>,[.] Code:                                     8d      <> 8b                    ,False
+486,[ <:NUM:>.<:NUM:>] qemu-system-x86[<:NUM:>]: segfault at <:NUM:> ip 00007f11b2991bea sp 00007f1197dfea78 error <:NUM:> in libc-<:NUM:>.<:NUM:>.so[7f11b2902000+<:NUM:>],[ .] qemu-system-x86[]: segfault at  ip 00007f11b2991bea sp 00007f1197dfea78 error  in libc-..so[7f11b2902000+],True
+487,[ <:NUM:>.<:NUM:>] Code: f3 0f 1e fa <:NUM:> 0f ef c0 <:NUM:> 0f ef c9 <:NUM:> 0f ef d2 <:NUM:> 0f ef db <:NUM:> <:NUM:> f8 <:NUM:> <:NUM:> f9 <:NUM:> <:NUM:> e1 ff 0f <:NUM:> <:NUM:> <:NUM:> <:NUM:> f9 cf 0f <:NUM:> <:NUM:> <:NUM:> <:NUM:> <f3> 0f 6f <:NUM:> <:NUM:> 0f <:NUM:> e0 <:NUM:> 0f d7 d4 <:NUM:> d2 <:NUM:> <:NUM:> 0f bc c2 c3 <:NUM:> <:NUM:>,[ .] Code: f3 0f 1e fa  0f ef c0  0f ef c9  0f ef d2  0f ef db   f8   f9   e1 ff 0f     f9 cf 0f     <f3> 0f 6f   0f  e0  0f d7 d4  d2   0f bc c2 c3  ,True
+488,sdb: can't store path info,sdb: can't store path info,False
+489,uevent trigger error,uevent trigger error,True
+490,"omfwd: TCPSendBuf error <:NUM:>, destruct TCP Connection to <:IP:>:<:NUM:> [v8.<:NUM:>.<:NUM:> try https://www.rsyslog.com/e/<:NUM:> ]","omfwd: TCPSendBuf error , destruct TCP Connection to : [v8.. try https://www.rsyslog.com/e/ ]",True
+491,"action 'action-<:NUM:>-builtin:omfwd' suspended (module 'builtin:omfwd'), retry <:NUM:>. There should be messages before this one giving the reason for suspension. [v8.<:NUM:>.<:NUM:> try https://www.rsyslog.com/e/<:NUM:> ]","action 'action--builtin:omfwd' suspended (module 'builtin:omfwd'), retry . There should be messages before this one giving the reason for suspension. [v8.. try https://www.rsyslog.com/e/ ]",False
+492,root : TTY=pts/<:NUM:> ; <:*:> <:*:> <:*:> ; USER=root ; <:*:> <:*:> <:*:>,root : TTY=pts/ ;    ; USER=root ;   ,False
+493,root : TTY=pts/<:NUM:> ; <:*:> <:*:> <:*:> ; USER=root ; <:*:> <:*:> <:*:> <:*:>,root : TTY=pts/ ;    ; USER=root ;    ,False
+494,cloudnet : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -hda vmtry disk.img -cdrom ./ubuntu-<:NUM:>.<:NUM:>.<:NUM:>.iso -boot d -m <:NUM:> -smp <:NUM:> -vnc :<:NUM:> -enable-kvm,cloudnet : TTY=pts/ ; PWD=/var/lib/libvirt/images ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -hda vmtry disk.img -cdrom ./ubuntu-...iso -boot d -m  -smp  -vnc : -enable-kvm,False
+495,root : <:*:> ; PWD=/var/lib/libvirt/images ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -hda vmtry disk.img -cdrom <:*:> -boot <:*:> -m <:NUM:> -smp <:NUM:> <:*:> :<:NUM:> -enable-kvm,root :  ; PWD=/var/lib/libvirt/images ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -hda vmtry disk.img -cdrom  -boot  -m  -smp   : -enable-kvm,False
+496,"root : <:*:> ; <:*:> ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -hda vmtry disk.img -smp <:NUM:> -boot c -m <:NUM:> -net nic -net tap,ifname=tap0,script=no,downscript=<:NUM:> -vnc :<:NUM:> <:*:> tablet -enable-kvm","root :  ;  ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -hda vmtry disk.img -smp  -boot c -m  -net nic -net tap,ifname=tap0,script=no,downscript= -vnc :  tablet -enable-kvm",False
+497,<:*:> Gained IPv6LL, Gained IPv6LL,False
+498,* Stopping automatic crash report generation: apport,* Stopping automatic crash report generation: apport,True
+499,[<:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: new SuperSpeed Gen <:NUM:> USB device number <:NUM:> using xhci hcd,[.] usb -: new SuperSpeed Gen  USB device number  using xhci hcd,False
+500,"[<:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: New USB device found, idVendor=30de, idProduct=<:NUM:>, bcdDevice= <:NUM:>.<:NUM:>","[.] usb -: New USB device found, idVendor=30de, idProduct=, bcdDevice= .",False
+501,"[<:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: New USB device strings: Mfr=<:NUM:>, Product=<:NUM:>, SerialNumber=<:NUM:>","[.] usb -: New USB device strings: Mfr=, Product=, SerialNumber=",False
+502,[<:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: <:*:> <:*:>,[.] usb -:  ,False
+503,[<:NUM:>.<:NUM:>] usb-storage <:NUM:>-<:NUM:>:<:NUM:>.<:NUM:>: USB Mass Storage device detected,[.] usb-storage -:.: USB Mass Storage device detected,False
+504,[<:NUM:>.<:NUM:>] scsi <:*:> usb-storage <:NUM:>-<:NUM:>:<:NUM:>.<:NUM:>,[.] scsi  usb-storage -:.,False
+505,[<:NUM:>.<:NUM:>] usbcore: registered new interface driver <:*:>,[.] usbcore: registered new interface driver ,False
+506,[<:NUM:>.<:NUM:>] scsi <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Direct-Access KIOXIA TransMemory PMAP PQ: <:NUM:> ANSI: <:NUM:>,[.] scsi :::: Direct-Access KIOXIA TransMemory PMAP PQ:  ANSI: ,False
+507,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Attached scsi generic sg2 type <:NUM:>,[.] sd :::: Attached scsi generic sg2 type ,False
+508,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> <:NUM:> <:NUM:>-byte logical blocks: (<:NUM:>.<:NUM:> <:*:> <:*:>,[.] sd ::::   -byte logical blocks: (.  ,False
+509,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] <:*:> <:*:> <:*:> <:*:>,[.] sd :::: [sdb]    ,False
+510,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Mode Sense: <:NUM:> <:NUM:> <:NUM:> <:NUM:>,[.] sd ::::  Mode Sense:    ,False
+511,"[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Write cache: disabled, read cache: enabled, doesn't support DPO or FUA","[.] sd ::::  Write cache: disabled, read cache: enabled, doesn't support DPO or FUA",False
+512,[<:NUM:>.<:NUM:>] FAT-fs <:*:> Volume was not properly unmounted. Some data may be corrupt. Please run fsck.,[.] FAT-fs  Volume was not properly unmounted. Some data may be corrupt. Please run fsck.,False
+513,"[<:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: USB disconnect, device number <:NUM:>","[.] usb -: USB disconnect, device number ",True
+514,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdc] <:*:> <:*:> <:*:> <:*:>,[.] sd :::: [sdc]    ,False
+515,[ <:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: <:*:> <:*:> <:*:> <:*:> <:NUM:>,[ .] usb -:     ,False
+516,[ <:NUM:>.<:NUM:>] usb <:NUM:>-<:NUM:>: new high-speed USB device number <:NUM:> using xhci hcd,[ .] usb -: new high-speed USB device number  using xhci hcd,False
+517,"[<:NUM:>.<:NUM:>] L1TF CPU bug present and SMT on, data leak possible. See CVE-<:NUM:>-<:NUM:> and https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/l1tf.html for details.","[.] L1TF CPU bug present and SMT on, data leak possible. See CVE-- and https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/l1tf.html for details.",True
+518,"[ <:NUM:>.<:NUM:>] L1TF CPU bug present and SMT on, data leak possible. See CVE-<:NUM:>-<:NUM:> and https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/l1tf.html for details.","[ .] L1TF CPU bug present and SMT on, data leak possible. See CVE-- and https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/l1tf.html for details.",True
+519,Running guests on default URI:,Running guests on default URI:,False
+520,no running guests.,no running guests.,False
+521,sdc: can't store path info,sdc: can't store path info,False
+522,"sdb: spurious uevent, path not found","sdb: spurious uevent, path not found",False
+523,sdb: path already removed,sdb: path already removed,True
+524,"sdc: spurious uevent, path not found","sdc: spurious uevent, path not found",False
+525,sdc: path already removed,sdc: path already removed,True
+526,message repeated <:NUM:> times: [cannot connect to <:IP:>:<:NUM:>: No route to host [v8.<:NUM:>.<:NUM:> try https://www.rsyslog.com/e/<:NUM:> ]],message repeated  times: [cannot connect to :: No route to host [v8.. try https://www.rsyslog.com/e/ ]],True
+527,root : <:*:> ; <:*:> ; USER=root ; COMMAND=/usr/bin/su,root :  ;  ; USER=root ; COMMAND=/usr/bin/su,False
+528,root : TTY=pts/<:NUM:> ; PWD=/home/cloudnet/qemu-codes/Qemu/Qemu codes/qemu-<:IP:> modified ; USER=root ; COMMAND=/usr/bin/rm tags cscope.files cscope.in.out cscope.out cscope.po.out,root : TTY=pts/ ; PWD=/home/cloudnet/qemu-codes/Qemu/Qemu codes/qemu- modified ; USER=root ; COMMAND=/usr/bin/rm tags cscope.files cscope.in.out cscope.out cscope.po.out,False
+529,Stopped LSB: automatic crash report generation.,Stopped LSB: automatic crash report generation.,True
+530,Stopped Initial cloud-init job (pre-networking).,Stopped Initial cloud-init job (pre-networking).,True
+531,Stopped Initial cloud-init job (metadata service crawler).,Stopped Initial cloud-init job (metadata service crawler).,True
+532,Stopped Dispatcher daemon for systemd-networkd.,Stopped Dispatcher daemon for systemd-networkd.,True
+533,Stopped <:*:> daemon.,Stopped  daemon.,False
+534,Closed Virtual machine lock manager admin socket.,Closed Virtual machine lock manager admin socket.,False
+535,Stopped Suspend/Resume Running libvirt Guests.,Stopped Suspend/Resume Running libvirt Guests.,False
+536,Closed Virtual machine <:*:> manager socket.,Closed Virtual machine  manager socket.,True
+537,Stopped Authorization Manager.,Stopped Authorization Manager.,False
+538,"unattended-upgrades.service: Current command vanished from the unit file, execution of the command list won't be resumed.","unattended-upgrades.service: Current command vanished from the unit file, execution of the command list won't be resumed.",False
+539,a20=<:NUM:>,a20=,False
+540,[<:NUM:>.<:NUM:>] filemap write and wait+<:HEX:>/<:HEX:>,[.] filemap write and wait+<:HEX:>/<:HEX:>,False
+541,[<:NUM:>.<:NUM:>] vfs <:*:> <:*:>,[.] vfs  ,False
+542,root : TTY=pts/<:NUM:> ; <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>,root : TTY=pts/ ;      ,False
+543,root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/qemu-<:NUM:>-to-<:NUM:>/qemu-<:IP:> modified ; USER=root ; COMMAND=/usr/sbin/shutdown now,root : TTY=pts/ ; PWD=/var/lib/libvirt/images/qemu--to-/qemu- modified ; USER=root ; COMMAND=/usr/sbin/shutdown now,False
+544,"root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -name vm1 -drive file=disk1.img,if=virtio -smp <:NUM:> -m <:NUM:> -boot c -net nic,model=virtio,macaddr=<:ID:> -net tap,ifname=tap0,script=no,downscript=no -vnc :<:NUM:> -usbdevice tablet -cpu host -enable-kvm -qmp unix:/media/qmp1,server,nowait -D /var/log/VM1 qemu.log","root : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -name vm1 -drive file=disk1.img,if=virtio -smp  -m  -boot c -net nic,model=virtio,macaddr= -net tap,ifname=tap0,script=no,downscript=no -vnc : -usbdevice tablet -cpu host -enable-kvm -qmp unix:/media/qmp1,server,nowait -D /var/log/VM1 qemu.log",False
+545,cloudnet : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/bin/socat - /media/qmp1,cloudnet : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/bin/socat - /media/qmp1,False
+546,cloudnet : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/bin/su,cloudnet : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/bin/su,False
+547,[ <:NUM:>.<:NUM:>] scsi host9: scsi debug: version <:NUM:> [<:NUM:>],[ .] scsi host9: scsi debug: version  [],False
+548,"[ <:NUM:>.<:NUM:>] dev size mb=<:NUM:>, opts=<:HEX:>, submit queues=<:NUM:>, statistics=<:NUM:>","[ .] dev size mb=, opts=<:HEX:>, submit queues=, statistics=",False
+549,[ <:NUM:>.<:NUM:>] scsi <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Direct-Access Linux scsi debug <:NUM:> PQ: <:NUM:> ANSI: <:NUM:>,[ .] scsi :::: Direct-Access Linux scsi debug  PQ:  ANSI: ,False
+550,"[ <:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA","[ .] sd :::: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA",False
+551,[ <:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] Attached SCSI disk,[ .] sd :::: [sdb] Attached SCSI disk,False
+552,[ <:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] tag#<:NUM:> CDB: Read(<:NUM:>) <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>,[ .] sd :::: [sdb] tag# CDB: Read()          ,False
+553,"[ <:NUM:>.<:NUM:>] blk update request: critical medium error, dev sdb, sector <:NUM:> op <:HEX:>:(READ) flags <:HEX:> phys seg <:NUM:> prio class <:NUM:>","[ .] blk update request: critical medium error, dev sdb, sector  op <:HEX:>:(READ) flags <:HEX:> phys seg  prio class ",True
+554,"[ <:NUM:>.<:NUM:>] Buffer I/O error on dev <:*:> logical block <:NUM:>, async page read","[ .] Buffer I/O error on dev  logical block , async page read",True
+555,[ <:NUM:>.<:NUM:>] scsi io completion action: <:NUM:> callbacks suppressed,[ .] scsi io completion action:  callbacks suppressed,False
+556,[ <:NUM:>.<:NUM:>] sysrq: Manual OOM execution,[ .] sysrq: Manual OOM execution,False
+557,"[ <:NUM:>.<:NUM:>] kworker/<:NUM:>:<:NUM:> invoked oom-killer: gfp mask=<:HEX:>(GFP KERNEL), order=<:NUM:>, oom score adj=<:NUM:>","[ .] kworker/: invoked oom-killer: gfp mask=<:HEX:>(GFP KERNEL), order=, oom score adj=",False
+558,[ <:NUM:>.<:NUM:>] Workqueue: events moom callback,[ .] Workqueue: events moom callback,False
+559,[ <:NUM:>.<:NUM:>] Node <:NUM:> <:*:> <:NUM:>*4kB <:*:> <:NUM:>*8kB <:*:> <:NUM:>*16kB <:*:> <:NUM:>*32kB <:*:> <:NUM:>*64kB <:*:> <:NUM:>*128kB <:*:> <:NUM:>*256kB <:*:> <:NUM:>*512kB <:*:> <:NUM:>*1024kB <:*:> <:NUM:>*2048kB <:*:> <:NUM:>*4096kB <:*:> = <:*:>,[ .] Node   *4kB  *8kB  *16kB  *32kB  *64kB  *128kB  *256kB  *512kB  *1024kB  *2048kB  *4096kB  = ,False
+560,[ <:NUM:>.<:NUM:>] INFO: task qemu-system-x86:<:NUM:> blocked for more than <:NUM:> seconds.,[ .] INFO: task qemu-system-x86: blocked for more than  seconds.,True
+561,[ <:NUM:>.<:NUM:>] Not tainted <:NUM:>.<:NUM:>.<:NUM:>-<:NUM:>-generic #<:NUM:>-Ubuntu,[ .] Not tainted ..--generic #-Ubuntu,False
+562,"[ <:NUM:>.<:NUM:>] ""echo <:NUM:> > /proc/sys/kernel/hung task timeout secs"" disables this message.","[ .] ""echo  > /proc/sys/kernel/hung task timeout secs"" disables this message.",False
+563,[ <:NUM:>.<:NUM:>] qemu-system-x86 D <:NUM:> <:NUM:> <:NUM:> <:HEX:>,[ .] qemu-system-x86 D    <:HEX:>,False
+564,[ <:NUM:>.<:NUM:>] <:*:> <:*:> page <:*:>,[ .]   page ,False
+565,[ <:NUM:>.<:NUM:>] file write and wait range+<:HEX:>/<:HEX:>,[ .] file write and wait range+<:HEX:>/<:HEX:>,False
+566,[ <:NUM:>.<:NUM:>] nfs file fsync+<:HEX:>/<:HEX:> [nfs],[ .] nfs file fsync+<:HEX:>/<:HEX:> [nfs],False
+567,[ <:NUM:>.<:NUM:>] Code: Bad RIP value.,[ .] Code: Bad RIP value.,True
+568,[ <:NUM:>.<:NUM:>] R13: <:*:> R14: <:*:> R15: <:*:>,[ .] R13:  R14:  R15: ,False
+569,"[<:NUM:>.<:NUM:>] nouveau <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: DRM: allocated 1920x1200 fb: <:HEX:>, bo 00000000fbc549ee","[.] nouveau ::.: DRM: allocated 1920x1200 fb: <:HEX:>, bo 00000000fbc549ee",False
+570,[<:NUM:>.<:NUM:>] fbcon: nouveaudrmfb (fb0) is primary device,[.] fbcon: nouveaudrmfb (fb0) is primary device,False
+571,[<:NUM:>.<:NUM:>] Console: switching to colour frame buffer device 240x75,[.] Console: switching to colour frame buffer device 240x75,False
+572,[<:NUM:>.<:NUM:>] nouveau <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: fb0: nouveaudrmfb frame buffer device,[.] nouveau ::.: fb0: nouveaudrmfb frame buffer device,False
+573,FAILED LOGIN (<:NUM:>) on '/dev/tty1' FOR <:*:> Authentication failure,FAILED LOGIN () on '/dev/tty1' FOR  Authentication failure,False
+574,ROOT LOGIN on '/dev/tty1',ROOT LOGIN on '/dev/tty1',False
+575,"root : <:*:> ; <:*:> ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -name base -smp <:NUM:> -boot c -m <:NUM:> -vnc :<:NUM:> -drive <:*:> -net nic,model=virtio,macaddr=<:ID:> -net tap,ifname=tap0,script=no,downscript=no -cpu host --enable-kvm -qmp unix:/media/qmp1,server,nowait","root :  ;  ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -name base -smp  -boot c -m  -vnc : -drive  -net nic,model=virtio,macaddr= -net tap,ifname=tap0,script=no,downscript=no -cpu host --enable-kvm -qmp unix:/media/qmp1,server,nowait",False
+576,Timed out waiting for reply from <:IP:>:<:NUM:> (ntp.ubuntu.com).,Timed out waiting for reply from : (ntp.ubuntu.com).,False
+577,Starting Online ext4 Metadata Check for All Filesystems...,Starting Online ext4 Metadata Check for All Filesystems...,False
+578,Finished Online ext4 Metadata Check for All Filesystems.,Finished Online ext4 Metadata Check for All Filesystems.,False
+579,Starting Discard unused blocks on filesystems from /etc/fstab...,Starting Discard unused blocks on filesystems from /etc/fstab...,False
+580,Finished Discard unused blocks on filesystems from /etc/fstab.,Finished Discard unused blocks on filesystems from /etc/fstab.,False
+581,"<:*:> Scheduled restart job, restart counter is at <:NUM:>."," Scheduled restart job, restart counter is at .",False
+582,Stopped Getty on tty1.,Stopped Getty on tty1.,False
+583,Started Getty on tty1.,Started Getty on tty1.,False
+584,message repeated <:NUM:> times: [ Failed password for <:*:> from <:IP:> port <:NUM:> ssh2],message repeated  times: [ Failed password for  from  port  ssh2],False
+585,PAM <:NUM:> more authentication <:*:> logname= uid=<:NUM:> euid=<:NUM:> tty=ssh ruser= rhost=<:IP:> <:*:>,PAM  more authentication  logname= uid= euid= tty=ssh ruser= rhost= ,False
+586,changed user <:*:> information,changed user  information,False
+587,pam <:*:> password changed for <:*:>,pam  password changed for ,False
+588,delete user <:*:>,delete user ,False
+589,removed group <:*:> owned by <:*:>,removed group  owned by ,False
+590,removed shadow group <:*:> owned by <:*:>,removed shadow group  owned by ,False
+591,members of group sudo set by root to cloudnet,members of group sudo set by root to cloudnet,False
+592,add 'newuser' to group 'sudo',add 'newuser' to group 'sudo',False
+593,add 'newuser' to shadow group 'sudo',add 'newuser' to shadow group 'sudo',False
+594,[ <:NUM:>.<:NUM:>] EXT4-fs <:*:> mounted filesystem with ordered data mode. Opts: (null),[ .] EXT4-fs  mounted filesystem with ordered data mode. Opts: (null),False
+595,cannot connect to <:IP:>:<:NUM:>: Connection refused [v8.<:NUM:>.<:NUM:> try https://www.rsyslog.com/e/<:NUM:> ],cannot connect to :: Connection refused [v8.. try https://www.rsyslog.com/e/ ],True
+596,"<:*:> Could not find device, waiting for device initialization: No such device"," Could not find device, waiting for device initialization: No such device",False
+597,<:*:> Failed to get link config: No such device, Failed to get link config: No such device,True
+598,mnt-fake disk.mount: Succeeded.,mnt-fake disk.mount: Succeeded.,True
+599,[ <:NUM:>.<:NUM:>] RSP: <:*:> EFLAGS: <:NUM:>,[ .] RSP:  EFLAGS: ,False
+600,[ <:NUM:>.<:NUM:>] R10: <:*:> R11: <:*:> R12: <:*:>,[ .] R10:  R11:  R12: ,False
+601,"[ <:NUM:>.<:NUM:>] oom reaper: reaped process <:NUM:> (qemu-system-x86), now anon-rss:0kB, file-rss:20kB, shmem-rss:4kB","[ .] oom reaper: reaped process  (qemu-system-x86), now anon-rss:0kB, file-rss:20kB, shmem-rss:4kB",False
+602,tap3: Failed to wait for the interface to be initialized: No such device,tap3: Failed to wait for the interface to be initialized: No such device,True
+603,lock user 'test' password,lock user 'test' password,False
+604,unlock user 'test' password,unlock user 'test' password,False
+605,[<:NUM:>.<:NUM:>] scsi host9: scsi debug: version <:NUM:> [<:NUM:>],[.] scsi host9: scsi debug: version  [],False
+606,"[<:NUM:>.<:NUM:>] dev size mb=<:NUM:>, opts=<:HEX:>, submit queues=<:NUM:>, statistics=<:NUM:>","[.] dev size mb=, opts=<:HEX:>, submit queues=, statistics=",False
+607,[<:NUM:>.<:NUM:>] scsi <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Direct-Access Linux scsi debug <:NUM:> PQ: <:NUM:> ANSI: <:NUM:>,[.] scsi :::: Direct-Access Linux scsi debug  PQ:  ANSI: ,False
+608,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Power-on or device reset occurred,[.] sd :::: Power-on or device reset occurred,False
+609,"[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA","[.] sd :::: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA",False
+610,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] Optimal transfer size <:NUM:> bytes,[.] sd :::: [sdb] Optimal transfer size  bytes,False
+611,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] Attached SCSI disk,[.] sd :::: [sdb] Attached SCSI disk,False
+612,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] tag#<:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>,[.] sd :::: [sdb] tag#      ,False
+613,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] tag#<:NUM:> Add. Sense: Unrecovered read error,[.] sd :::: [sdb] tag# Add. Sense: Unrecovered read error,True
+614,[<:NUM:>.<:NUM:>] sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: [sdb] tag#<:NUM:> CDB: Read(<:NUM:>) <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>,[.] sd :::: [sdb] tag# CDB: Read()          ,False
+615,"[<:NUM:>.<:NUM:>] blk update request: critical medium error, dev sdb, sector <:NUM:> op <:HEX:>:(READ) flags <:HEX:> phys seg <:NUM:> prio class <:NUM:>","[.] blk update request: critical medium error, dev sdb, sector  op <:HEX:>:(READ) flags <:HEX:> phys seg  prio class ",True
+616,"[<:NUM:>.<:NUM:>] Buffer I/O error on dev <:*:> logical block <:NUM:>, async page read","[.] Buffer I/O error on dev  logical block , async page read",True
+617,"message repeated <:NUM:> times: [[origin software=""rsyslogd"" swVersion=""<:NUM:>.<:NUM:>.<:NUM:>"" x-pid=""<:NUM:>"" x-info=""https://www.rsyslog.com""] rsyslogd was HUPed]","message repeated  times: [[origin software=""rsyslogd"" swVersion="".."" x-pid="""" x-info=""https://www.rsyslog.com""] rsyslogd was HUPed]",True
+618,"[ <:NUM:>.<:NUM:>] nouveau <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: DRM: allocated 1920x1200 fb: <:HEX:>, bo <:*:>","[ .] nouveau ::.: DRM: allocated 1920x1200 fb: <:HEX:>, bo ",False
+619,[ <:NUM:>.<:NUM:>] fbcon: nouveaudrmfb (fb0) is primary device,[ .] fbcon: nouveaudrmfb (fb0) is primary device,False
+620,[ <:NUM:>.<:NUM:>] Console: switching to colour frame buffer device 240x75,[ .] Console: switching to colour frame buffer device 240x75,False
+621,[ <:NUM:>.<:NUM:>] nouveau <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: fb0: nouveaudrmfb frame buffer device,[ .] nouveau ::.: fb0: nouveaudrmfb frame buffer device,False
+622,"failed adding user 'testuser', data deleted","failed adding user 'testuser', data deleted",False
+623,(root) RELOAD (crontabs/root),(root) RELOAD (crontabs/root),False
+624,root : <:*:> ; <:*:> ; USER=root ; COMMAND=/usr/bin/socat - /media/qmp1,root :  ;  ; USER=root ; COMMAND=/usr/bin/socat - /media/qmp1,False
+625,"root : TTY=pts/<:NUM:> ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86 <:NUM:> -name vm1 -smp -boot c -m -vnc :<:NUM:> -drive <:*:> -net nic,model=virtio,macaddr=<:ID:> -net tap,ifname=tap0,script=no,downscript=no -cpu host --enable-kvm -qmp unix:/media/qmp1,server,nowait","root : TTY=pts/ ; PWD=/var/lib/libvirt/images/walm experiments ; USER=root ; COMMAND=/usr/local/bin/qemu-system-x86  -name vm1 -smp -boot c -m -vnc : -drive  -net nic,model=virtio,macaddr= -net tap,ifname=tap0,script=no,downscript=no -cpu host --enable-kvm -qmp unix:/media/qmp1,server,nowait",False
+626,Package file size: <:NUM:>,Package file size: ,False
+627,Signature archive file size: <:NUM:>,Signature archive file size: ,False
+628,Manifest file size: <:NUM:>,Manifest file size: ,False
+629,Signature file size: <:NUM:>,Signature file size: ,False
+630,ManifestPackageIntegrityPolicy succeeded.,ManifestPackageIntegrityPolicy succeeded.,False
+631,SignatureIntegrityPolicy for primary signature succeeded.,SignatureIntegrityPolicy for primary signature succeeded.,False
+632,SignatureValidityPolicy for primary signature succeeded.,SignatureValidityPolicy for primary signature succeeded.,False
+633,SignatureIntegrityPolicy for primary timestamp signature succeeded.,SignatureIntegrityPolicy for primary timestamp signature succeeded.,False
+634,SignatureValidityPolicy for primary timestamp signature succeeded.,SignatureValidityPolicy for primary timestamp signature succeeded.,False
+635,X.<:NUM:> certificate chain validation will use the fallback certificate bundle for timestamping.,X. certificate chain validation will use the fallback certificate bundle for timestamping.,False
+636,SignatureTrustPolicy for repository primary signature timestamp signature succeeded.,SignatureTrustPolicy for repository primary signature timestamp signature succeeded.,False
+637,X.<:NUM:> certificate chain validation will use the fallback certificate bundle for code signing.,X. certificate chain validation will use the fallback certificate bundle for code signing.,False
+638,SignatureTrustPolicy for repository primary signature succeeded.,SignatureTrustPolicy for repository primary signature succeeded.,False
+639,RepositoryCountersignaturePolicy for repository primary signature succeeded.,RepositoryCountersignaturePolicy for repository primary signature succeeded.,False
+640,Primary signature type: repository primary signature,Primary signature type: repository primary signature,False
+641,Primary signature status: OK,Primary signature status: OK,False
+642,Timestamp signature status: OK,Timestamp signature status: OK,False
+643,Exit code: Success,Exit code: Success,False
+644,Connection closed by <:IP:> port <:NUM:> [preauth],Connection closed by  port  [preauth],False
+645,rsyslog.service: Deactivated successfully.,rsyslog.service: Deactivated successfully.,False
+646,<:NUM:> CPUID levels; family:model:stepping <:HEX:>:3e:<:NUM:> (<:NUM:>:<:NUM:>:<:NUM:>), CPUID levels; family:model:stepping <:HEX:>:3e: (::),False
+647,Need Linux PowerCap sysfs,Need Linux PowerCap sysfs,False
+648,Unsupported cpu model or platform,Unsupported cpu model or platform,False
+649,No valid path found for <:*:>,No valid path found for ,False
+650,thermald.service: Deactivated successfully.,thermald.service: Deactivated successfully.,False
+651,failed to load module mdraid: libbd mdraid.so.<:NUM:>: cannot open shared object file: No such file or directory,failed to load module mdraid: libbd mdraid.so.: cannot open shared object file: No such file or directory,True
+652,<info> ModemManager (version <:NUM:>.<:NUM:>.<:NUM:>) starting in system bus...,<info> ModemManager (version ..) starting in system bus...,False
+653,Started Dispatcher daemon for systemd-networkd.,Started Dispatcher daemon for systemd-networkd.,False
+654,Failed to load the 'mdraid' libblockdev plugin,Failed to load the 'mdraid' libblockdev plugin,True
+655,Started <:*:> Manager.,Started  Manager.,False
+656,Acquired the name org.freedesktop.UDisks2 on the system message bus,Acquired the name org.freedesktop.UDisks2 on the system message bus,True
+657,<info> [base-manager] couldn't check support for device <:*:> not supported by any plugin,<info> [base-manager] couldn't check support for device  not supported by any plugin,False
+658,dmesg.service: Deactivated successfully.,dmesg.service: Deactivated successfully.,False
+659,tmp-snap.rootfs <:*:> Deactivated successfully.,tmp-snap.rootfs  Deactivated successfully.,False
+660,[ <:NUM:>.<:NUM:>] <:*:> detected capacity change from <:NUM:> to <:NUM:>,[ .]  detected capacity change from  to ,False
+661,<:*:> Deactivated successfully., Deactivated successfully.,False
+662,Starting Apply the settings specified in cloud-config...,Starting Apply the settings specified in cloud-config...,False
+663,Finished Service for snap application lxd.activate.,Finished Service for snap application lxd.activate.,False
+664,snap.lxd.activate.service: Consumed <:*:> CPU time.,snap.lxd.activate.service: Consumed  CPU time.,False
+665,Cloud-init v. <:NUM:>.<:NUM:>.<:NUM:>-0ubuntu0~<:NUM:>.<:NUM:>.<:NUM:> running <:*:> at <:*:> <:NUM:> Mar <:NUM:> <:NUM:>:<:NUM:>:<:NUM:> <:NUM:>. Up <:NUM:>.<:NUM:> seconds.,Cloud-init v. ..-0ubuntu0~.. running  at   Mar  :: . Up . seconds.,False
+666,Finished Apply the settings specified in cloud-config.,Finished Apply the settings specified in cloud-config.,False
+667,Starting Execute cloud user/final scripts...,Starting Execute cloud user/final scripts...,False
+668,Starting Record Runlevel Change in UTMP...,Starting Record Runlevel Change in UTMP...,False
+669,Finished Record Runlevel Change in UTMP.,Finished Record Runlevel Change in UTMP.,False
+670,Cloud-init v. <:NUM:>.<:NUM:>.<:NUM:>-0ubuntu0~<:NUM:>.<:NUM:>.<:NUM:> finished at <:*:> <:NUM:> Mar <:NUM:> <:NUM:>:<:NUM:>:<:NUM:> <:NUM:>. Datasource DataSourceNone. Up <:NUM:>.<:NUM:> seconds,Cloud-init v. ..-0ubuntu0~.. finished at   Mar  :: . Datasource DataSourceNone. Up . seconds,False
+671,"<:NUM:>-<:NUM:>-<:NUM:> <:NUM:>:<:NUM:>:<:NUM:>,<:NUM:> - cc final message.py[WARNING]: Used fallback datasource","-- ::, - cc final message.py[WARNING]: Used fallback datasource",False
+672,Finished Execute cloud user/final scripts.,Finished Execute cloud user/final scripts.,False
+673,Startup finished in <:*:> (kernel) + 2min <:*:> (userspace) = 2min <:*:>,Startup finished in  (kernel) + 2min  (userspace) = 2min ,False
+674,Starting Download data for packages that failed at package install time...,Starting Download data for packages that failed at package install time...,True
+675,Finished Download data for packages that failed at package install time.,Finished Download data for packages that failed at package install time.,True
+676,[ <:NUM:>.<:NUM:>] EXT4-fs (loop99): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.,[ .] EXT4-fs (loop99): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.,False
+677,mnt-fake disk.mount: Deactivated successfully.,mnt-fake disk.mount: Deactivated successfully.,False
+678,"[ <:NUM:>.<:NUM:>] Hardware name: IBM IBM System x3650 M4: -[7915B3A]-/00KF656, BIOS -[VVE142DUS-<:NUM:>.<:NUM:>]- <:NUM:>/<:NUM:>/<:NUM:>","[ .] Hardware name: IBM IBM System x3650 M4: -[7915B3A]-/00KF656, BIOS -[VVE142DUS-.]- //",False
+679,[ <:NUM:>.<:NUM:>] Code: Unable to access opcode bytes at RIP <:HEX:>.,[ .] Code: Unable to access opcode bytes at RIP <:HEX:>.,True
+680,[ <:NUM:>.<:NUM:>] Node <:NUM:> active <:*:> inactive <:*:> active <:*:> inactive <:*:> <:*:> <:*:> isolated(file):0kB <:*:> <:*:> <:*:> <:*:> shmem thp: 0kB shmem pmdmapped: 0kB anon thp: <:*:> writeback tmp:0kB kernel <:*:> <:*:> all unreclaimable? <:*:>,[ .] Node  active  inactive  active  inactive    isolated(file):0kB     shmem thp: 0kB shmem pmdmapped: 0kB anon thp:  writeback tmp:0kB kernel   all unreclaimable? ,False
+681,[ <:NUM:>.<:NUM:>] Node <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> reserved <:*:> active <:*:> inactive <:*:> active <:*:> inactive <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> bounce:0kB free <:*:> local <:*:> free cma:0kB,[ .] Node       reserved  active  inactive  active  inactive       bounce:0kB free  local  free cma:0kB,False
+682,[ <:NUM:>.<:NUM:>] Node <:NUM:> DMA: <:NUM:>*4kB <:NUM:>*8kB <:NUM:>*16kB <:NUM:>*32kB <:NUM:>*64kB <:NUM:>*128kB <:NUM:>*256kB <:NUM:>*512kB <:NUM:>*1024kB (U) <:NUM:>*2048kB (M) <:NUM:>*4096kB (M) = 11264kB,[ .] Node  DMA: *4kB *8kB *16kB *32kB *64kB *128kB *256kB *512kB *1024kB (U) *2048kB (M) *4096kB (M) = 11264kB,False
+683,[ <:NUM:>.<:NUM:>] Node <:NUM:> Normal: <:NUM:>*4kB <:*:> <:NUM:>*8kB <:*:> <:NUM:>*16kB <:*:> <:NUM:>*32kB <:*:> <:NUM:>*64kB <:*:> <:NUM:>*128kB <:*:> <:NUM:>*256kB <:*:> <:NUM:>*512kB <:*:> <:*:> <:NUM:>*2048kB <:NUM:>*4096kB = <:*:>,[ .] Node  Normal: *4kB  *8kB  *16kB  *32kB  *64kB  *128kB  *256kB  *512kB   *2048kB *4096kB = ,False
+684,[ <:NUM:>.<:NUM:>] Node <:NUM:> Normal: <:NUM:>*4kB (UME) <:NUM:>*8kB (UME) <:NUM:>*16kB <:*:> <:NUM:>*32kB <:*:> <:NUM:>*64kB (UME) <:NUM:>*128kB (UME) <:NUM:>*256kB <:NUM:>*512kB <:NUM:>*1024kB <:NUM:>*2048kB <:NUM:>*4096kB = <:*:>,[ .] Node  Normal: *4kB (UME) *8kB (UME) *16kB  *32kB  *64kB (UME) *128kB (UME) *256kB *512kB *1024kB *2048kB *4096kB = ,False
+685,cron.service: A process of this unit has been killed by the OOM killer.,cron.service: A process of this unit has been killed by the OOM killer.,True
+686,(CRON) INFO (pidfile fd = <:NUM:>),(CRON) INFO (pidfile fd = ),False
+687,cron.service: Failed with result 'oom-kill'.,cron.service: Failed with result 'oom-kill'.,True
+688,(CRON) INFO (Skipping @reboot jobs -- not system startup),(CRON) INFO (Skipping @reboot jobs -- not system startup),False
+689,cron.service: Unit process <:NUM:> <:*:> remains running after unit stopped.,cron.service: Unit process   remains running after unit stopped.,False
+690,cron.service: Consumed <:*:> <:*:> CPU time.,cron.service: Consumed   CPU time.,True
+691,Stopped Regular background program processing daemon.,Stopped Regular background program processing daemon.,False
+692,cron.service: Found left-over process <:NUM:> <:*:> in control group while starting unit. Ignoring.,cron.service: Found left-over process   in control group while starting unit. Ignoring.,False
+693,"This usually indicates unclean termination of a previous run, or service implementation deficiencies.","This usually indicates unclean termination of a previous run, or service implementation deficiencies.",True
+694,Started Regular background program processing daemon.,Started Regular background program processing daemon.,False
+695,ERROR:Unknown interface index <:NUM:> seen even after reload,ERROR:Unknown interface index  seen even after reload,False
+696,Started Daemon for <:*:> <:*:>,Started Daemon for  ,False
+697,[ <:NUM:>.<:NUM:>] Node <:NUM:> <:*:> <:NUM:>*4kB <:*:> <:NUM:>*8kB <:*:> <:NUM:>*16kB <:*:> <:NUM:>*32kB <:*:> <:NUM:>*64kB <:*:> <:NUM:>*128kB <:*:> <:NUM:>*256kB <:*:> <:NUM:>*512kB <:*:> <:NUM:>*1024kB <:*:> <:NUM:>*2048kB <:*:> <:*:> = <:*:>,[ .] Node   *4kB  *8kB  *16kB  *32kB  *64kB  *128kB  *256kB  *512kB  *1024kB  *2048kB   = ,False
+698,[ <:NUM:>.<:NUM:>] Node <:NUM:> Normal: <:NUM:>*4kB <:*:> <:NUM:>*8kB <:*:> <:NUM:>*16kB <:*:> <:NUM:>*32kB <:*:> <:NUM:>*64kB <:*:> <:NUM:>*128kB <:*:> <:NUM:>*256kB <:*:> <:*:> <:NUM:>*1024kB <:NUM:>*2048kB <:NUM:>*4096kB = <:*:>,[ .] Node  Normal: *4kB  *8kB  *16kB  *32kB  *64kB  *128kB  *256kB   *1024kB *2048kB *4096kB = ,False
+699,"[ <:NUM:>.<:NUM:>] qemu-system-x86 invoked oom-killer: gfp mask=<:HEX:>(GFP <:*:> <:*:> GFP ZERO), order=<:NUM:>, oom score adj=<:NUM:>","[ .] qemu-system-x86 invoked oom-killer: gfp mask=<:HEX:>(GFP   GFP ZERO), order=, oom score adj=",False
+700,[ <:NUM:>.<:NUM:>] ? vmx vcpu <:*:> [kvm intel],[ .] ? vmx vcpu  [kvm intel],False
+701,Listening on Socket unix for snap application <:*:>,Listening on Socket unix for snap application ,False
+702,Starting Service for snap application lxd.activate...,Starting Service for snap application lxd.activate...,False
+703,Started snap.lxd.hook.configure-1d0f8941-e195-4f0d-a6c7-026264e240d3.scope.,Started snap.lxd.hook.configure-1d0f8941-e195-4f0d-a6c7-026264e240d3.scope.,False
+704,Timeout occurred while waiting for network connectivity.,Timeout occurred while waiting for network connectivity.,False
+705,E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (<:NUM:>),E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (),True
+706,apt-daily-upgrade.service: Consumed <:*:> CPU time.,apt-daily-upgrade.service: Consumed  CPU time.,False
+707,[ <:NUM:>.<:NUM:>] ? <:*:> to <:*:> mode <:*:>,[ .] ?  to  mode ,False
+708,[ <:NUM:>.<:NUM:>] ? <:*:> exit to user mode+<:HEX:>/<:HEX:>,[ .] ?  exit to user mode+<:HEX:>/<:HEX:>,False
+709,[ <:NUM:>.<:NUM:>] Node <:NUM:> DMA32: <:NUM:>*4kB <:*:> <:*:> <:*:> <:*:> <:NUM:>*32kB <:*:> <:NUM:>*64kB <:*:> <:NUM:>*128kB <:*:> <:NUM:>*256kB <:*:> <:NUM:>*512kB <:*:> <:NUM:>*1024kB <:*:> <:NUM:>*2048kB <:*:> <:NUM:>*4096kB <:*:> = <:*:>,[ .] Node  DMA32: *4kB     *32kB  *64kB  *128kB  *256kB  *512kB  *1024kB  *2048kB  *4096kB  = ,False
+710,started daemon version <:NUM:>.<:NUM:> using authority implementation `local' version `<:NUM:>.<:NUM:>',started daemon version . using authority implementation `local' version `.',False
+711,Starting <:*:> Manager...,Starting  Manager...,False
+712,Finished GRUB failed boot detection.,Finished GRUB failed boot detection.,True
+713,[ <:NUM:>.<:NUM:>] ? vmx <:*:> <:*:> <:*:> [kvm intel],[ .] ? vmx    [kvm intel],False
+714,message repeated <:NUM:> times: [ mnt-fake disk.mount: Deactivated successfully.],message repeated  times: [ mnt-fake disk.mount: Deactivated successfully.],False
+715,Starting Update APT News...,Starting Update APT News...,False
+716,Starting Update the local ESM caches...,Starting Update the local ESM caches...,False
+717,Finished Update APT News.,Finished Update APT News.,True
+718,Finished Update the local ESM caches.,Finished Update the local ESM caches.,False
+719,apt-daily.service: Consumed <:*:> CPU time.,apt-daily.service: Consumed  CPU time.,True
+720,[ <:NUM:>.<:NUM:>] ? kvm <:*:> <:*:> <:*:> range <:*:> [kvm],[ .] ? kvm    range  [kvm],False
+721,"[system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':<:NUM:>.<:NUM:>' (uid=<:NUM:> pid=<:NUM:> comm=""/usr/bin/fwupdmgr refresh "" label=""unconfined"")","[system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':.' (uid= pid= comm=""/usr/bin/fwupdmgr refresh "" label=""unconfined"")",False
+722,Starting Firmware update daemon...,Starting Firmware update daemon...,False
+723,<:ID:> FuEngine no GUIDs for device TPM [<:SEQ:>], FuEngine no GUIDs for device TPM [],False
+724,Starting Daemon for power management...,Starting Daemon for power management...,False
+725,"<:ID:> FuPluginUefiCapsule SMBIOS BIOS Characteristics Extension Byte <:NUM:> is invalid -- UEFI Specification is unsupported, but /sys/firmware/efi exists: System does not support UEFI mode"," FuPluginUefiCapsule SMBIOS BIOS Characteristics Extension Byte  is invalid -- UEFI Specification is unsupported, but /sys/firmware/efi exists: System does not support UEFI mode",True
+726,<:ID:> FuEngine failed to add device /sys/devices/pnp0/<:NUM:>:<:NUM:>/tpm/tpm0: failed to initialize TPM, FuEngine failed to add device /sys/devices/pnp0/:/tpm/tpm0: failed to initialize TPM,True
+727,Started Firmware update daemon.,Started Firmware update daemon.,False
+728,Updating lvfs,Updating lvfs,False
+729,Downloadingâ€¦: <:NUM:>%,Downloadingâ€¦: %,False
+730,message repeated <:NUM:> times: [ Downloadingâ€¦: <:NUM:>%],message repeated  times: [ Downloadingâ€¦: %],False
+731,Idleâ€¦: <:NUM:>%,Idleâ€¦: %,False
+732,Successfully downloaded new metadata: <:NUM:> local devices supported,Successfully downloaded new metadata:  local devices supported,False
+733,Finished Refresh fwupd metadata and update motd.,Finished Refresh fwupd metadata and update motd.,False
+734,Accepted publickey for root from <:IP:> port <:NUM:> ssh2: RSA SHA256:2oxdGuF8CnaufbYeewKdn9uzgXkUUC8sKJScQKSdgiA,Accepted publickey for root from  port  ssh2: RSA SHA256:2oxdGuF8CnaufbYeewKdn9uzgXkUUC8sKJScQKSdgiA,False
+735,Queued start job for default target Main User Target.,Queued start job for default target Main User Target.,False
+736,Created slice User Application Slice.,Created slice User Application Slice.,False
+737,Listening on REST API socket for snapd user session agent.,Listening on REST API socket for snapd user session agent.,False
+738,Starting Notify NFS peers of a restart...,Starting Notify NFS peers of a restart...,False
+739,Starting LSB: automatic crash report generation...,Starting LSB: automatic crash report generation...,True
+740,[system] AppArmor D-Bus mediation is enabled,[system] AppArmor D-Bus mediation is enabled,False
+741,Started Save initial kernel messages after boot.,Started Save initial kernel messages after boot.,False
+742,Starting Remove Stale Online ext4 Metadata Check Snapshots...,Starting Remove Stale Online ext4 Metadata Check Snapshots...,False
+743,Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.,Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.,False
+744,Starting Record successful boot for GRUB...,Starting Record successful boot for GRUB...,False
+745,Started irqbalance daemon.,Started irqbalance daemon.,True
+746,Starting Dispatcher daemon for systemd-networkd...,Starting Dispatcher daemon for systemd-networkd...,False
+747,(root) CMD (mount <:IP:>:/mnt/nfs/ /mnt/nfs/),(root) CMD (mount :/mnt/nfs/ /mnt/nfs/),False
+748,(root) CMD (sudo /home/cloudnet/pratheek-research-repo/experiment-scripts/Memory-OOM-loop.sh >> /home/cloudnet/pratheek-research-repo/experiment-scripts/Memory-OOM-loop.out <:NUM:>>&<:NUM:>),(root) CMD (sudo /home/cloudnet/pratheek-research-repo/experiment-scripts/Memory-OOM-loop.sh >> /home/cloudnet/pratheek-research-repo/experiment-scripts/Memory-OOM-loop.out >&),False
+749,root : PWD=/root ; USER=root ; COMMAND=/home/cloudnet/pratheek-research-repo/experiment-scripts/Memory-OOM-loop.sh,root : PWD=/root ; USER=root ; COMMAND=/home/cloudnet/pratheek-research-repo/experiment-scripts/Memory-OOM-loop.sh,False
+750,Starting User Login Management...,Starting User Login Management...,False
+751,Starting Permit User Sessions...,Starting Permit User Sessions...,False
+752,Condition check resulted in Ubuntu Pro reboot cmds being skipped.,Condition check resulted in Ubuntu Pro reboot cmds being skipped.,True
+753,Finished Permit User Sessions.,Finished Permit User Sessions.,False
+754,Starting Hold until boot process finishes up...,Starting Hold until boot process finishes up...,False
+755,Starting Terminate Plymouth Boot Screen...,Starting Terminate Plymouth Boot Screen...,False
+756,Finished Hold until boot process finishes up.,Finished Hold until boot process finishes up.,False
+757,Starting Set console scheme...,Starting Set console scheme...,False
+758,Finished Terminate Plymouth Boot Screen.,Finished Terminate Plymouth Boot Screen.,True
+759,Finished Set console scheme.,Finished Set console scheme.,False
+760,Created slice Slice /system/getty.,Created slice Slice /system/getty.,False
+761,e2scrub reap.service: Deactivated successfully.,e2scrub reap.service: Deactivated successfully.,False
+762,Finished Remove Stale Online ext4 Metadata Check Snapshots.,Finished Remove Stale Online ext4 Metadata Check Snapshots.,True
+763,New seat seat0.,New seat seat0.,False
+764,Started Notify NFS peers of a restart.,Started Notify NFS peers of a restart.,False
+765,Watching system buttons on /dev/input/event0 (Power Button),Watching system buttons on /dev/input/event0 (Power Button),False
+766,Finished Record successful boot for GRUB.,Finished Record successful boot for GRUB.,False
+767,Starting GRUB failed boot detection...,Starting GRUB failed boot detection...,True
+768,udisks daemon version <:NUM:>.<:NUM:>.<:NUM:> starting,udisks daemon version .. starting,False
+769,Started LSB: automatic crash report generation.,Started LSB: automatic crash report generation.,False
+770,Started User Login Management.,Started User Login Management.,False
+771,Started Unattended Upgrades Shutdown.,Started Unattended Upgrades Shutdown.,True
+772,[ <:NUM:>.<:NUM:>] Node <:NUM:> DMA32: <:NUM:>*4kB <:NUM:>*8kB <:NUM:>*16kB (M) <:NUM:>*32kB (UM) <:NUM:>*64kB (UM) <:NUM:>*128kB (UM) <:NUM:>*256kB (UM) <:NUM:>*512kB (UM) <:NUM:>*1024kB (UM) <:NUM:>*2048kB (UM) <:NUM:>*4096kB (M) = 123600kB,[ .] Node  DMA32: *4kB *8kB *16kB (M) *32kB (UM) *64kB (UM) *128kB (UM) *256kB (UM) *512kB (UM) *1024kB (UM) *2048kB (UM) *4096kB (M) = 123600kB,False
+773,session-<:NUM:>.scope: Consumed <:*:> CPU time.,session-.scope: Consumed  CPU time.,True
+774,"backend.go:<:NUM:>: cannot create host `snap userd` dbus service file: failed to copy all: ""cp: cannot stat '/snap/snapd/<:NUM:>/usr/share/dbus-<:NUM:>/services/io.snapcraft.Prompt.service': No such file or directory"" (<:NUM:>)","backend.go:: cannot create host `snap userd` dbus service file: failed to copy all: ""cp: cannot stat '/snap/snapd//usr/share/dbus-/services/io.snapcraft.Prompt.service': No such file or directory"" ()",True
+775,snapd.service: Consumed <:NUM:>.162s CPU time.,snapd.service: Consumed .162s CPU time.,True
+776,[ <:NUM:>.<:NUM:>] ? kvm vm ioctl irq line+<:HEX:>/<:HEX:> [kvm],[ .] ? kvm vm ioctl irq line+<:HEX:>/<:HEX:> [kvm],False
+777,Closed REST API socket for snapd user session agent.,Closed REST API socket for snapd user session agent.,True
+778,Removed slice User Application Slice.,Removed slice User Application Slice.,False
+779,user-<:NUM:>.slice: Consumed <:*:> CPU time.,user-.slice: Consumed  CPU time.,True
+780,rsyslog.service: Sent signal SIGHUP to main process <:NUM:> (rsyslogd) on client request.,rsyslog.service: Sent signal SIGHUP to main process  (rsyslogd) on client request.,False
+781,logrotate.service: Consumed <:NUM:>.042s CPU time.,logrotate.service: Consumed .042s CPU time.,False
+782,[ <:NUM:>.<:NUM:>] Code: 8b 4b <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> 8b <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> c0 0f <:NUM:> ce <:NUM:> <:NUM:> <:NUM:> <:NUM:> 8b 7c <:NUM:> <:NUM:> 8b 4c <:NUM:> <:NUM:> <:NUM:> 8b f8 <:NUM:> <:NUM:> <:NUM:> <<:NUM:>> 8b <:NUM:> c8 8b 8b fc <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> fe <:NUM:> d3 ee <:NUM:> <:NUM:> f1 <:NUM:> <:NUM:> c6,[ .] Code: 8b 4b           8b        c0 0f  ce     8b 7c   8b 4c    8b f8    <> 8b  c8 8b 8b fc      fe  d3 ee   f1   c6,False
+783,[ <:NUM:>.<:NUM:>] ? flush smp call function queue+<:HEX:>/<:HEX:>,[ .] ? flush smp call function queue+<:HEX:>/<:HEX:>,False
+784,[ <:NUM:>.<:NUM:>] Code: eb b8 0f 1f <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> f8 0c <:NUM:> <:NUM:> 4b 8b 0c f2 <:NUM:> 3c <:NUM:> <:NUM:> <:NUM:> d2 0f 1f <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> e6 <:NUM:> 0f <:NUM:> <:NUM:> ff ff ff <8b> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> c0 <:NUM:> eb bf 0f 1f <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> f8 <:NUM:> <:NUM:> a2 e9,[ .] Code: eb b8 0f 1f        f8 0c   4b 8b 0c f2  3c    d2 0f 1f        e6  0f   ff ff ff <8b>      c0  eb bf 0f 1f      f8   a2 e9,False
+785,Starting Daily dpkg database backup service...,Starting Daily dpkg database backup service...,False
+786,Finished Daily dpkg database backup service.,Finished Daily dpkg database backup service.,False
+787,[ <:NUM:>.<:NUM:>] ? vmx read guest seg ar+<:HEX:>/<:HEX:> [kvm intel],[ .] ? vmx read guest seg ar+<:HEX:>/<:HEX:> [kvm intel],False
+788,"burst continued <:NUM:> ms, too long time, stopped","burst continued  ms, too long time, stopped",True

@@ -1,0 +1,770 @@
+{
+  "2024-03-29_01_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 00:20:15.999000",
+    "failure_point_timestamp": "2024-03-29 00:38:30.999000",
+    "label_region": 402,
+    "failure_point": 722
+  },
+  "2024-03-29_02_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 01:05:45.999000",
+    "failure_point_timestamp": "2024-03-29 01:24:06.999000",
+    "label_region": 475,
+    "failure_point": 810
+  },
+  "2024-03-29_03_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 01:51:15.999000",
+    "failure_point_timestamp": "2024-03-29 02:09:30.999000",
+    "label_region": 471,
+    "failure_point": 794
+  },
+  "2024-03-29_04_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 02:36:40.999000",
+    "failure_point_timestamp": "2024-03-29 02:55:00.999000",
+    "label_region": 469,
+    "failure_point": 788
+  },
+  "2024-03-29_05_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 03:22:30.999000",
+    "failure_point_timestamp": "2024-03-29 03:40:45.999000",
+    "label_region": 488,
+    "failure_point": 812
+  },
+  "2024-03-29_06_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 04:08:15.999000",
+    "failure_point_timestamp": "2024-03-29 04:26:25.999000",
+    "label_region": 484,
+    "failure_point": 813
+  },
+  "2024-03-29_07_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 04:53:15.999000",
+    "failure_point_timestamp": "2024-03-29 05:11:35.999000",
+    "label_region": 458,
+    "failure_point": 787
+  },
+  "2024-03-29_08_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 05:39:00.999000",
+    "failure_point_timestamp": "2024-03-29 05:57:20.999000",
+    "label_region": 475,
+    "failure_point": 800
+  },
+  "2024-03-29_09_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 06:24:30.999000",
+    "failure_point_timestamp": "2024-03-29 06:42:38.999000",
+    "label_region": 469,
+    "failure_point": 797
+  },
+  "2024-03-29_10_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 07:09:45.999000",
+    "failure_point_timestamp": "2024-03-29 07:27:53.999000",
+    "label_region": 461,
+    "failure_point": 792
+  },
+  "2024-03-29_11_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 07:55:15.999000",
+    "failure_point_timestamp": "2024-03-29 08:13:28.999000",
+    "label_region": 470,
+    "failure_point": 796
+  },
+  "2024-03-29_12_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 08:41:00.999000",
+    "failure_point_timestamp": "2024-03-29 08:59:08.999000",
+    "label_region": 482,
+    "failure_point": 811
+  },
+  "2024-03-29_13_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 09:26:00.999000",
+    "failure_point_timestamp": "2024-03-29 09:44:19.999000",
+    "label_region": 466,
+    "failure_point": 801
+  },
+  "2024-03-29_14_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 10:11:45.999000",
+    "failure_point_timestamp": "2024-03-29 10:30:03.999000",
+    "label_region": 476,
+    "failure_point": 813
+  },
+  "2024-03-29_15_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 10:57:30.999000",
+    "failure_point_timestamp": "2024-03-29 11:15:45.999000",
+    "label_region": 478,
+    "failure_point": 807
+  },
+  "2024-03-29_16_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 11:43:00.999000",
+    "failure_point_timestamp": "2024-03-29 12:01:22.999000",
+    "label_region": 467,
+    "failure_point": 791
+  },
+  "2024-03-29_17_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 12:28:45.999000",
+    "failure_point_timestamp": "2024-03-29 12:47:00.999000",
+    "label_region": 489,
+    "failure_point": 835
+  },
+  "2024-03-29_18_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 13:14:45.999000",
+    "failure_point_timestamp": "2024-03-29 13:32:59.999000",
+    "label_region": 482,
+    "failure_point": 805
+  },
+  "2024-03-29_19_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 13:59:45.999000",
+    "failure_point_timestamp": "2024-03-29 14:18:04.999000",
+    "label_region": 469,
+    "failure_point": 808
+  },
+  "2024-03-29_20_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 14:44:45.999000",
+    "failure_point_timestamp": "2024-03-29 15:03:00.999000",
+    "label_region": 459,
+    "failure_point": 779
+  },
+  "2024-03-29_21_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 15:30:00.999000",
+    "failure_point_timestamp": "2024-03-29 15:48:18.999000",
+    "label_region": 467,
+    "failure_point": 794
+  },
+  "2024-03-29_22_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 16:15:15.999000",
+    "failure_point_timestamp": "2024-03-29 16:33:28.999000",
+    "label_region": 465,
+    "failure_point": 792
+  },
+  "2024-03-29_23_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 17:00:30.999000",
+    "failure_point_timestamp": "2024-03-29 17:18:41.999000",
+    "label_region": 465,
+    "failure_point": 778
+  },
+  "2024-03-29_24_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 17:45:15.999000",
+    "failure_point_timestamp": "2024-03-29 18:03:26.999000",
+    "label_region": 457,
+    "failure_point": 777
+  },
+  "2024-03-29_25_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 18:30:45.999000",
+    "failure_point_timestamp": "2024-03-29 18:49:00.999000",
+    "label_region": 477,
+    "failure_point": 794
+  },
+  "2024-03-29_26_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 19:16:25.999000",
+    "failure_point_timestamp": "2024-03-29 19:34:43.999000",
+    "label_region": 484,
+    "failure_point": 812
+  },
+  "2024-03-29_27_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 20:02:00.999000",
+    "failure_point_timestamp": "2024-03-29 20:20:14.999000",
+    "label_region": 475,
+    "failure_point": 807
+  },
+  "2024-03-29_28_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 20:47:15.999000",
+    "failure_point_timestamp": "2024-03-29 21:05:36.999000",
+    "label_region": 466,
+    "failure_point": 792
+  },
+  "2024-03-29_29_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 21:32:45.999000",
+    "failure_point_timestamp": "2024-03-29 21:51:00.999000",
+    "label_region": 472,
+    "failure_point": 790
+  },
+  "2024-03-29_30_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 22:18:30.999000",
+    "failure_point_timestamp": "2024-03-29 22:36:51.999000",
+    "label_region": 491,
+    "failure_point": 821
+  },
+  "2024-03-29_31_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 23:03:45.999000",
+    "failure_point_timestamp": "2024-03-29 23:21:55.999000",
+    "label_region": 457,
+    "failure_point": 783
+  },
+  "2024-03-30_01_cpu-loop": {
+    "label_region_timestamp": "2024-03-29 23:48:30.999000",
+    "failure_point_timestamp": "2024-03-30 00:06:48.999000",
+    "label_region": 476,
+    "failure_point": 804
+  },
+  "2024-03-30_02_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 00:34:00.999000",
+    "failure_point_timestamp": "2024-03-30 00:52:20.999000",
+    "label_region": 474,
+    "failure_point": 803
+  },
+  "2024-03-30_03_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 01:19:30.999000",
+    "failure_point_timestamp": "2024-03-30 01:37:40.999000",
+    "label_region": 476,
+    "failure_point": 801
+  },
+  "2024-03-30_04_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 02:04:30.999000",
+    "failure_point_timestamp": "2024-03-30 02:22:41.999000",
+    "label_region": 463,
+    "failure_point": 793
+  },
+  "2024-03-30_05_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 02:49:30.999000",
+    "failure_point_timestamp": "2024-03-30 03:07:39.999000",
+    "label_region": 457,
+    "failure_point": 784
+  },
+  "2024-03-30_06_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 03:34:23.999000",
+    "failure_point_timestamp": "2024-03-30 03:52:44.999000",
+    "label_region": 467,
+    "failure_point": 793
+  },
+  "2024-03-30_07_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 04:19:30.999000",
+    "failure_point_timestamp": "2024-03-30 04:37:39.999000",
+    "label_region": 460,
+    "failure_point": 779
+  },
+  "2024-03-30_08_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 05:05:15.999000",
+    "failure_point_timestamp": "2024-03-30 05:23:23.999000",
+    "label_region": 476,
+    "failure_point": 804
+  },
+  "2024-03-30_09_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 05:50:50.999000",
+    "failure_point_timestamp": "2024-03-30 06:09:07.999000",
+    "label_region": 470,
+    "failure_point": 793
+  },
+  "2024-03-30_10_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 06:36:00.999000",
+    "failure_point_timestamp": "2024-03-30 06:54:14.999000",
+    "label_region": 486,
+    "failure_point": 819
+  },
+  "2024-03-30_11_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 07:21:00.999000",
+    "failure_point_timestamp": "2024-03-30 07:39:19.999000",
+    "label_region": 464,
+    "failure_point": 789
+  },
+  "2024-03-30_12_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 08:06:15.999000",
+    "failure_point_timestamp": "2024-03-30 08:24:25.999000",
+    "label_region": 465,
+    "failure_point": 797
+  },
+  "2024-03-30_13_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 08:52:00.999000",
+    "failure_point_timestamp": "2024-03-30 09:10:20.999000",
+    "label_region": 470,
+    "failure_point": 800
+  },
+  "2024-03-30_14_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 09:37:30.999000",
+    "failure_point_timestamp": "2024-03-30 09:55:50.999000",
+    "label_region": 487,
+    "failure_point": 812
+  },
+  "2024-03-30_15_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 10:22:30.999000",
+    "failure_point_timestamp": "2024-03-30 10:40:45.999000",
+    "label_region": 475,
+    "failure_point": 788
+  },
+  "2024-03-30_16_cpu-loop": {
+    "label_region_timestamp": "2024-03-30 11:07:45.999000",
+    "failure_point_timestamp": "2024-03-30 11:25:56.999000",
+    "label_region": 473,
+    "failure_point": 805
+  },
+  "2024-03-31_02_cpu-loop": {
+    "label_region_timestamp": "2024-03-31 17:23:46.999000",
+    "failure_point_timestamp": "2024-03-31 17:45:45.999000",
+    "label_region": 0,
+    "failure_point": 456
+  },
+  "2024-03-31_03_cpu-loop": {
+    "label_region_timestamp": "2024-03-31 18:34:30.999000",
+    "failure_point_timestamp": "2024-03-31 18:58:22.999000",
+    "label_region": 453,
+    "failure_point": 881
+  },
+  "2024-03-31_04_cpu-loop": {
+    "label_region_timestamp": "2024-03-31 19:22:45.999000",
+    "failure_point_timestamp": "2024-03-31 19:46:42.999000",
+    "label_region": 443,
+    "failure_point": 874
+  },
+  "2024-03-31_05_cpu-loop": {
+    "label_region_timestamp": "2024-03-31 20:11:15.999000",
+    "failure_point_timestamp": "2024-03-31 20:35:41.999000",
+    "label_region": 458,
+    "failure_point": 889
+  },
+  "2024-03-31_06_cpu-loop": {
+    "label_region_timestamp": "2024-03-31 21:00:30.999000",
+    "failure_point_timestamp": "2024-03-31 21:24:59.999000",
+    "label_region": 441,
+    "failure_point": 871
+  },
+  "2024-03-31_07_cpu-loop": {
+    "label_region_timestamp": "2024-03-31 21:49:30.999000",
+    "failure_point_timestamp": "2024-03-31 22:13:37.999000",
+    "label_region": 448,
+    "failure_point": 876
+  },
+  "2024-03-31_08_cpu-loop": {
+    "label_region_timestamp": "2024-03-31 22:38:15.999000",
+    "failure_point_timestamp": "2024-03-31 23:02:24.999000",
+    "label_region": 475,
+    "failure_point": 907
+  },
+  "2024-03-31_09_cpu-loop": {
+    "label_region_timestamp": "2024-03-31 23:27:15.999000",
+    "failure_point_timestamp": "2024-03-31 23:51:34.999000",
+    "label_region": 460,
+    "failure_point": 887
+  },
+  "2024-04-01_01_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 00:16:00.999000",
+    "failure_point_timestamp": "2024-04-01 00:40:24.999000",
+    "label_region": 443,
+    "failure_point": 887
+  },
+  "2024-04-01_02_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 01:05:15.999000",
+    "failure_point_timestamp": "2024-04-01 01:29:42.999000",
+    "label_region": 447,
+    "failure_point": 882
+  },
+  "2024-04-01_03_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 01:54:45.999000",
+    "failure_point_timestamp": "2024-04-01 02:18:51.999000",
+    "label_region": 445,
+    "failure_point": 882
+  },
+  "2024-04-01_04_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 02:43:43.999000",
+    "failure_point_timestamp": "2024-04-01 03:07:55.999000",
+    "label_region": 452,
+    "failure_point": 879
+  },
+  "2024-04-01_05_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 03:32:45.999000",
+    "failure_point_timestamp": "2024-04-01 03:56:31.999000",
+    "label_region": 461,
+    "failure_point": 882
+  },
+  "2024-04-01_06_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 04:21:15.999000",
+    "failure_point_timestamp": "2024-04-01 04:45:44.999000",
+    "label_region": 457,
+    "failure_point": 892
+  },
+  "2024-04-01_07_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 05:10:15.999000",
+    "failure_point_timestamp": "2024-04-01 05:34:30.999000",
+    "label_region": 438,
+    "failure_point": 867
+  },
+  "2024-04-01_08_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 05:59:15.999000",
+    "failure_point_timestamp": "2024-04-01 06:23:04.999000",
+    "label_region": 451,
+    "failure_point": 888
+  },
+  "2024-04-01_09_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 06:47:45.999000",
+    "failure_point_timestamp": "2024-04-01 07:11:48.999000",
+    "label_region": 450,
+    "failure_point": 889
+  },
+  "2024-04-01_10_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 07:36:30.999000",
+    "failure_point_timestamp": "2024-04-01 08:00:30.999000",
+    "label_region": 442,
+    "failure_point": 868
+  },
+  "2024-04-01_11_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 08:25:00.999000",
+    "failure_point_timestamp": "2024-04-01 08:49:15.999000",
+    "label_region": 438,
+    "failure_point": 879
+  },
+  "2024-04-01_12_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 09:13:45.999000",
+    "failure_point_timestamp": "2024-04-01 09:37:26.999000",
+    "label_region": 447,
+    "failure_point": 898
+  },
+  "2024-04-01_13_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 10:01:45.999000",
+    "failure_point_timestamp": "2024-04-01 10:25:45.999000",
+    "label_region": 487,
+    "failure_point": 915
+  },
+  "2024-04-01_14_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 10:50:16.999000",
+    "failure_point_timestamp": "2024-04-01 11:14:35.999000",
+    "label_region": 472,
+    "failure_point": 902
+  },
+  "2024-04-01_15_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 11:39:41.999000",
+    "failure_point_timestamp": "2024-04-01 12:03:54.999000",
+    "label_region": 415,
+    "failure_point": 844
+  },
+  "2024-04-01_16_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 12:27:45.999000",
+    "failure_point_timestamp": "2024-04-01 12:52:14.999000",
+    "label_region": 451,
+    "failure_point": 895
+  },
+  "2024-04-01_17_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 13:16:31.999000",
+    "failure_point_timestamp": "2024-04-01 13:40:55.999000",
+    "label_region": 449,
+    "failure_point": 889
+  },
+  "2024-04-01_18_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 14:05:15.999000",
+    "failure_point_timestamp": "2024-04-01 14:29:05.999000",
+    "label_region": 442,
+    "failure_point": 879
+  },
+  "2024-04-01_19_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 14:53:30.999000",
+    "failure_point_timestamp": "2024-04-01 15:17:30.999000",
+    "label_region": 450,
+    "failure_point": 870
+  },
+  "2024-04-01_20_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 15:42:00.999000",
+    "failure_point_timestamp": "2024-04-01 16:05:49.999000",
+    "label_region": 438,
+    "failure_point": 860
+  },
+  "2024-04-01_21_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 16:30:15.999000",
+    "failure_point_timestamp": "2024-04-01 16:54:00.999000",
+    "label_region": 443,
+    "failure_point": 851
+  },
+  "2024-04-01_22_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 17:18:45.999000",
+    "failure_point_timestamp": "2024-04-01 17:43:16.999000",
+    "label_region": 578,
+    "failure_point": 1012
+  },
+  "2024-04-01_23_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 18:07:45.999000",
+    "failure_point_timestamp": "2024-04-01 18:31:30.999000",
+    "label_region": 454,
+    "failure_point": 874
+  },
+  "2024-04-01_24_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 18:56:00.999000",
+    "failure_point_timestamp": "2024-04-01 19:20:00.999000",
+    "label_region": 437,
+    "failure_point": 873
+  },
+  "2024-04-01_25_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 19:44:46.999000",
+    "failure_point_timestamp": "2024-04-01 20:08:50.999000",
+    "label_region": 445,
+    "failure_point": 866
+  },
+  "2024-04-01_26_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 20:33:30.999000",
+    "failure_point_timestamp": "2024-04-01 20:57:26.999000",
+    "label_region": 452,
+    "failure_point": 885
+  },
+  "2024-04-01_27_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 21:22:00.999000",
+    "failure_point_timestamp": "2024-04-01 21:46:15.999000",
+    "label_region": 449,
+    "failure_point": 880
+  },
+  "2024-04-01_28_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 22:10:45.999000",
+    "failure_point_timestamp": "2024-04-01 22:34:52.999000",
+    "label_region": 457,
+    "failure_point": 869
+  },
+  "2024-04-01_29_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 22:59:15.999000",
+    "failure_point_timestamp": "2024-04-01 23:23:12.999000",
+    "label_region": 450,
+    "failure_point": 870
+  },
+  "2024-04-02_01_cpu-loop": {
+    "label_region_timestamp": "2024-04-01 23:47:45.999000",
+    "failure_point_timestamp": "2024-04-02 00:11:40.999000",
+    "label_region": 456,
+    "failure_point": 902
+  },
+  "2024-04-02_02_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 00:36:15.999000",
+    "failure_point_timestamp": "2024-04-02 01:00:43.999000",
+    "label_region": 448,
+    "failure_point": 881
+  },
+  "2024-04-02_03_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 01:24:30.999000",
+    "failure_point_timestamp": "2024-04-02 01:49:06.999000",
+    "label_region": 464,
+    "failure_point": 903
+  },
+  "2024-04-02_04_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 02:13:30.999000",
+    "failure_point_timestamp": "2024-04-02 02:37:12.999000",
+    "label_region": 449,
+    "failure_point": 867
+  },
+  "2024-04-02_05_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 03:01:45.999000",
+    "failure_point_timestamp": "2024-04-02 03:25:49.999000",
+    "label_region": 450,
+    "failure_point": 875
+  },
+  "2024-04-02_06_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 03:50:45.999000",
+    "failure_point_timestamp": "2024-04-02 04:14:36.999000",
+    "label_region": 453,
+    "failure_point": 875
+  },
+  "2024-04-02_07_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 04:39:00.999000",
+    "failure_point_timestamp": "2024-04-02 05:03:41.999000",
+    "label_region": 437,
+    "failure_point": 875
+  },
+  "2024-04-02_08_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 05:27:30.999000",
+    "failure_point_timestamp": "2024-04-02 05:51:56.999000",
+    "label_region": 454,
+    "failure_point": 885
+  },
+  "2024-04-02_09_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 06:16:30.999000",
+    "failure_point_timestamp": "2024-04-02 06:40:23.999000",
+    "label_region": 448,
+    "failure_point": 878
+  },
+  "2024-04-02_10_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 07:05:00.999000",
+    "failure_point_timestamp": "2024-04-02 07:28:30.999000",
+    "label_region": 446,
+    "failure_point": 869
+  },
+  "2024-04-02_11_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 07:53:15.999000",
+    "failure_point_timestamp": "2024-04-02 08:16:55.999000",
+    "label_region": 445,
+    "failure_point": 857
+  },
+  "2024-04-02_12_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 08:40:45.999000",
+    "failure_point_timestamp": "2024-04-02 09:04:44.999000",
+    "label_region": 448,
+    "failure_point": 880
+  },
+  "2024-04-02_13_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 09:29:15.999000",
+    "failure_point_timestamp": "2024-04-02 09:53:45.999000",
+    "label_region": 455,
+    "failure_point": 891
+  },
+  "2024-04-02_14_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 10:18:15.999000",
+    "failure_point_timestamp": "2024-04-02 10:42:00.999000",
+    "label_region": 451,
+    "failure_point": 865
+  },
+  "2024-04-02_15_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 11:06:45.999000",
+    "failure_point_timestamp": "2024-04-02 11:30:39.999000",
+    "label_region": 450,
+    "failure_point": 883
+  },
+  "2024-04-02_16_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 11:55:04.999000",
+    "failure_point_timestamp": "2024-04-02 12:19:13.999000",
+    "label_region": 446,
+    "failure_point": 867
+  },
+  "2024-04-02_17_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 12:43:45.999000",
+    "failure_point_timestamp": "2024-04-02 13:07:50.999000",
+    "label_region": 444,
+    "failure_point": 882
+  },
+  "2024-04-02_18_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 13:32:30.999000",
+    "failure_point_timestamp": "2024-04-02 13:56:15.999000",
+    "label_region": 449,
+    "failure_point": 872
+  },
+  "2024-04-02_19_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 14:20:45.999000",
+    "failure_point_timestamp": "2024-04-02 14:44:45.999000",
+    "label_region": 451,
+    "failure_point": 871
+  },
+  "2024-04-02_20_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 15:09:15.999000",
+    "failure_point_timestamp": "2024-04-02 15:33:26.999000",
+    "label_region": 447,
+    "failure_point": 871
+  },
+  "2024-04-02_21_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 15:57:45.999000",
+    "failure_point_timestamp": "2024-04-02 16:22:19.999000",
+    "label_region": 445,
+    "failure_point": 901
+  },
+  "2024-04-02_22_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 16:46:30.999000",
+    "failure_point_timestamp": "2024-04-02 17:10:45.999000",
+    "label_region": 449,
+    "failure_point": 880
+  },
+  "2024-04-02_23_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 17:35:45.999000",
+    "failure_point_timestamp": "2024-04-02 18:00:07.999000",
+    "label_region": 453,
+    "failure_point": 887
+  },
+  "2024-04-02_24_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 18:24:30.999000",
+    "failure_point_timestamp": "2024-04-02 18:48:55.999000",
+    "label_region": 459,
+    "failure_point": 879
+  },
+  "2024-04-02_25_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 19:13:15.999000",
+    "failure_point_timestamp": "2024-04-02 19:37:11.999000",
+    "label_region": 452,
+    "failure_point": 881
+  },
+  "2024-04-02_26_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 20:01:30.999000",
+    "failure_point_timestamp": "2024-04-02 20:25:16.999000",
+    "label_region": 453,
+    "failure_point": 877
+  },
+  "2024-04-02_27_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 20:49:45.999000",
+    "failure_point_timestamp": "2024-04-02 21:13:55.999000",
+    "label_region": 462,
+    "failure_point": 890
+  },
+  "2024-04-02_28_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 21:38:15.999000",
+    "failure_point_timestamp": "2024-04-02 22:02:09.999000",
+    "label_region": 454,
+    "failure_point": 878
+  },
+  "2024-04-02_29_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 22:26:30.999000",
+    "failure_point_timestamp": "2024-04-02 22:50:18.999000",
+    "label_region": 452,
+    "failure_point": 877
+  },
+  "2024-04-02_30_cpu-loop": {
+    "label_region_timestamp": "2024-04-02 23:14:45.999000",
+    "failure_point_timestamp": "2024-04-02 23:39:12.999000",
+    "label_region": 449,
+    "failure_point": 893
+  },
+  "2024-04-03_01_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 00:04:00.999000",
+    "failure_point_timestamp": "2024-04-03 00:28:30.999000",
+    "label_region": 436,
+    "failure_point": 874
+  },
+  "2024-04-03_02_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 00:53:30.999000",
+    "failure_point_timestamp": "2024-04-03 01:17:43.999000",
+    "label_region": 437,
+    "failure_point": 865
+  },
+  "2024-04-03_03_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 01:42:00.999000",
+    "failure_point_timestamp": "2024-04-03 02:06:30.999000",
+    "label_region": 444,
+    "failure_point": 879
+  },
+  "2024-04-03_04_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 02:31:30.999000",
+    "failure_point_timestamp": "2024-04-03 02:56:00.999000",
+    "label_region": 447,
+    "failure_point": 872
+  },
+  "2024-04-03_05_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 03:20:30.999000",
+    "failure_point_timestamp": "2024-04-03 03:44:39.999000",
+    "label_region": 465,
+    "failure_point": 896
+  },
+  "2024-04-03_06_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 04:09:30.999000",
+    "failure_point_timestamp": "2024-04-03 04:33:15.999000",
+    "label_region": 453,
+    "failure_point": 879
+  },
+  "2024-04-03_07_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 04:58:15.999000",
+    "failure_point_timestamp": "2024-04-03 05:22:44.999000",
+    "label_region": 450,
+    "failure_point": 883
+  },
+  "2024-04-03_08_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 05:47:00.999000",
+    "failure_point_timestamp": "2024-04-03 06:10:41.999000",
+    "label_region": 430,
+    "failure_point": 847
+  },
+  "2024-04-03_09_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 06:34:30.999000",
+    "failure_point_timestamp": "2024-04-03 06:58:45.999000",
+    "label_region": 447,
+    "failure_point": 870
+  },
+  "2024-04-03_10_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 07:23:45.999000",
+    "failure_point_timestamp": "2024-04-03 07:47:30.999000",
+    "label_region": 457,
+    "failure_point": 885
+  },
+  "2024-04-03_11_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 08:12:00.999000",
+    "failure_point_timestamp": "2024-04-03 08:36:31.999000",
+    "label_region": 446,
+    "failure_point": 875
+  },
+  "2024-04-03_12_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 09:01:00.999000",
+    "failure_point_timestamp": "2024-04-03 09:24:43.999000",
+    "label_region": 446,
+    "failure_point": 886
+  },
+  "2024-04-03_13_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 09:49:15.999000",
+    "failure_point_timestamp": "2024-04-03 10:13:15.999000",
+    "label_region": 444,
+    "failure_point": 867
+  },
+  "2024-04-03_14_cpu-loop": {
+    "label_region_timestamp": "2024-04-03 10:37:30.999000",
+    "failure_point_timestamp": "2024-04-03 11:01:28.999000",
+    "label_region": 448,
+    "failure_point": 876
+  }
+}

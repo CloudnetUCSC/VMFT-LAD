@@ -1,0 +1,788 @@
+1,Normal,Matches normal state logs.
+2,Normal,Matches normal state logs.
+3,Normal,Matches normal state logs.
+4,Faulty,Contains unexpected kvm message.
+5,Faulty,Invoked oom-killer indicates a failure.
+6,Faulty,Contains CPU and PID information, likely an error.
+7,Faulty,Contains hardware information, not a regular log.
+8,Faulty,Contains Call Trace information, not a regular log.
+9,Faulty,Contains "dump" information, not a regular log.
+10,Faulty,Contains "oom kill" process information.
+11,Faulty,Indicates out of memory error.
+12,Faulty,Contains information about pages.
+13,Faulty,Contains page counter information.
+14,Faulty,Contains information about free pages.
+15,Faulty,Contains information about memory caches.
+16,Faulty,Contains information about kvm.
+17,Faulty,Contains information about kvm mmu page fault.
+18,Faulty,Contains information about kvm intel.
+19,Faulty,Contains information about kvm apic local deliver.
+20,Faulty,Contains information about kvm arch vcpu ioctl run.
+21,Faulty,Contains ioctl information.
+22,Faulty,Contains ksys information.
+23,Faulty,Contains do information.
+24,Faulty,Contains entry SYSCALL information.
+25,Faulty,Contains RIP information.
+26,Faulty,Contains Code information.
+27,Faulty,Contains RSP information.
+28,Faulty,Contains EFLAGS information.
+29,Faulty,Contains RAX information.
+30,Faulty,Contains RDX information.
+31,Faulty,Contains RSI information.
+32,Faulty,Contains RDI information.
+33,Faulty,Contains information about active, inactive, isolated.
+34,Faulty,Contains information about various memory statistics.
+35,Faulty,Contains information about unevictable, dirty, writeback, unstable.
+36,Faulty,Contains information about slab reclaimable, slab unreclaimable.
+37,Faulty,Contains information about mapped, shmem, pagetables, bounce.
+38,Faulty,Contains information about free, free pcp, free cma.
+39,Faulty,Contains information about Node active and inactive.
+40,Faulty,Contains information about Node kernel, bounce, free local, free cma.
+41,Faulty,Contains lowmem reserve information.
+42,Faulty,Contains information about Node DMA.
+43,Faulty,Contains information about Node DMA32.
+44,Faulty,Contains information about Node Normal.
+45,Faulty,Contains information about Node hugepages.
+46,Faulty,Empty line, not a regular log.
+47,Faulty,Contains information about pages in swap cache.
+48,Faulty,Contains information about swap cache stats.
+49,Faulty,Contains information about swap.
+50,Faulty,Contains information about tasks state.
+51,Faulty,Contains information about specific task.
+52,Faulty,Contains information about specific task.
+53,Faulty,Contains information about specific task.
+54,Faulty,Contains information about oom-kill.
+55,Faulty,Contains information about out of memory killed process.
+56,Normal,Matches normal state logs.
+57,Normal,Matches normal state logs.
+58,Normal,Matches normal state logs.
+59,Faulty,Contains unexpected kvm message.
+60,Faulty,Invoked oom-killer indicates a failure.
+61,Faulty,Contains CPU and PID information, likely an error.
+62,Faulty,Contains hardware information, not a regular log.
+63,Faulty,Contains Call Trace information, not a regular log.
+64,Faulty,Contains "dump" information, not a regular log.
+65,Faulty,Contains "oom kill" process information.
+66,Faulty,Indicates out of memory error.
+67,Faulty,Contains "alloc pages" information.
+68,Faulty,Contains page counter information.
+69,Faulty,Contains information about getting free pages.
+70,Faulty,Contains information about mmu topup memory caches.
+71,Faulty,Contains information about tdp page fault.
+72,Faulty,Contains information about kvm mmu page fault.
+73,Faulty,Contains information about handling ept violation.
+74,Faulty,Contains information about vmx handle exit.
+75,Faulty,Contains information about vcpu enter guest.
+76,Faulty,Contains information about kvm apic local deliver.
+77,Faulty,Contains information about kvm arch vcpu ioctl run.
+78,Faulty,Contains information about kvm vcpu ioctl.
+79,Faulty,Contains information about "do futex."
+80,Faulty,Contains information about "do vfs ioctl."
+81,Faulty,Contains information about "ksys ioctl."
+82,Faulty,Contains information about "x64 sys ioctl."
+83,Faulty,Contains information about "do syscall."
+84,Faulty,Contains information about entry SYSCALL.
+85,Faulty,Contains RIP information.
+86,Faulty,Contains Code information.
+87,Faulty,Contains RSP and EFLAGS information.
+88,Faulty,Contains RAX information.
+89,Faulty,Contains RDX, RSI, RDI information.
+90,Faulty,Contains RBP, R08, R09 information.
+91,Faulty,Contains R10, R11, R12 information.
+92,Faulty,Contains R13, R14, R15 information.
+93,Faulty,Contains Mem-Info information.
+94,Faulty,Contains information about active, inactive, isolated.
+95,Faulty,Contains information about various memory statistics.
+96,Faulty,Contains information about unevictable, dirty, writeback, unstable.
+97,Faulty,Contains information about slab reclaimable, slab unreclaimable.
+98,Faulty,Contains information about mapped, shmem, pagetables, bounce.
+99,Faulty,Contains information about free, free pcp, free cma.
+100,Faulty,Contains information about Node active and inactive.
+101,Faulty,Contains lowmem reserve information.
+102,Faulty,Contains information about Node DMA.
+103,Faulty,Contains information about Node DMA32.
+104,Faulty,Contains information about Node Normal.
+105,Faulty,Contains information about Node hugepages.
+106,Faulty,Empty line
+107,Faulty,Contains information about pages in swap cache.
+108,Faulty,Contains information about swap cache stats.
+109,Faulty,Contains information about swap.
+110,Faulty,Contains information about total pagecache pages.
+111,Faulty,Contains information about pages in cma reserved.
+112,Faulty,Contains information about tasks state.
+113,Faulty,Contains information about specific task.
+114,Faulty,Contains information about specific task.
+115,Faulty,Contains information about specific task.
+116,Faulty,Contains information about oom-kill.
+117,Faulty,Contains information about out of memory killed process.
+118,Faulty,Contains information about debug.
+119,Faulty,Contains information about debug.
+120,Faulty,Contains information about debug.
+121,Faulty,Contains information about debug.
+122,Faulty,Contains information about debug.
+123,Faulty,Contains information about skipping legacy bootloaders.
+124,Normal,Regular log about Kubernetes.
+125,Normal,Regular log about Kubernetes.
+126,Normal,Regular log about Kubernetes.
+127,Normal,Regular log about daemon version.
+128,Normal,Regular log about pam session opened.
+129,Normal,Regular log about pam CMD.
+130,Normal,Regular log about pam session closed.
+131,Normal,Regular log about activating via systemd.
+132,Normal,Regular log about successfully activated service.
+133,Normal,Regular log about activating via systemd.
+134,Faulty,Contains information about unknown group in message bus configuration file.
+135,Normal,Regular log about reloading configuration.
+136,Normal,Regular log about SGI XFS.
+137,Normal,Regular log about JFS.
+138,Normal,Regular log about ntfs.
+139,Normal,Regular log about QNX4 filesystem.
+140,Normal,Regular log.
+141,Normal,Regular log about apparmor status.
+142,Normal,Regular log about apparmor status and profile replacement.
+143,Normal,Regular log about br0 port entering the state.
+144,Normal,Regular log about device entering promiscuous mode.
+145,Normal,Regular log about IPv6 link becoming ready.
+146,Normal,Regular log about kvm vcpu0.
+147,Faulty,Indicates that a task (qemu-system-x86) is blocked for more than a certain duration.
+148,Faulty,Contains "Not tainted" information.
+149,Faulty,Contains information about echo command and kernel hung task timeout.
+150,Faulty,Contains information about qemu-system-x86 process.
+151,Faulty,Contains information about "io schedule."
+152,Faulty,Contains information about bit wait io.
+153,Faulty,Contains information about wait on bit.
+154,Faulty,Contains information about out of line wait on bit.
+155,Faulty,Contains information about nfs wait on request.
+156,Faulty,Contains information about nfs lock and join requests.
+157,Faulty,Contains information about nfs.
+158,Faulty,Contains information about nfs.
+159,Faulty,Contains information about iov iter copy from user atomic.
+160,Faulty,Contains information about write.
+161,Faulty,Contains information about do iter readv writev.
+162,Faulty,Contains information about vfs.
+163,Faulty,Contains information about do.
+164,Faulty,Contains information about x64 sys.
+165,Faulty,Contains "Code: Bad RIP value."
+166,Faulty,Contains R10, R11, R12 information.
+167,Faulty,Contains R13, R14, R15 information.
+168,Faulty,Contains "wait on page range."
+169,Faulty,Empty line, not a regular log.
+170,Faulty,Contains information about file write and wait range.
+171,Faulty,Contains information about unknown index.
+172,Normal,Regular log about running on mounted /dev/sda1.
+173,Normal,Regular log about daemon.
+174,Normal,Regular log about inability to connect to network.
+175,Normal,Regular log about action resumed.
+176,Normal,Regular log about exiting on signal.
+177,Normal,Regular log about acquiring UNIX socket.
+178,Normal,Regular log about rsyslogd's changed status.
+179,Normal,Regular log about rsyslogd's exit on signal.
+180,Normal,Regular log about imfile on startup.
+181,Normal,Regular log about rsyslogd start.
+182,Normal,Regular log about loading profiles.
+183,Normal,Regular log about snapd having no updates available.
+184,Normal,Regular log about exiting on terminated signal.
+185,Normal,Regular log about state lock file.
+186,Normal,Regular log about started snapd.
+187,Normal,Regular log about adjusting startup timeout.
+188,Normal,Regular log about AppArmor status.
+189,Normal,Regular log about accepted password.
+190,Normal,Regular log about received signal and terminating.
+191,Normal,Regular log about server listening on port.
+192,Normal,Regular log about pam authentication failure.
+193,Normal,Regular log about failed password for.
+194,Normal,Regular log about root TTY.
+195,Normal,Regular log about new session.
+196,Normal,Regular log about session logged out.
+197,Normal,Regular log about link UP.
+198,Normal,Regular log about tap1 gained.
+199,Normal,Regular log about lost carrier.
+200,Normal,Regular log about tap2 gained.
+201,Normal,Regular log about tap3 gained.
+202,Normal,Regular log about initial synchronization to time server.
+203,Normal,Regular log about using default interface naming scheme.
+204,Normal,Regular log about ethtool and autonegotiation.
+205,Normal,Regular log about could not generate persistent MAC.
+206,Normal,Regular log about starting Time & Date Service.
+207,Normal,Regular log about Time & Date Service started.
+208,Normal,Regular log about systemd-timedated.service succeeded.
+209,Normal,Regular log about starting of.
+210,Normal,Regular log about systemd-tmpfiles-clean.service succeeded.
+211,Normal,Regular log about finished of.
+212,Normal,Regular log about started session of user.
+213,Normal,Regular log about starting daily apt upgrade and clean activities.
+214,Normal,Regular log about starting daemon.
+215,Normal,Regular log about daemon started.
+216,Normal,Regular log about reloading.
+217,Normal,Regular log about condition check resulted in being skipped.
+218,Normal,Regular log about condition check resulted in being skipped.
+219,Normal,Regular log about condition check resulted in being skipped.
+220,Normal,Regular log about motd-news.service succeeded.
+221,Normal,Regular log about qemu-kvm.service succeeded.
+222,Normal,Regular log about stopped QEMU KVM preparation.
+223,Normal,Regular log about stopping QEMU KVM preparation.
+224,Normal,Regular log about starting QEMU KVM preparation.
+225,Normal,Regular log about finished QEMU KVM preparation.
+226,Normal,Regular log about stopping System Logging Service.
+227,Normal,Regular log about rsyslog.service succeeded.
+228,Normal,Regular log about stopped System Logging Service.
+229,Normal,Regular log about starting System Logging Service.
+230,Normal,Regular log about started System Logging Service.
+231,Normal,Regular log about stopping OpenBSD Secure Shell server.
+232,Normal,Regular log about ssh.service succeeded.
+233,Normal,Regular log about stopped OpenBSD Secure Shell server.
+234,Normal,Regular log about starting OpenBSD Secure Shell server.
+235,Normal,Regular log about started OpenBSD Secure Shell server.
+236,Normal,Regular log about starting Refresh fwupd metadata and update motd.
+237,Normal,Regular log about fwupd-refresh.service failure.
+238,Normal,Regular log about fwupd-refresh.service failure result.
+239,Normal,Regular log about failure to start Refresh fwupd metadata.
+240,Normal,Regular log about stopping Accounts Service.
+241,Normal,Regular log about accounts-daemon.service succeeded.
+242,Normal,Regular log about stopped Accounts Service.
+243,Normal,Regular log about starting Accounts Service.
+244,Normal,Regular log about started Accounts Service.
+245,Normal,Regular log about reached target.
+246,Normal,Regular log about snapd.seeded.service succeeded.
+247,Normal,Regular log about stopped Wait until snapd is fully seeded.
+248,Normal,Regular log about stopping Wait until snapd is fully seeded.
+249,Normal,Regular log about stopping Snap Daemon.
+250,Normal,Regular log about snapd.service succeeded.
+251,Normal,Regular log about stopped Snap Daemon.
+252,Normal,Regular log about snapd.socket succeeded.
+253,Normal,Regular log about closed Socket activation for snappy daemon.
+254,Normal,Regular log about stopping Socket activation for snappy daemon.
+255,Normal,Regular log about starting Socket activation for snappy daemon.
+256,Normal,Regular log about listening on daemon.
+257,Normal,Regular log about succeeded.
+258,Normal,Regular log about starting Daily apt download activities.
+259,Normal,Regular log about starting Wait until snapd is fully seeded.
+260,Normal,Regular log about finished Wait until snapd is fully seeded.
+261,Normal,Regular log about condition check resulted in Userspace listener being skipped.
+262,Normal,Regular log about stopped Load AppArmor profiles managed internally.
+263,Normal,Regular log about stopping Load AppArmor profiles managed internally.
+264,Normal,Regular log about starting Load AppArmor profiles managed internally.
+265,Normal,Regular log about condition check resulted in Auto import assertions being skipped.
+266,Normal,Regular log about stopped target.
+267,Normal,Regular log about stopping Mounted snaps.
+268,Normal,Regular log about finished Load AppArmor profiles managed internally.
+269,Normal,Regular log about finished Daily apt upgrade and clean activities.
+270,Normal,Regular log about finished Daily apt download activities.
+271,Normal,Regular log about CR0 information.
+272,Normal,Regular log about received disconnect from port.
+273,Normal,Regular log about disconnected from user port.
+274,Normal,Regular log about removed session.
+275,Normal,Regular log about root (root).
+276,Normal,Regular log about AppArmor D-Bus mediation being enabled.
+277,Faulty,Contains information about perf interrupt taking too long.
+278,Faulty,Contains information about inability to connect to network.
+279,Normal,Regular log about started D-Bus User Message Bus.
+280,Normal,Contains information about unknown command.
+281,Normal,Regular log about root CMD.
+282,Normal,Regular log about root CMD.
+283,Normal,Regular log about rsyslogd being HUPed.
+284,Normal,Regular log about storehelpers.go refreshing snap.
+285,Normal,Regular log about storehelpers.go refreshing snap with no updates.
+286,Normal,Regular log about storehelpers.go refreshing snap with no updates.
+287,Normal,Regular log about connection closed by user port.
+288,Normal,Regular log about mounting Mount unit.
+289,Normal,Regular log about mounted Mount unit.
+290,Normal,Regular log about starting Rotate log files.
+291,Normal,Regular log about starting Daily man-db regeneration.
+292,Normal,Regular log about finished Rotate log files.
+293,Normal,Regular log about finished Daily man-db regeneration.
+294,Normal,Regular log about callbacks suppressed.
+295,Normal,Regular log about audit apparmor STATUS.
+296,Normal,Regular log about audit apparmor STATUS.
+297,Normal,Regular log about starting LXD activation.
+298,Normal,Regular log about loading snap configuration.
+299,Normal,Regular log about checking for socket activation support.
+300,Normal,Regular log about setting LXD socket ownership.
+301, Normal, Regular log about setting LXD user socket ownership.
+302, Normal, Regular log about LXD not started on this system.
+303, Normal, Regular log about storehelpers.go refreshing snap with no updates.
+304, Normal, Regular log about services.go RemoveSnapServices.
+305, Normal, Regular log about root CMD with sleep and curl command.
+306, Normal, Regular log about root CMD with curl command.
+307, Normal, Regular log about CRON info (No MTA installed).
+308, Normal, Regular log about root EDIT (root).
+309, Normal, NIC Link is Down for enp1s0.
+310, Normal, NIC Link is Up for enp1s0 with speed and duplex information.
+311, Normal, Empty log line.
+312, Normal, FS-Cache: Netfs 'nfs' registered for caching.
+313, Normal, NFS: Registering the id resolver key type.
+314, Normal, Key type id registered.
+315, Normal, Received packet on enp1s0 with own address as source address.
+316, Normal, SGI XFS with ACLs, security attributes, realtime, no debug enabled.
+317, Normal, JFS: nTxBlock = , nTxLock =.
+318, Normal, ntfs: driver flags: R/O MODULE.
+319, Normal, QNX4 filesystem registered.
+320, Normal, devicemgr.go no NTP sync after 10m0s, trying auto-refresh anyway.
+321, Normal, daemon.go waiting for running hooks.
+322, Normal, patch.go Patching system state level to sublevel.
+323, Normal, AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor parser).
+324, Normal, stateengine.go state ensure error: Get "https://api.snapcraft.io/api/v1/snaps/sections": dial tcp: lookup api.snapcraft.io: no such host.
+325, Normal, Exiting on signal.
+326, Normal, Invalid user from port.
+327, Normal, pam check pass; user unknown.
+328, Normal, pam authentication failure; uid= euid= ruser=.
+329, Normal, Failed for invalid user from port ssh2.
+330, Normal, PAM more authentication failures; logname= uid= euid= tty=ssh ruser= rhost=.
+331, Normal, (to root) on.
+332, Normal, CMD: cloudnet : TTY=pts/ ; ; USER=root ; COMMAND=/usr/bin/su.
+333, Normal, CMD logs for QEMU system-x86 commands.
+334, Normal, CMD logs for QEMU system-x86 commands.
+335, Normal, CMD logs for QEMU system-x86 commands.
+336, Normal, CMD log for QEMU system-x86 drive file.
+337, Normal, CMD log for QEMU system-x86 drive.
+338, Normal, CMD log for QEMU system-x86 with TTY=pts/.
+339, Normal, CMD log for QEMU system-x86 with TTY=pts/ and root.
+340, Normal, tap0: Gained.
+341, Normal, Link DOWN.
+342, Normal, rtnl: received neighbor for link '' we don't know about, ignoring.
+343, Normal, Gained carrier.
+344, Normal, Using degraded feature set for DNS server.
+345, Normal, Grace period over, resuming full feature set (UDP+EDNS0) for DNS server.
+346, Normal, No network connectivity, watching for changes.
+347, Normal, Network configuration changed, trying to establish connection.
+348, Normal, snapd.service: Scheduled restart job, restart counter is at .
+349, Normal, Stopping Session of user.
+350, Normal, Removed slice system-modprobe.slice.
+351, Normal, Stopped target Host and Network Name Lookups.
+352, Normal, Stopped target.
+353, Normal, Stopped target.
+354, Normal, Stopped Daily apt upgrade and clean activities.
+355, Normal, Stopped Daily apt download activities.
+356, Normal, e2scrub Succeeded.
+357, Normal, Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+358, Normal, Stopped Discard unused blocks once a week.
+359, Normal, Stopped Refresh fwupd metadata regularly.
+360, Normal, Stopped Daily of.
+361, Normal, Stopped Daily man-db regeneration.
+362, Normal, Stopped Message of the Day.
+363, Normal, Closed socket.
+364, Normal, Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+365, Normal, Unmounting RPC Pipe File System.
+366, Normal, Stopping Availability of block devices.
+367, Normal, Stopped Execute cloud user/final scripts.
+368, Normal, Stopping LSB: automatic crash report generation.
+369, Normal, run-rpc pipefs.mount: Succeeded.
+370, Normal, Stopping Deferred execution scheduler.
+371, Normal, Stopped Apply the settings specified in cloud-config.
+372, Normal, Closed Socket unix for snap application.
+373, Normal, Stopping Regular background program processing daemon.
+374, Normal, Stopping Create final runtime dir for shutdown pivot root.
+375, Normal, Stopping Getty on tty1.
+376, Normal, Stopping LSB: Record successful boot for GRUB.
+377, Normal, Stopping daemon.
+378, Normal, Stopping Suspend/Resume Running libvirt Guests.
+379, Normal, Stopping Dispatcher daemon for systemd-networkd.
+380, Normal, Stopping Authorization Manager.
+381, Normal, Password expiry changed for uml-net.
+382, Normal, Group added to /etc/group.
+383, Normal, Group added to /etc/gshadow.
+384, Normal, New group created.
+385, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+386, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+387, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+388, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+389, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+390, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+391, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+391, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+393, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+394, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+395, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+396, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+397, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+398, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+399, Faulty, OOM (Out of Memory) error details for qemu-system-x86.
+400, Normal, Empty lines.
+401, Normal, Empty lines.
+402, Normal, Empty lines.
+403, Normal, Empty lines.
+404, Normal, Memory usage details.
+405, Normal, Memory usage details.
+406, Normal, Memory usage details.
+407, Normal, More memory statistics.
+408, Normal, More memory statistics.
+409, Normal, More memory statistics.
+410, Normal, More memory statistics.
+411, Normal, Node memory usage details.
+412, Normal, Node hugepages details.
+413, Normal, Node hugepages details.
+414, Normal, Node hugepages details.
+415, Normal, Node hugepages details.
+416, Normal, Node hugepages details.
+417, Normal, Empty line.
+418, Normal, Pages in swap cache.
+419, Normal, Swap cache stats.
+420, Normal, Tasks state details.
+421, Faulty, OOM-kill details for qemu-system-x86.
+422, Faulty, OOM-kill details for qemu-system-x86.
+423, Faulty, OOM-kill details for qemu-system-x86.
+424, Faulty, OOM-kill details for qemu-system-x86.
+425, Faulty, Out of memory, killed process qemu-system-x86.
+426, Faulty, Perf: interrupt took too long.
+427, Normal, Root commands for creating a bridge (br0).
+428, Normal, Root commands for creating a bridge (br0).
+429, Normal, Root command for adding link to the bridge.
+430, Normal, Root command for adding link to the bridge.
+431, Normal, User Manager for UID details.
+432, Normal, User Manager for UID details.
+433, Normal, User Manager for UID details.
+434, Normal, User Manager for UID details.
+435, Normal, User Manager for UID details.
+436, Normal, Listening on various sockets.
+437, Normal, Listening on various sockets.
+438, Normal, Listening on various sockets.
+439, Normal, Listening on various sockets.
+440, Normal, Listening on various sockets.
+441, Normal, Listening on various sockets.
+442, Normal, Listening on various sockets.
+443, Normal, Listening on various sockets.
+444, Normal, Startup finished.
+445, Normal, Startup finished.
+446, Normal, Stopping User Manager and Runtime Directory.
+447, Normal, Closed D-Bus User Message Bus Socket.
+448, Normal, Closed GnuPG network certificate management daemon.
+449, Normal, Closed GnuPG cryptographic agent.
+450, Normal, Closed GnuPG cryptographic agent.
+451, Normal, Closed GnuPG cryptographic agent.
+452, Normal, Closed GnuPG cryptographic agent.
+453, Normal, Closed socket.
+454, Normal, Finished Exit the Session.
+455, Normal, Stopped User Manager.
+456, Normal, Stopping User Runtime Directory.
+457, Normal, Stopped User Runtime Directory.
+458, Normal, Removed slice.
+459, Normal, Starting LSB: start and stop UML networking services.
+460, Normal, Started LSB: start and stop UML networking services.
+461, Normal, User-mode networking switch started.
+462, Normal, User-mode networking switch done.
+463, Normal, New user created.
+464, Normal, User password changed.
+465, Normal, USB device detected.
+466, Normal, New USB device found.
+467, Normal, New USB device strings.
+468, Normal, USB device attached.
+469, Normal, USB Mass Storage device detected.
+470, Normal, SCSI host detected.
+471, Normal, USB interface driver registered.
+472, Normal, SCSI device detected.
+473, Normal, SD card detected.
+474, Normal, SD card details.
+475, Normal, SD card size.
+476, Normal, SD card details.
+477, Normal, SD card cache status.
+478, Normal, FAT file system warning.
+479, Faulty, Segmentation fault in qemu-system-x86.
+480, Faulty, Segmentation fault in qemu-system-x86.
+481, Faulty, Segmentation fault in qemu-system-x86.
+482, Faulty, Segmentation fault in qemu-system-x86.
+483, Normal, NFS RPC call error.
+484, Normal, AppArmor denied operation.
+485, Normal, Code error in NFS.
+486, Faulty, Segmentation fault in qemu-system-x86.
+487, Faulty, Code error in qemu-system-x86.
+488, Normal, SD card path info.
+489, Normal, Uevent trigger.
+490, Normal, TCP SendBuf.
+491, Normal, Builtin omfwd action suspended.
+492, Normal, Root command executed.
+493, Normal, Root command executed.
+494, Normal, QEMU command executed.
+495, Normal, QEMU command executed.
+496, Normal, QEMU command executed.
+497, Normal, IPv6 Link-local gained.
+498, Normal, Stopping crash report generation.
+499, Normal, USB device detected.
+500, Normal, New USB device found.
+501, Normal, New USB device strings.
+502, Normal, USB device attached.
+503, Normal, USB Mass Storage device detected.
+504, Normal, SCSI host detected.
+505, Normal, USB interface driver registered.
+506, Normal, SCSI device detected.
+507, Normal, SCSI generic device attached.
+508, Normal, Logical blocks on SD card.
+509, Normal, SD card details.
+510, Normal, SD card mode sense.
+511, Normal, SD card write cache status.
+512, Normal, FAT file system warning.
+513, Normal, USB device disconnect.
+514, Normal, SD card details.
+515, Normal, USB device attached.
+516, Normal, High-speed USB device detected.
+517, Normal, L1TF CPU bug present.
+518, Normal, L1TF CPU bug present.
+519, Normal, Running guests on default URI.
+520, Normal, No running guests.
+521, Normal, SD card path info error.
+522, Normal, Spurious uevent on sdb.
+523, Normal, SD card path info error.
+524, Normal, Spurious uevent on sdb.
+525, Normal, SD card path info error.
+526, Normal, Cannot connect to host.
+527, Normal, Root command executed.
+528, Normal, Root command executed.
+529, Normal, Stopped crash report generation.
+530, Normal, Stopped cloud-init job.
+531, Normal, Stopped cloud-init job.
+532, Normal, Stopped systemd-networkd.
+533, Normal, Stopped daemon.
+534, Normal, Closed VM lock manager admin socket.
+535, Normal, Stopped libvirt guests.
+536, Normal, Closed VM manager socket.
+537, Normal, Stopped Authorization Manager.
+538, Normal, Unattended-upgrades service.
+539, Normal, A20 line state.
+540, Normal, Filemap write and wait.
+541, Normal, VFS log.
+542, Normal, Root command executed.
+543, Normal, Root shutdown command.
+544, Normal, QEMU command executed.
+545, Normal, Socat command executed.
+546, Normal, Su command executed.
+547, Normal, SCSI debug version.
+548, Normal, SCSI device size.
+549, Normal, SCSI device details.
+550, Normal, SD card cache status.
+551, Normal, SD card attached.
+552, Normal, SD card command.
+553, Faulty, Buffer I/O error on SD card.
+554, Faulty, Buffer I/O error on SD card.
+555, Normal, SCSI IO completion action.
+556, Faulty, OOM execution.
+557, Faulty, OOM killer invoked.
+558, Faulty, Workqueue moom callback.
+559, Faulty, Node info for OOM.
+560, Faulty, Task blocked for more than seconds.
+561, Faulty, Tainted kernel error.
+562, Faulty, Wait on page error.
+563, Faulty, QEMU process information.
+564, Normal, Wait on page log.
+565, Normal, File write and wait range log.
+566, Normal, NFS file fsync log.
+567, Faulty, Code error in NFS.
+568, Faulty, RIP value error.
+569, Normal, DRM allocation success.
+570, Normal, FBcon primary device log.
+571, Normal, Console switched to FB device.
+572, Normal, DRM frame buffer device log.
+573, Normal, Failed login authentication failure.
+574, Normal, Root login on tty1.
+575, Normal, QEMU command executed.
+576, Normal, NTP timeout.
+577, Normal, Online ext4 metadata check started.
+578, Normal, Online ext4 metadata check finished.
+579, Normal, Discard unused blocks started.
+580, Normal, Discard unused blocks finished.
+581, Normal, Getty restart scheduled.
+582, Normal, Getty on tty1 stopped.
+583, Normal, Getty on tty1 started.
+584, Normal, Failed password for user.
+585, Normal, PAM authentication log.
+586, Normal, User information changed.
+587, Normal, Password changed for user.
+588, Normal, User deleted.
+589, Normal, Group removed.
+590, Normal, Shadow group removed.
+591, Normal, User added to group.
+592, Normal, User added to sudo group.
+593, Normal, User added to shadow sudo group.
+594, Normal, EXT4 file system mounted.
+595, Normal, Cannot connect to host.
+596, Normal, Device not found.
+597, Normal, Failed to get link config.
+598, Normal, Fake disk mount succeeded.
+599, Normal, Register dump log.
+600, Faulty, OOM reaper process reaped.
+601, Faulty, Interface tap3 initialization error.
+602, Normal, User lock password command.
+603, Normal, User unlock password command.
+604, Normal, SCSI debug version.
+605, Normal, SCSI device size.
+606, Normal, SCSI device details.
+607, Normal, Power-on or device reset.
+608, Normal, SD card cache status.
+609, Normal, SD card optimal transfer size.
+610, Normal, SD card attached.
+611, Normal, SD card tag.
+612, Normal, SD card tag.
+613, Faulty, Sense: Unrecovered read error.
+614, Normal, SD card command.
+615, Faulty, Buffer I/O error on SD card.
+616, Faulty, Buffer I/O error on SD card.
+617, Normal, Rsyslogd HUPed log.
+618, Normal, DRM allocation success.
+619, Normal, FBcon primary device log.
+620, Normal, Console switched to FB device.
+621, Normal, DRM frame buffer device log.
+622, Normal, User data deletion error.
+623, Normal, Cron reload log.
+624, Normal, Socat command executed.
+625, Normal, QEMU command executed.
+626, Normal, Package file size log.
+627, Normal, Signature archive file size log.
+628, Normal, Manifest file size log.
+629, Normal, Signature file size log.
+630, Normal, ManifestPackageIntegrityPolicy succeeded.
+631, Normal, SignatureIntegrityPolicy for primary signature succeeded.
+632, Normal, SignatureValidityPolicy for primary signature succeeded.
+633, Normal, SignatureIntegrityPolicy for primary timestamp signature succeeded.
+634, Normal, SignatureValidityPolicy for primary timestamp signature succeeded.
+635, Normal, Certificate chain validation message.
+636, Normal, SignatureTrustPolicy for repository primary signature timestamp signature succeeded.
+637, Normal, Certificate chain validation message.
+638, Normal, SignatureTrustPolicy for repository primary signature succeeded.
+639, Normal, RepositoryCountersignaturePolicy for repository primary signature succeeded.
+640, Normal, Primary signature status log.
+641, Normal, Timestamp signature status log.
+642, Normal, Exit code: Success log.
+643, Normal, Connection closed by port log.
+644, Normal, Rsyslog service deactivated.
+645, Normal, CPUID levels log.
+646, Normal, Linux PowerCap sysfs log.
+647, Normal, Unsupported CPU model/platform log.
+648, Normal, No valid path found log.
+649, Normal, Thermald service deactivated.
+650, Faulty, Failed to load module mdraid.
+651, Normal, ModemManager starting log.
+652, Normal, Dispatcher daemon started.
+653, Faulty, Failed to load libblockdev plugin.
+654, Normal, Manager started.
+655, Normal, Acquired name on system message bus log.
+656, Normal, Base-manager check log.
+657, Normal, Dmesg service deactivated.
+658, Normal, Temporary snap rootfs deactivated.
+659, Normal, Hardware name log.
+660, Normal, Detected capacity change log.
+661, Normal, Service deactivated log.
+662, Normal, Apply settings in cloud-config started.
+663, Normal, Service for snap application finished.
+664, Normal, Snap.lxd.activate.service CPU time log.
+665, Normal, Cloud-init running log.
+666, Normal, Apply settings in cloud-config finished.
+667, Normal, Execute cloud user/final scripts started.
+668, Normal, Record runlevel change in UTMP started.
+669, Normal, Record runlevel change in UTMP finished.
+670, Normal, Cloud-init finished log.
+671, Normal, Fallback datasource log.
+672, Normal, Execute cloud user/final scripts finished.
+673, Normal, Startup finished log.
+674, Normal, Download data for packages started.
+675, Normal, Download data for packages finished.
+676, Normal, EXT4-fs mounted log.
+677, Normal, Fake disk mount deactivated.
+678, Normal, Hardware name log.
+679, Normal, Opcode bytes access error.
+680, Normal, Node info log.
+681, Normal, Node reserved/active log.
+682, Normal, Node DMA log.
+683, Normal, Node Normal log.
+684, Normal, Node Normal (UME) log.
+685, Normal, Cron service OOM kill log.
+686, Normal, CRON INFO log.
+687, Faulty, CRON service failed with oom-kill result.
+688, Normal, CRON INFO log.
+689, Normal, Cron service unit process log.
+690, Normal, Cron service CPU time log.
+691, Normal, Regular background program processing daemon stopped.
+692, Normal, Cron service left-over process log.
+693, Normal, Service termination log.
+694, Normal, Regular background program processing daemon started.
+695, Faulty, Unknown interface index error.
+696, Normal, Daemon for snap application started log.
+697, Normal, Node log.
+698, Normal, Node Normal log.
+699, Faulty, QEMU process killed by OOM killer.
+700, Normal, Listening on Socket unix log.
+701, Normal, Service for snap application started log.
+702, Normal, Snap.lxd.hook.configure scope started.
+703, Normal, Snap.lxd.hook.configure scope started.
+704, Faulty, Timeout occurred log.
+705, Faulty, systemd-networkd-wait-online error.
+706, Normal, apt-daily-upgrade service CPU time log.
+707, Normal, Unknown mode log.
+708, Normal, User mode exit log.
+709, Normal, Node DMA32 log.
+710, Normal, Daemon version started log.
+711, Normal, Manager started log.
+712, Normal, GRUB failed boot detection finished.
+713, Normal, CPU virtualization log.
+714, Normal, Fake disk mount deactivated repeated log.
+715, Normal, APT News update started.
+716, Normal, Local ESM caches update started.
+717, Normal, APT News update finished.
+718, Normal, Local ESM caches update finished.
+719, Normal, apt-daily service CPU time log.
+720, Normal, KVM range log.
+721, Normal, Firmware update daemon started.
+722, Normal, Firmware update daemon started log.
+723, Normal, FuEngine no GUIDs for device TPM log.
+724, Normal, Daemon for power management started.
+725, Normal, FuPluginUefiCapsule log.
+726, Normal, FuEngine failed to add device log.
+727, Normal, Firmware update daemon finished.
+728, Normal, lvfs update log.
+729, Normal, Download progress log.
+730, Normal, Download progress repeated log.
+731, Normal, Idle log.
+732, Normal, Successfully downloaded metadata log.
+733, Normal, Refresh fwupd metadata and update motd finished.
+734, Normal, Accepted publickey log.
+735, Normal, Queued start job log.
+736, Normal, User slice created log.
+737, Normal, REST API socket listening log.
+738, Normal, Notify NFS peers started.
+739, Normal, LSB automatic crash report generation started.
+740, Normal, AppArmor D-Bus mediation enabled log.
+741, Normal, Save initial kernel messages after boot started.
+742, Normal, Remove Stale Online ext4 Metadata Check Snapshots started.
+743, Normal, Getty on tty2-tty6 condition skipped log.
+744, Normal, Record successful boot for GRUB started.
+745, Normal, irqbalance daemon started.
+746, Normal, Dispatcher daemon for systemd-networkd started.
+747, Normal, CMD mount log.
+748, Normal, CMD sudo log.
+749, Normal, CMD script execution log.
+750, Normal, User Login Management started.
+751, Normal, Permit User Sessions started.
+752, Normal, Ubuntu Pro reboot cmds condition skipped log.
+753, Normal, Permit User Sessions finished.
+754, Normal, Hold until boot process finishes up started.
+755, Normal, Terminate Plymouth Boot Screen started.
+756, Normal, Hold until boot process finishes up finished.
+757, Normal, Set console scheme started.
+758, Normal, Terminate Plymouth Boot Screen finished.
+759, Normal, Set console scheme finished.
+760, Normal, Slice creation log.
+761, Normal, e2scrub reap service deactivated.
+762, Normal, Remove Stale Online ext4 Metadata Check Snapshots finished.
+763, Normal, New seat created log.
+764, Normal, Notify NFS peers of a restart started.
+765, Normal, System buttons watching log.
+766, Normal, Record successful boot for GRUB finished.
+767, Normal, GRUB failed boot detection started.
+768, Normal, udisks daemon version started log.
+769, Normal, LSB automatic crash report generation finished.
+770, Normal, User Login Management finished.
+771, Normal, Unattended Upgrades Shutdown started.
+772, Normal, Node DMA32 log.
+773, Normal, session-.scope CPU time log.
+774, Faulty, Snap userd dbus service file copy failed.
+775, Normal, snapd service CPU time log.
+776, Normal, KVM vm ioctl irq line log.
+777, Normal, REST API socket closed log.
+778, Normal, User Application Slice removed log.
+779, Normal, user-.slice CPU time log.
+780, Normal, rsyslog service SIGHUP signal sent log.
+781, Normal, logrotate service CPU time log.
+782, Normal, Unknown code log.
+783, Normal, Flush smp call function queue log.
+784, Normal, Unknown code log.
+785, Normal, Daily dpkg database backup service started.
+786, Normal, Daily dpkg database backup service finished.
+787, Normal, Unknown code log.
+788, Faulty, too long time.
