@@ -8,7 +8,7 @@ from .ILogInferenceProvider import ILogInferenceProvider
 from .IMaxHeapProvider import IMaxHeapProvider
 from .Subsequence import Subsequence
 
-drain_config_base_path = f"{dirname(__file__)}/../../../preprocessing"
+drain_config_base_path = f"{dirname(__file__)}/../../preprocessing"
 persistence = FilePersistence(f"{drain_config_base_path}/drain3_state.bin")
 config = TemplateMinerConfig()
 config.load(f"{drain_config_base_path}/drain3.ini")
