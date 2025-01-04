@@ -1,0 +1,6 @@
+# Environment variables
+env.py
+
+# Output CSV files
+final-output/**/*.csv
+raw-preprocessed/*.csv
